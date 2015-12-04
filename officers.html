@@ -29,8 +29,6 @@
 </head>
 
 <body>
-
-    <!-- Fixed navbar -->
     <div class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
@@ -45,33 +43,29 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="index.html">HOME</a></li>
                     <li class="active"><a href="officers.html">OFFICERS</a></li>
-                    <li><a href="services.html">SERVICES</a></li>
-                    <li><a href="works.html">WORKS</a></li>
-                    <li><a data-toggle="modal" data-target="#myModal" href="#myModal"><i class="fa fa-envelope-o"></i></a></li>
+                    <li><a href="events.html">EVENTS</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
                 </ul>
             </div>
-            <!--/.nav-collapse -->
         </div>
     </div>
 
-    <div id="blue">
+    <div id="blue" class="leadership">
         <div class="container">
             <div class="row centered">
                 <div class="col-lg-8 col-lg-offset-2">
-                    <h1>LEARN MORE ABOUT US</h1>
-                    <p>WE ARE COOL PEOPLE</p>
+                    <h1>Learn more about your leadership</h1>
+                    <!-- <h3>WE ARE COOL PEOPLE</h3> -->
                 </div>
             </div>
-            <!-- row -->
         </div>
-        <!-- container -->
     </div>
-    <!--  bluewrap -->
 
-
-    <div class="container w officers">
+    <div class="container officers">
+        <br>
         <div class="row centered">
-            <!-- <br><br> -->
             <div class="col-lg-3 officer" href="#allisonModal" data-toggle="modal">
                 <div class="officer-avatar"><img class="img-circle" src="assets/img/pic.jpg" /></div>
                 <h4>Allison Alder</h4>
@@ -84,7 +78,7 @@
                     <a href="#"><i class="fa fa-github"></i></a>
                 </p>
             </div>
-            <div class="col-lg-3 officer">
+            <div class="col-lg-3 officer" href="#teresaModal" data-toggle="modal">
                 <img class="img-circle" src="assets/img/pic2.jpg" />
                 <h4>Teresa Krause</h4>
                 <h5>Vice President</h5>
@@ -96,7 +90,7 @@
                     <a href="#"><i class="fa fa-github"></i></a>
                 </p>
             </div>
-            <div class="col-lg-3 officer">
+            <div class="col-lg-3 officer" href="#shiviModal" data-toggle="modal">
                 <img class="img-circle" src="assets/img/pic3.jpg" />
                 <h4>Shivanjali Singh</h4>
                 <h5>Treasurer</h5>
@@ -108,7 +102,7 @@
                     <a href="#"><i class="fa fa-github"></i></a>
                 </p>
             </div>
-            <div class="col-lg-3 officer">
+            <div class="col-lg-3 officer" href="#emilyModal" data-toggle="modal">
                 <img class="img-circle" src="assets/img/pic.jpg" />
                 <h4>Emily Montgomery</h4>
                 <h5>Public Relations</h5>
@@ -121,10 +115,10 @@
                 </p>
             </div>
 
-            <div class="col-lg-3 officer">
+            <div class="col-lg-3 officer" href="#yifanModal" data-toggle="modal">
                 <img class="img-circle" src="assets/img/pic.jpg" />
                 <h4>Yifan Xing</h4>
-                <h5>Co-Outreach</h5>
+                <h5>Co-Outreach Director</h5>
                 <!-- <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p> -->
                 <p>
                     <a href="#"><i class="fa fa-envelope"></i></a>
@@ -133,10 +127,10 @@
                     <a href="#"><i class="fa fa-github"></i></a>
                 </p>
             </div>
-            <div class="col-lg-3 officer">
+            <div class="col-lg-3 officer" href="#baharModal" data-toggle="modal">
                 <img class="img-circle" src="assets/img/pic2.jpg" />
                 <h4>Bahar Haji-Sheikhi</h4>
-                <h5>Co-Outreach</h5>
+                <h5>Co-Outreach Director</h5>
                 <!-- <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p> -->
                 <p>
                     <a href="#"><i class="fa fa-envelope"></i></a>
@@ -145,7 +139,7 @@
                     <a href="#"><i class="fa fa-github"></i></a>
                 </p>
             </div>
-            <div class="col-lg-3 officer">
+            <div class="col-lg-3 officer" href="#brittanyModal" data-toggle="modal">
                 <img class="img-circle" src="assets/img/pic3.jpg" />
                 <h4>Brittany Chiang</h4>
                 <h5>Web Chair</h5>
@@ -157,7 +151,7 @@
                     <a href="#"><i class="fa fa-github"></i></a>
                 </p>
             </div>
-            <div class="col-lg-3 officer">
+            <div class="col-lg-3 officer" href="#ameliaModal" data-toggle="modal">
                 <img class="img-circle" src="assets/img/pic4.jpg" />
                 <h4>Amelia Oon</h4>
                 <h5>Design Director</h5>
@@ -170,11 +164,8 @@
                 </p>
             </div>
         </div>
-        <!-- row -->
-        <br>
-        <br>
+        <br><br>
     </div>
-    <!-- container -->
 
     <!-- ALLISON'S MODAL -->
     <div class="modal fade" id="allisonModal" tabindex="-1" role="dialog" aria-labelledby="allisonModal" aria-hidden="true">
@@ -198,15 +189,184 @@
                     <p class="modal-description"><b>Favorite CS/IS class: </b>Networks and Distributed Systems. Really interesting material, I learned a lot about how the internet works, and Professor Mislove was awesome.</p>
                     <p class="modal-description"><b>Favorite way to waste time: </b>Eating food, League of Legends, and playing with SFX make-up</p>
                 </div>
-                <!-- <div class="modal-footer">
-					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-				</div> -->
             </div>
-            <!-- /.modal-content -->
         </div>
-        <!-- /.modal-dialog -->
     </div>
-    <!-- /.modal -->
+    <!-- TERESA'S MODAL -->
+    <div class="modal fade" id="teresaModal" tabindex="-1" role="dialog" aria-labelledby="teresaModal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <!-- <h4 class="modal-title">JetBlue HumanKinda</h4>
+					<h6 class="modal-title-description">Tumblr Site</h6> -->
+                </div>
+                <div class="modal-body">
+                    <img class="img-circle" src="assets/img/pic.jpg" />
+                    <div class="officer-title">
+                        <h1>Teresa Krause</h1>
+                        <h3>Vice President</h3>
+                    </div>
+                    <p class="modal-description"><b>Year: </b> 3rd Year</p>
+                    <p class="modal-description"><b>Where you've co-oped: </b>Hubspot</p>
+                    <p class="modal-description"><b>Major: </b>Computer Science</p>
+                    <!-- <p class="modal-description"><b>Why you chose CS/IS: </b>In high school I took part in Technovation Challenge, a program that introduces high school girls to computer science and entrepreneurship. From there I interned at Kapor Capital and met women in the field who inspired me to pursue Computer Science as a major.</p>
+                    <p class="modal-description"><b>Favorite CS/IS class: </b>Networks and Distributed Systems. Really interesting material, I learned a lot about how the internet works, and Professor Mislove was awesome.</p>
+                    <p class="modal-description"><b>Favorite way to waste time: </b>Eating food, League of Legends, and playing with SFX make-up</p> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- SHIVI'S MODAL -->
+    <div class="modal fade" id="shiviModal" tabindex="-1" role="dialog" aria-labelledby="shiviModal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <!-- <h4 class="modal-title">JetBlue HumanKinda</h4>
+					<h6 class="modal-title-description">Tumblr Site</h6> -->
+                </div>
+                <div class="modal-body">
+                    <img class="img-circle" src="assets/img/pic.jpg" />
+                    <div class="officer-title">
+                        <h1>Shivanjali Singh</h1>
+                        <h3>Treasurer</h3>
+                    </div>
+                    <p class="modal-description"><b>Year: </b> 4th Year</p>
+                    <p class="modal-description"><b>Where you've co-oped: </b>Goldman Sachs, Intuit</p>
+                    <p class="modal-description"><b>Major: </b>Computer Science and Business Administration (Finance and Accounting concentrations)</p>
+                    <p class="modal-description"><b>Why you chose CS/IS: </b>I was exposed to computer science by my father who is a software developer, but I had zero experience with coding when I first started out at Northeastern. After Fundies 1, I realized that this major challenged me in the best way and I found that exhilarating! I chose to make CS my major because of the way it makes you think so logically but allows you to be creative at the same time. The idea of dissecting human logic into factions that can be fed into a computer to emulate that human logic is mind-blowing to me, I just want to learn more and more!</p>
+                    <p class="modal-description"><b>Favorite CS/IS class: </b>Object Oriented Design (OOD) - I was able to apply CS principles at a higher level and delve deeper into coding topics</p>
+                    <p class="modal-description"><b>Favorite way to waste time: </b>Walking around Boston, being an avid foodie, Netflix</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- EMILY'S MODAL -->
+    <div class="modal fade" id="emilyModal" tabindex="-1" role="dialog" aria-labelledby="emilyModal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <!-- <h4 class="modal-title">JetBlue HumanKinda</h4>
+					<h6 class="modal-title-description">Tumblr Site</h6> -->
+                </div>
+                <div class="modal-body">
+                    <img class="img-circle" src="assets/img/pic.jpg" />
+                    <div class="officer-title">
+                        <h1>Emily Montgomery</h1>
+                        <h3>Public Relations</h3>
+                    </div>
+                    <p class="modal-description"><b>Year: </b> 5th Year</p>
+                    <p class="modal-description"><b>Where you've co-oped: </b>West Texas IT Consulting, State Street Global Advisors</p>
+                    <p class="modal-description"><b>Major: </b>Information Science</p>
+                    <p class="modal-description"><b>Why you chose CS/IS: </b>I've always enjoyed messing around with computers and finding and creating new solutions to problems. I chose IS because I really enjoy the human aspect of courses like HCI and Software Project Management.</p>
+                    <p class="modal-description"><b>Favorite CS/IS class: </b>HCI - we studied all sorts of technologies and how people interact with them and how to create accessible and intuitive designs. It made me rethink the way I design things so that people can use them to their full potential.</p>
+                    <p class="modal-description"><b>Favorite way to waste time: </b>Netflixing and cooking.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- YIFAN'S MODAL -->
+    <div class="modal fade" id="yifanModal" tabindex="-1" role="dialog" aria-labelledby="yifanModal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <!-- <h4 class="modal-title">JetBlue HumanKinda</h4>
+					<h6 class="modal-title-description">Tumblr Site</h6> -->
+                </div>
+                <div class="modal-body">
+                    <img class="img-circle" src="assets/img/pic.jpg" />
+                    <div class="officer-title">
+                        <h1>Yifan Xing</h1>
+                        <h3>Co-Outreach Director</h3>
+                    </div>
+                    <p class="modal-description"><b>Year: </b> 2nd Year</p>
+                    <p class="modal-description"><b>Where you've co-oped: </b></p>
+                    <!-- <p class="modal-description"><b>Major: </b>Computer Science and Business Administration (Finance and Accounting concentrations)</p>
+                    <p class="modal-description"><b>Why you chose CS/IS: </b>I was exposed to computer science by my father who is a software developer, but I had zero experience with coding when I first started out at Northeastern. After Fundies 1, I realized that this major challenged me in the best way and I found that exhilarating! I chose to make CS my major because of the way it makes you think so logically but allows you to be creative at the same time. The idea of dissecting human logic into factions that can be fed into a computer to emulate that human logic is mind-blowing to me, I just want to learn more and more!</p>
+                    <p class="modal-description"><b>Favorite CS/IS class: </b>Object Oriented Design (OOD) - I was able to apply CS principles at a higher level and delve deeper into coding topics</p>
+                    <p class="modal-description"><b>Favorite way to waste time: </b>Walking around Boston, being an avid foodie, Netflix</p> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- BAHAR'S MODAL -->
+    <div class="modal fade" id="baharModal" tabindex="-1" role="dialog" aria-labelledby="baharModal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <!-- <h4 class="modal-title">JetBlue HumanKinda</h4>
+					<h6 class="modal-title-description">Tumblr Site</h6> -->
+                </div>
+                <div class="modal-body">
+                    <img class="img-circle" src="assets/img/pic.jpg" />
+                    <div class="officer-title">
+                        <h1>Bahar Haji-Sheikhi</h1>
+                        <h3>Co-Outreach Director</h3>
+                    </div>
+                    <p class="modal-description"><b>Year: </b> 2nd Year</p>
+                    <p class="modal-description"><b>Where you've co-oped: </b></p>
+                    <!-- <p class="modal-description"><b>Major: </b>Computer Science and Business Administration (Finance and Accounting concentrations)</p>
+                    <p class="modal-description"><b>Why you chose CS/IS: </b>I was exposed to computer science by my father who is a software developer, but I had zero experience with coding when I first started out at Northeastern. After Fundies 1, I realized that this major challenged me in the best way and I found that exhilarating! I chose to make CS my major because of the way it makes you think so logically but allows you to be creative at the same time. The idea of dissecting human logic into factions that can be fed into a computer to emulate that human logic is mind-blowing to me, I just want to learn more and more!</p>
+                    <p class="modal-description"><b>Favorite CS/IS class: </b>Object Oriented Design (OOD) - I was able to apply CS principles at a higher level and delve deeper into coding topics</p>
+                    <p class="modal-description"><b>Favorite way to waste time: </b>Walking around Boston, being an avid foodie, Netflix</p> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- BRITTANY'S MODAL -->
+    <div class="modal fade" id="brittanyModal" tabindex="-1" role="dialog" aria-labelledby="brittanyModal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <!-- <h4 class="modal-title">JetBlue HumanKinda</h4>
+					<h6 class="modal-title-description">Tumblr Site</h6> -->
+                </div>
+                <div class="modal-body">
+                    <img class="img-circle" src="assets/img/pic.jpg" />
+                    <div class="officer-title">
+                        <h1>Brittany Chiang</h1>
+                        <h3>Web Chair</h3>
+                    </div>
+                    <p class="modal-description"><b>Year: </b> 3rd Year</p>
+                    <p class="modal-description"><b>Where you've co-oped: </b>Mullen Lowe</p>
+                    <p class="modal-description"><b>Major: </b>Information Science (concentration in HCI)</p>
+                    <p class="modal-description"><b>Why you chose CS/IS: </b>asdasdf</p>
+                    <p class="modal-description"><b>Favorite CS/IS class: </b>HCI (Human Computer Interaction)</p>
+                    <p class="modal-description"><b>Favorite way to waste time: </b>Netflixing, traveling</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- AMELIA'S MODAL -->
+    <div class="modal fade" id="ameliaModal" tabindex="-1" role="dialog" aria-labelledby="ameliaModal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <!-- <h4 class="modal-title">JetBlue HumanKinda</h4>
+					<h6 class="modal-title-description">Tumblr Site</h6> -->
+                </div>
+                <div class="modal-body">
+                    <img class="img-circle" src="assets/img/pic.jpg" />
+                    <div class="officer-title">
+                        <h1>Amelia Oon</h1>
+                        <h3>Design Director</h3>
+                    </div>
+                    <p class="modal-description"><b>Year: </b> 3rd Year</p>
+                    <p class="modal-description"><b>Where you've co-oped: </b> </p>
+                    <!-- <p class="modal-description"><b>Major: </b>Computer Science and Business Administration (Finance and Accounting concentrations)</p>
+                    <p class="modal-description"><b>Why you chose CS/IS: </b>I was exposed to computer science by my father who is a software developer, but I had zero experience with coding when I first started out at Northeastern. After Fundies 1, I realized that this major challenged me in the best way and I found that exhilarating! I chose to make CS my major because of the way it makes you think so logically but allows you to be creative at the same time. The idea of dissecting human logic into factions that can be fed into a computer to emulate that human logic is mind-blowing to me, I just want to learn more and more!</p>
+                    <p class="modal-description"><b>Favorite CS/IS class: </b>Object Oriented Design (OOD) - I was able to apply CS principles at a higher level and delve deeper into coding topics</p>
+                    <p class="modal-description"><b>Favorite way to waste time: </b>Walking around Boston, being an avid foodie, Netflix</p> -->
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- PORTFOLIO SECTION -->
     <!-- <div id="lg">
@@ -310,18 +470,31 @@
 	</div> -->
 
 
-    <!-- FOOTER -->
-    <div id="f">
+    <div id="footer">
         <div class="container">
             <div class="row centered">
-                <a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-envelope-o"></i></a>
+                <br>
+                <br>
+                <div class="col-lg-4">
+                    <h4>Stay in the loop</h4>
+                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even believable.</p>
+                </div>
 
+                <div class="col-lg-4">
+                    <h4>Upcoming events</h4>
+                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even believable.</p>
+                </div>
+
+                <div class="col-lg-4">
+                    <h4>Social</h4>
+                    <a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a>
+                </div>
             </div>
             <!-- row -->
+            <br>
+            <br>
         </div>
-        <!-- container -->
     </div>
-    <!-- Footer -->
 
 
     <!-- MODAL FOR CONTACT -->

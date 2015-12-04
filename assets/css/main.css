@@ -39,6 +39,7 @@ h1, h2, h3, h4, h5, h6 {
 p {
     line-height: 28px;
     margin-bottom: 25px;
+    color: #333;
 }
 .centered {
     text-align: center;
@@ -189,6 +190,48 @@ hr {
     text-transform: uppercase;
 }
 
+#mission {
+    background: #e0e0e0;
+    width: 100%;
+}
+.mission {
+    background: #e0e0e0;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+.mission h2 {
+    font-size: 44px;
+    margin: 0 auto 30px;
+}
+.mission p {
+    max-width: 630px;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+#meetings {
+    background: #f0f0f0;
+    width: 100%;
+}
+#meetings .container {
+    width: 850px;
+    padding: 70px 0;
+    margin: 0 auto;
+}
+#meetings h2 {
+    font-size: 44px;
+}
+#meetings i {
+    color: #009897;
+    font-size: 50px;
+    margin: 0 20px;
+}
+#meetings p {
+    display: inline;
+}
+
 /* Dark Grey Wrap */
 
 #dg {
@@ -243,63 +286,56 @@ hr {
     color: white;
 }
 
-/* Footer Wrap */
 
-#f {
-    background: #2d2d2d;
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-#f i {
-    color: #bdbdbd;
-    font-size: 30px;
-    padding: 20px;
-}
-#f i:hover {
-    color: #009897;
-}
 
 /****** SECTIONS *****/
 
-.w {
+.leadership h1, .leadership h3{
+    color: #ddd;
+    text-transform: uppercase;
+}
+.officers {
     padding-top: 35px;
     background: #e0e0e0;
 }
-.w h4 {
+.officers h4 {
     font-weight: 700;
 }
-.w i {
-    color: #009897;
+.officers i {
+    color: #777;
     font-size: 20px;
     margin: 0 7px;
 }
-.w .fa-github {
+.officers i:hover {
+    color: #009897;
+}
+.officers .fa-github {
     font-size: 22px;
 }
-.w .img-circle {
+.officers .img-circle {
     margin: 20px 20px 10px;
     width: 125px;
     height: 125px;
     transition: all .2s ease-in-out;
 }
-.w .officer {
+.officers .officer {
     /*border: 1px solid #ccc;*/
     cursor: pointer;
 }
-.w .officer-avatar {
+.officers .officer-avatar {
     overflow: hidden;
 }
-.w .officer:hover {
+.officers .officer:hover {
     background: #f2f2f2;
 }
-.w .officer:hover .img-circle {
+.officers .officer:hover .img-circle {
     transform: scale(1.05);
 }
-.wb {
+.officersb {
     padding-top: 35px;
     margin-bottom: 0px;
 }
-.wb h4 {
+.officersb h4 {
     font-weight: 700;
 }
 .desc {
@@ -337,7 +373,8 @@ hr {
     font-weight: 700;
 }
 .modal-header .close {
-    margin-top: -5px;
+    margin-top: -7px;
+    font-size: 30px;
 }
 .modal-body {
     background: #f2f2f2;
@@ -381,6 +418,39 @@ hr {
 .modal-footer {
     background: #f2f2f2;
     margin-top: 0px;
+}
+
+
+#footer {
+    background: #2d2d2d;
+    color: #bdbdbd;
+}
+#footer .container {
+    width: 1000px;
+}
+#footer h4 {
+    color: #bdbdbd;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+#footer p {
+    color: #bdbdbd;
+    text-align: left;
+}
+#footer i {
+    color: #bdbdbd;
+    font-size: 30px;
+    padding: 20px;
+}
+#footer i:hover {
+    color: #009897;
+}
+#footer ul {
+    list-style: none;
+    text-align: left;
+    padding-left: 0;
 }
 
 /* ==========================================================================
