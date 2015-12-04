@@ -40,6 +40,8 @@ p {
     line-height: 28px;
     margin-bottom: 25px;
     color: #333;
+    font-size: 16px;
+    font-weight: 500;
 }
 .centered {
     text-align: center;
@@ -87,7 +89,7 @@ hr {
     border-color: #2d2d2d;
 }
 .navbar-inverse .navbar-nav > li > a {
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
     padding-top: 12px;
     padding-bottom: 12px;
 }
@@ -232,6 +234,7 @@ hr {
     color: #009897;
     font-size: 50px;
     margin: 0 20px;
+    vertical-align: middle;
 }
 #meetings p {
     display: inline;
@@ -261,20 +264,7 @@ hr {
     font-weight: 700;
 }
 
-/* Red Wrap */
 
-#r {
-    background: #009897;
-    padding-top: 35px;
-    padding-bottom: 35px;
-}
-#r h4 {
-    color: white;
-    font-weight: 700;
-}
-#r p {
-    color: white;
-}
 
 /* Blue Wrap */
 
@@ -414,6 +404,126 @@ hr {
     margin-top: 0px;
 }
 
+
+#subscribe {
+    background: #009897;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+#subscribe .container {
+    width: 100%;
+}
+
+#subscribe h4 {
+    color: white;
+    font-weight: 700;
+}
+#subscribe p {
+    color: white;
+}
+
+#mc_embed_signup, #mc_embed_signup * {
+    box-sizing: border-box;
+}
+#mc_embed_signup {
+    width: 100%;
+    background-color: #009897;
+    text-align: center;
+    padding: 1.85em 0.5em;
+    margin: 0 auto;
+    font-size: 20px;
+    display: block;
+    /*background: url('../bg.png');*/
+}
+#mc_embed_signup label, #mc_embed_signup #mce-EMAIL, #mc_embed_signup button {
+    border: none;
+    display: inline;
+    padding: 0 0.5em;
+    vertical-align: middle;
+    font-size: 1em;
+    width: 100%;
+    margin: 0;
+    min-height: 2em;
+    font-family:'lato';
+    font-weight:normal;
+}
+#mc_embed_signup label {
+    display: block;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'lato';
+    font-size: 0.9em;
+    letter-spacing: 2px;
+}
+#mc_embed_signup #mce-EMAIL, #mc_embed_signup button, #mc_embed_signup .info {
+    font-family: "lato";
+}
+#mc_embed_signup #mce-EMAIL {
+    width: 60%;
+    width: calc(90% - 7em);
+}
+#mc_embed_signup input:focus {
+    outline: 1px solid rgba(0, 0, 0, 0.2);
+}
+#mc_embed_signup button {
+    border: none;
+    font-weight:normal;
+    color: #ffffff;
+    text-transform: uppercase;
+    background: transparent;
+    border: 2px solid #fff;
+    width: 39%;
+    width: 7em;
+    margin-left: -5px;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+#mc_embed_signup button:hover {
+    background: #a0cf63;
+}
+
+@media only screen and (min-width: 600px) {
+    #mc_embed_signup label, #mc_embed_signup #mce-EMAIL, #mc_embed_signup button {
+        min-height: 2.2em;
+    }
+    #mc_embed_signup {
+        padding: 1.85em 1em;
+    }
+}
+@media only screen and (min-width: 800px) {
+    #mc_embed_signup label {
+        display: inline;
+        /*width: 30%;*/
+
+        width: 10em;
+    }
+    #mc_embed_signup #mce-EMAIL {
+        width: 13em;
+    }
+    #mc_embed_signup button {
+        font-size: 1em;
+        width: 8em;
+        font-weight: 400;
+        margin-left: 0.1em;
+    }
+}
+@media only screen and (min-width: 1026px) {
+    #mc_embed_signup label {
+        width: 15em;
+    }
+    #mc_embed_signup #mce-EMAIL {
+        margin-left: 0.55em;
+        width: 20.5em;
+    }
+    #mc_embed_signup button {
+        margin-left: 0.5em;
+    }
+}
+
+
+
+
+
 @media screen and (min-width: 1200px) {
     #blog .container {
         width: 990px;
@@ -427,9 +537,18 @@ hr {
     font-weight: 700;
     font-size: 20px;
     text-transform: uppercase;
+    margin-top: 0;
 }
 #blog p {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
+    line-height: 24px;
+}
+#blog a {
+    font-weight: 500;
+}
+#blog i {
+    font-size: 12px;
+    color: #777;
 }
 #blog .btn-default {
     color: #009897;
@@ -438,21 +557,31 @@ hr {
     padding: 7px 15px;
     font-weight: 700;
 }
-
+#blog .btn-default:hover {
+    background: #009897;
+    color: #fff;
+}
 
 .contact-header h2 {
     font-size: 44px;
     color: #eee;
 }
-
 #contact .container {
     padding: 50px 0;
 }
-
+#contact p {
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+#contact a {
+    font-weight: 500;
+}
 #contact-map .container {
     width: 100%;
 }
-#contact-map #mapwrap iframe {
+#contact-map #map iframe {
     margin-bottom: -5px;
 }
 
@@ -475,6 +604,14 @@ hr {
     color: #bdbdbd;
     text-align: left;
 }
+
+#footer form {
+    border: 2px solid #009897;
+    display: table;
+    width: 100%;
+    max-width: 300px;
+}
+
 #footer i {
     color: #bdbdbd;
     font-size: 30px;
@@ -488,6 +625,15 @@ hr {
     text-align: left;
     padding-left: 0;
 }
+#footer ul li a {
+    font-weight: 500;
+}
+
+
+
+
+
+
 
 /* ==========================================================================
    Pricing Tables
