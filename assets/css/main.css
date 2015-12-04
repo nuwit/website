@@ -23,7 +23,7 @@ body {
     color: #555;
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
-    margin-top: 70px;
+    margin-top: 65px;
 }
 
 /* Titles */
@@ -72,7 +72,7 @@ hr {
     display: block;
     height: 1px;
     border: 0;
-    border-top: 1px solid #ccc;
+    border-top: 1px solid #aaa;
     margin: 1em 0;
     padding: 0;
 }
@@ -86,6 +86,11 @@ hr {
     background: #2d2d2d;
     border-color: #2d2d2d;
 }
+.navbar-inverse .navbar-nav > li > a {
+    letter-spacing: 1px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
 .navbar-inverse .navbar-nav > .active > a {
     background: #009897;
 }
@@ -97,11 +102,11 @@ hr {
     font-weight: bolder;
     font-size: 22px;
     letter-spacing: 1px;
+    padding: 0;
 }
-.navbar-inverse .navbar-brand i {
-    color: #009897;
-    font-size: 22px;
-    letter-spacing: 1px;
+.navbar-inverse .navbar-brand img {
+    width: 90px;
+    height: auto;
 }
 
 /*TILT*/
@@ -136,7 +141,7 @@ hr {
     margin-top: -10px;
     padding-top: 20px;
     text-align: center;
-    min-height: 630px;
+    min-height: 700px;
     width: 100%;
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
@@ -331,30 +336,19 @@ hr {
 .officers .officer:hover .img-circle {
     transform: scale(1.05);
 }
-.officersb {
+.officers {
     padding-top: 35px;
     margin-bottom: 0px;
 }
-.officersb h4 {
+.officers h4 {
     font-weight: 700;
-}
-.desc {
-    padding-top: 35px;
-}
-.desc h4 {
-    font-weight: 700;
-}
-.desc i {
-    color: #009897;
-    font-size: 12px;
-    padding: 5px;
 }
 
 /***** MODAL CONTACT *****/
 @media screen and (min-width: 768px) {
     .modal-dialog {
         width: 700px;
-        padding-top: 30px;
+        padding-top: 66px;
         padding-bottom: 30px;
     }
 }
@@ -418,6 +412,48 @@ hr {
 .modal-footer {
     background: #f2f2f2;
     margin-top: 0px;
+}
+
+@media screen and (min-width: 1200px) {
+    #blog .container {
+        width: 990px;
+    }
+}
+#blog img {
+    width: 300px;
+    height: auto;
+}
+#blog h4 {
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+#blog p {
+    margin-bottom: 15px;
+}
+#blog .btn-default {
+    color: #009897;
+    background: transparent;
+    border: 3px solid #009897;
+    padding: 7px 15px;
+    font-weight: 700;
+}
+
+
+.contact-header h2 {
+    font-size: 44px;
+    color: #eee;
+}
+
+#contact .container {
+    padding: 50px 0;
+}
+
+#contact-map .container {
+    width: 100%;
+}
+#contact-map #mapwrap iframe {
+    margin-bottom: -5px;
 }
 
 
