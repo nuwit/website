@@ -37,9 +37,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">
-                    <img src="assets/img/logo_textonly.png" />
-                </a>
+                <a class="navbar-brand" href="index.html"><img src="assets/img/logo.png" /></a>
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
@@ -54,14 +52,39 @@
         </div>
     </div>
 
-    <div id="headerwrap">
+    <div id="headerwrap" class="overlay">
         <div class="container">
             <div class="row centered">
                 <div class="col-lg-8 col-lg-offset-2">
-                    <h1>
-                        <img src="assets/img/logo_textonly.png" />
-                    </h1>
-                    <!-- <h2>Northeastern University Women in Technology</h2> -->
+                    <!-- <h1><img src="assets/img/logo.png" /></h1>
+                    <h2>Northeastern University Women in Technology</h2> -->
+
+                    <div class="code-editor">
+				<span class="control"></span>
+				<span class="control"></span>
+				<span class="control"></span>
+				<pre class="line-numbers">
+					<code class="language-css">
+	/* Welcome to nuWiT's website! */
+
+	.nuWiT {
+
+		stands-for: Northeastern University Women in Technology;
+
+		location: Boston, MA;
+
+        description: A student group at Northeastern University created
+        with the intention of supporting and connecting females who are
+        studying or interested in the fields of computer and information
+        science.;
+
+		email-us: "nuwit-officers@ccs.neu.edu";
+
+	}
+</code>
+</pre>
+</div>
+
                     <a class="scroll-down" href="#about">
                         <img id="mouse" src="assets/img/mouse-icon-white.png" />
                     </a>
@@ -90,20 +113,34 @@
                     <h2>Join us!</h2>
                 </div>
             </div>
-            <div class="row centered">
-                <br>
-                <br>
-                <div class="col-lg-4">
-                    <h4><i class="fa fa-calendar-o"></i>Every Monday</h4>
+            <!-- <div class="container"> -->
+                <div class="row centered">
+                    <br>
+                    <br>
+                    <div class="col-lg-4">
+                        <div class="meeting-col">
+                            <h4><i class="fa fa-calendar-o"></i>Every Monday</h4>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="meeting-col">
+                            <h4><i class="fa fa-clock-o"></i>7:00pm - 8:00pm</h4>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="meeting-col">
+                            <h4><i class="fa fa-map-marker"></i>West Village H 366</h4>
+                        </div>
+                    </div>
+                    <!-- <div class="col-lg-12 col-md-12">
+                        <ul class="meeting-times">
+                            <li><h4><i class="fa fa-calendar-o"></i>Every Monday</h4><li>
+                            <li><h4><i class="fa fa-clock-o"></i>7:00pm - 8:00pm</h4></li>
+                            <li><h4><i class="fa fa-map-marker"></i>West Village H 366</h4></li>
+                        </ul>
+                    </div> -->
                 </div>
-                <div class="col-lg-4">
-                    <h4><i class="fa fa-clock-o"></i>7:00pm - 8:00pm</h4>
-                </div>
-                <div class="col-lg-4">
-                    <h4><i class="fa fa-map-marker"></i>West Village H 366</h4>
-                </div>
-            </div>
-            <!-- row -->
+            <!-- </div> -->
             <br>
             <br>
         </div>
@@ -143,8 +180,8 @@
     </div> -->
 
 
-    <!-- FEATURE SECTION -->
-    <div class="container wb">
+
+    <!-- <div class="container wb">
         <div class="row centered">
             <br>
             <br>
@@ -161,10 +198,10 @@
                 <img class="img-responsive" src="assets/img/munter.png" alt="">
             </div>
         </div>
-    </div>
+    </div> -->
 
-
-    <div id="lg">
+<!--
+    <div id="clients">
         <div class="container">
             <div class="row centered">
                 <h4>OUR AWESOME CLIENTS</h4>
@@ -185,21 +222,8 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
-
-    <div id="r">
-        <div class="container">
-            <div class="row centered">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <h4>Stay in the loop</h4>
-                    <p>Want to get updates on what's happening in the nuWiT universe? Subscribe box here?</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    
     <div id="subscribe">
         <div class="container">
             <div class="row centered">
@@ -209,13 +233,13 @@
                     <div id="mc_embed_signup">
                         <form action="//design4.us3.list-manage.com/subscribe/post?u=36c4fd991d266f23781ded980&id=aefe40901a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                             <div id="mc_embed_signup_scroll">
-                                <label for="mce-EMAIL">Stay Up To Date:</label>
+                                <!-- <label for="mce-EMAIL">Stay Up To Date:</label> -->
                                 <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Your Email Address" required>
                                 <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
                                 <div style="position: absolute; left: -5000px;">
                                     <input type="text" name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value="">
                                 </div>
-                                <button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">Submit <i class="fa fa-envelope"></i></button>
+                                <button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">Subscribe <i class="fa fa-envelope"></i></button>
                                 <div class="info"></div>
                             </div>
                         </form>
@@ -302,6 +326,7 @@
         <!-- Placed at the end of the document so the pages load faster -->
         <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
         <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/code-editor.js"></script>
 </body>
 
 </html>

@@ -1,19 +1,10 @@
-/*
- * Author: Carlos Alvarez
- * URL: http://alvarez.is
- *
- * Project Name: SPOT - Free Bootstrap 3 Theme
- * Version: 1.0
- * URL: http://blacktie.co
- */
-
-
-/* FONTS */
-
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900);
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,300,700,900);
 
-/* OVERALL ASPECT */
+html {
+    padding: 0;
+    margin: 0;
+}
 
 body {
     background-color: #e0e0e0;
@@ -25,30 +16,21 @@ body {
     -webkit-overflow-scrolling: touch;
     margin-top: 65px;
 }
-
-/* Titles */
-
 h1, h2, h3, h4, h5, h6 {
     font-family: "Raleway";
     font-weight: 300;
     color: #333;
 }
-
-/* Paragraph & Typographic */
-
 p {
     line-height: 28px;
     margin-bottom: 25px;
     color: #333;
     font-size: 16px;
-    font-weight: 500;
+    /*font-weight: 500;*/
 }
 .centered {
     text-align: center;
 }
-
-/* Links */
-
 a {
     color: #009897;
     word-wrap: break-word;
@@ -78,6 +60,10 @@ hr {
     margin: 1em 0;
     padding: 0;
 }
+
+/* ==========================================================================
+   NAVBAR PAGE
+   ========================================================================== */
 .navbar {
     font-weight: 800;
     font-size: 14px;
@@ -107,8 +93,53 @@ hr {
     padding: 0;
 }
 .navbar-inverse .navbar-brand img {
-    width: 90px;
+    width: 120px;
     height: auto;
+    margin-top: 10px;
+}
+
+/* ==========================================================================
+   FOOTER
+   ========================================================================== */
+#footer {
+    background: #2d2d2d;
+    color: #bdbdbd;
+}
+#footer .container {
+    width: 1000px;
+}
+#footer h4 {
+    color: #bdbdbd;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+#footer p {
+    color: #bdbdbd;
+    text-align: left;
+}
+#footer form {
+    border: 2px solid #009897;
+    display: table;
+    width: 100%;
+    max-width: 300px;
+}
+#footer i {
+    color: #bdbdbd;
+    font-size: 30px;
+    padding: 20px;
+}
+#footer i:hover {
+    color: #009897;
+}
+#footer ul {
+    list-style: none;
+    text-align: left;
+    padding-left: 0;
+}
+#footer ul li a {
+    font-weight: 500;
 }
 
 /*TILT*/
@@ -128,8 +159,23 @@ hr {
     transform: rotate(-10deg);
 }
 
+/* Blue Wrap */
+
+#blue {
+    background: #009897;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+#blue h4 {
+    color: white;
+    font-weight: 700;
+}
+#blue p {
+    color: white;
+}
+
 /* ==========================================================================
-   Wrap Sections
+   HOME PAGE
    ========================================================================== */
 
 #headerwrap {
@@ -138,10 +184,10 @@ hr {
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-color: #000;
-    color: #000;
-    margin-top: -10px;
-    padding-top: 20px;
+    background-color: #bdbdbd;
+    color: #bbb;
+    margin-top: 10px;
+    padding-top: 40px;
     text-align: center;
     min-height: 700px;
     width: 100%;
@@ -153,24 +199,8 @@ hr {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-}
-#headerwrap .overlay {
-    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.73) 17%, rgba(0, 0, 0, 0.66) 35%, rgba(0, 0, 0, 0.55) 62%, rgba(0, 0, 0, 0.4) 100%);
-    /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 0, 0.8)), color-stop(17%, rgba(0, 0, 0, 0.73)), color-stop(35%, rgba(0, 0, 0, 0.66)), color-stop(62%, rgba(0, 0, 0, 0.55)), color-stop(100%, rgba(0, 0, 0, 0.4)));
-    /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.73) 17%, rgba(0, 0, 0, 0.66) 35%, rgba(0, 0, 0, 0.55) 62%, rgba(0, 0, 0, 0.4) 100%);
-    /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.73) 17%, rgba(0, 0, 0, 0.66) 35%, rgba(0, 0, 0, 0.55) 62%, rgba(0, 0, 0, 0.4) 100%);
-    /* Opera 11.10+ */
-    background: -ms-linear-gradient(top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.73) 17%, rgba(0, 0, 0, 0.66) 35%, rgba(0, 0, 0, 0.55) 62%, rgba(0, 0, 0, 0.4) 100%);
-    /* IE10+ */
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.73) 17%, rgba(0, 0, 0, 0.66) 35%, rgba(0, 0, 0, 0.55) 62%, rgba(0, 0, 0, 0.4) 100%);
-    /* W3C */
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#cc000000', endColorstr='#66000000', GradientType=0);
-    /* IE6-9 */
-    height: 750px;
-    background-attachment: fixed;
+    /*-webkit-filter: grayscale(100%);
+    filter: grayscale(100%);*/
 }
 #headerwrap img {
     width: 500px;
@@ -180,7 +210,7 @@ hr {
 #headerwrap img#mouse {
     width: 30px;
     height: auto;
-    margin-top: 100px;
+    margin-top: 60px;
 }
 #headerwrap h1 {
     margin-top: 150px;
@@ -190,12 +220,207 @@ hr {
     letter-spacing: 3px;
 }
 #headerwrap h2 {
-    color: white;
-    font-size: 40px;
+    color: #fff;
+    font-size: 20px;
     font-weight: 700;
     letter-spacing: 2px;
-    text-transform: uppercase;
 }
+.code-editor:before, .code-editor:after, .code-editor span.control:before, .code-editor span.after:after {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    content: '';
+    position: absolute;
+    z-index: 1;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: wall .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+.code-editor {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    margin: 40px auto 0 auto;
+    width: 750px;
+    text-align: left;
+    background-color: #21252b;
+    border-radius: 0 0 5px 5px;
+    overflow: auto;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: wall .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+.code-editor:before {
+    content: 'nuWiT';
+    font-family: 'Consolas';
+    color: #222;
+    padding-top: 6px;
+    text-align: center;
+    top: 25px;
+    width: 750px;
+    height: 30px;
+    background-color: #fafafa;
+    border-radius: 5px 5px 0 0;
+    -moz-border-radius: 5px 5px 0 0;
+    -o-border-radius: 5px 5px 0 0;
+    -webkit-border-radius: 5px 5px 0 0;
+}
+.code-editor span.control:before {
+    content: '';
+    top: 34px;
+    z-index: 2;
+    padding: 6px;
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -o-border-radius: 20px;
+    -webkit-border-radius: 20px;
+}
+.code-editor span.control:nth-child(1):before {
+    margin-left: 15px;
+    background-color: #df6963;
+}
+.code-editor span.control:nth-child(2):before {
+    margin-left: 35px;
+    background-color: #f5e18a;
+}
+.code-editor span.control:nth-child(3):before {
+    margin-left: 55px;
+    background-color: #97c38a;
+}
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+    .code-editor {
+        width: 90%;
+    }
+    .code-editor:before {
+        width: 88.1%;
+    }
+}
+@media only screen and (max-width: 479px) {
+    .code-editor {
+        width: 300px;
+    }
+    .code-editor:before {
+        width: 300px;
+    }
+}
+
+/**
+		 * prism.js tomorrow night eighties for JavaScript, CoffeeScript, CSS and HTML
+		 * Based on https://github.com/chriskempson/tomorrow-theme
+		 * @author Rose Pritchard
+		 */
+
+code[class*="language-"], pre[class*="language-"] {
+    color: #ccc;
+    font-family: Consolas, Monaco, 'Andale Mono', monospace;
+    direction: ltr;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+}
+pre[class*="language-"] {
+    padding: 1em;
+    margin: 0em 0;
+    height: 500px;
+    overflow: auto;
+}
+:not(pre) > code[class*="language-"], pre[class*="language-"] {
+    background: #21252b;
+}
+:not(pre) > code[class*="language-"] {
+    padding: .1em;
+    border-radius: .3em;
+    -moz-border-radius: .3em;
+    -o-border-radius: .3em;
+    -webkit-border-radius: .3em;
+}
+.token.comment, .token.block-comment, .token.prolog, .token.doctype, .token.cdata {
+    color: #999;
+}
+.token.punctuation {
+    color: #ccc;
+}
+.token.tag, .token.attr-name, .token.namespace {
+    color: #e2777a;
+}
+.token.function-name {
+    color: #6196cc;
+}
+.token.boolean, .token.number, .token.function {
+    color: #f08d49;
+}
+.token.property, .token.class-name, .token.constant, .token.symbol {
+    color: #ddc16c;
+}
+.token.selector, .token.important, .token.atrule, .token.keyword, .token.builtin {
+    color: #00bab7;
+}
+.token.string, .token.attr-value, .token.regex, .token.variable {
+    color: #5add8a;
+}
+.token.operator, .token.entity, .token.url {
+    color: #67cdcc;
+}
+.token.important {
+    font-weight: bold;
+}
+.token.entity {
+    cursor: help;
+}
+pre.line-numbers {
+    position: relative;
+    padding-top: 11px;
+    padding-left: 1.8em;
+    padding-bottom: 0;
+    counter-reset: linenumber;
+    height: 412px;
+    font-size: 16px;
+}
+pre.line-numbers > code {
+    position: relative;
+}
+.line-numbers .line-numbers-rows {
+    position: absolute;
+    pointer-events: none;
+    top: 0;
+    font-size: 100%;
+    left: -13em;
+    width: 3em;
+    /* works for line-numbers below 1000 lines */
+    letter-spacing: -1px;
+    background-color: #333;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.line-numbers-rows > span {
+    pointer-events: none;
+    display: block;
+    counter-increment: linenumber;
+}
+.line-numbers-rows > span:before {
+    content: counter(linenumber);
+    color: #999;
+    display: block;
+    padding-right: 0.8em;
+    text-align: right;
+}
+
+/* ==========================================================================
+   MISSION
+   ========================================================================== */
 
 #mission {
     background: #e0e0e0;
@@ -218,17 +443,28 @@ hr {
     line-height: 1.7;
 }
 
+/* ==========================================================================
+   JOIN US
+   ========================================================================== */
 #meetings {
     background: #f0f0f0;
     width: 100%;
 }
 #meetings .container {
-    width: 850px;
+    width: 100%;
     padding: 70px 0;
     margin: 0 auto;
 }
+@media screen and (min-width: 990px) {
+    #meetings .container {
+        width: 60%;
+    }
+}
 #meetings h2 {
     font-size: 44px;
+}
+#meetings p {
+    display: inline;
 }
 #meetings i {
     color: #009897;
@@ -236,56 +472,29 @@ hr {
     margin: 0 20px;
     vertical-align: middle;
 }
-#meetings p {
-    display: inline;
+#meeting .meeting-col {
+    width: 100%;
 }
-
-/* Dark Grey Wrap */
-
-#dg {
-    background: #e0e0e0;
-    padding-top: 70px;
-    padding-bottom: 70px;
-    text-align: center;
-}
-#dg h4 {
-    font-weight: 700;
-}
-
-/* Light Grey */
-
-#lg {
-    background: #ebebeb;
-    padding-top: 70px;
-    padding-bottom: 70px;
-    text-align: center;
-}
-#lg h4 {
-    font-weight: 700;
+@media screen and (max-width: 1206px) {
+    #meetings i.fa-clock-o {
+        margin-right: 24px;
+    }
+    #meetings i.fa-map-marker {
+        margin-left: 28px;
+        margin-right: 31px;
+    }
 }
 
 
 
-/* Blue Wrap */
-
-#blue {
-    background: #009897;
-    padding-top: 35px;
-    padding-bottom: 35px;
-}
-#blue h4 {
-    color: white;
-    font-weight: 700;
-}
-#blue p {
-    color: white;
-}
 
 
 
-/****** SECTIONS *****/
+/* ==========================================================================
+   OFFICERS PAGE
+   ========================================================================== */
 
-.leadership h1, .leadership h3{
+.leadership h1, .leadership h3 {
     color: #ddd;
     text-transform: uppercase;
 }
@@ -334,7 +543,8 @@ hr {
     font-weight: 700;
 }
 
-/***** MODAL CONTACT *****/
+/***** OFFICER MODALS *****/
+
 @media screen and (min-width: 768px) {
     .modal-dialog {
         width: 700px;
@@ -344,7 +554,8 @@ hr {
 }
 .modal-content {
     border-radius: 0px;
-    padding: 15px 15px 30px;;
+    padding: 15px 15px 30px;
+    ;
     background: #f2f2f2;
 }
 .modal-header {
@@ -405,6 +616,10 @@ hr {
 }
 
 
+
+/* ==========================================================================
+   EMAIL SUBSCRIPTION BOX
+   ========================================================================== */
 #subscribe {
     background: #009897;
     padding-top: 35px;
@@ -413,15 +628,14 @@ hr {
 #subscribe .container {
     width: 100%;
 }
-
 #subscribe h4 {
     color: white;
     font-weight: 700;
 }
 #subscribe p {
     color: white;
+    margin-bottom: 0;
 }
-
 #mc_embed_signup, #mc_embed_signup * {
     box-sizing: border-box;
 }
@@ -444,8 +658,8 @@ hr {
     width: 100%;
     margin: 0;
     min-height: 2em;
-    font-family:'lato';
-    font-weight:normal;
+    font-family: 'lato';
+    font-weight: normal;
 }
 #mc_embed_signup label {
     display: block;
@@ -460,20 +674,20 @@ hr {
 }
 #mc_embed_signup #mce-EMAIL {
     width: 60%;
-    width: calc(90% - 7em);
+    /*width: calc(90% - 7em);*/
 }
 #mc_embed_signup input:focus {
     outline: 1px solid rgba(0, 0, 0, 0.2);
 }
 #mc_embed_signup button {
     border: none;
-    font-weight:normal;
+    font-weight: normal;
     color: #ffffff;
     text-transform: uppercase;
     background: transparent;
     border: 2px solid #fff;
     width: 39%;
-    width: 7em;
+    width: 9em;
     margin-left: -5px;
     cursor: pointer;
     letter-spacing: 2px;
@@ -481,7 +695,12 @@ hr {
 #mc_embed_signup button:hover {
     background: #a0cf63;
 }
-
+@media only screen and (max-width: 480px) {
+    #mc_embed_signup button {
+        width: 60%;
+        margin-left: 0;
+    }
+}
 @media only screen and (min-width: 600px) {
     #mc_embed_signup label, #mc_embed_signup #mce-EMAIL, #mc_embed_signup button {
         min-height: 2.2em;
@@ -494,7 +713,6 @@ hr {
     #mc_embed_signup label {
         display: inline;
         /*width: 30%;*/
-
         width: 10em;
     }
     #mc_embed_signup #mce-EMAIL {
@@ -502,7 +720,7 @@ hr {
     }
     #mc_embed_signup button {
         font-size: 1em;
-        width: 8em;
+        width: 9em;
         font-weight: 400;
         margin-left: 0.1em;
     }
@@ -521,8 +739,85 @@ hr {
 }
 
 
+#event-calendar {
+    background: #f0f0f0;
+}
+#calendar {
+    background: #f0f0f0;
+    max-width: 900px;
+	margin: 70px auto;
+}
+#calendar h2 {
+    font-family: 'Lato', sans-serif;
+}
 
 
+ul.dates {
+    list-style: none;
+    margin-top: 50px;
+}
+ul.dates li {
+	position: relative;
+	border-top: solid 1px #ccc;
+	padding: 1.3em 0 1.3em 6.75em;
+}
+
+ul.dates .date {
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 1.3em;
+	background-color: #009897;
+	height: 3.5em;
+	text-align: center;
+	color: #fff;
+	line-height: 1em;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	padding: 0.5em 0.75em 0 1em;
+}
+
+	ul.dates .date:after {
+		content: '';
+		position: absolute;
+		bottom: 0;
+		right: -1.2em;
+		border-left: solid 1.25em #009897;
+		border-top: solid 1.8em transparent;
+		border-bottom: solid 1.8em transparent;
+	}
+
+	ul.dates .date strong {
+		display: block;
+		font-size: 1.75em;
+		padding-top: 0.15em;
+	}
+
+ul.dates h3 {
+	font-size: 1.1em;
+    margin-top: 0px;
+}
+
+ul.dates p {
+	margin: 0;
+}
+
+ul.dates li:first-child {
+	border-top: 0;
+	padding-top: 0;
+}
+
+	ul.dates li:first-child .date {
+		top: 0;
+	}
+
+
+
+
+
+/* ==========================================================================
+   BLOG PAGE
+   ========================================================================== */
 
 @media screen and (min-width: 1200px) {
     #blog .container {
@@ -561,11 +856,17 @@ hr {
     background: #009897;
     color: #fff;
 }
-
 .contact-header h2 {
     font-size: 44px;
     color: #eee;
 }
+
+
+
+
+/* ==========================================================================
+   CONTACT PAGE
+   ========================================================================== */
 #contact .container {
     padding: 50px 0;
 }
@@ -586,60 +887,11 @@ hr {
 }
 
 
-#footer {
-    background: #2d2d2d;
-    color: #bdbdbd;
-}
-#footer .container {
-    width: 1000px;
-}
-#footer h4 {
-    color: #bdbdbd;
-    text-align: left;
-    font-size: 18px;
-    font-weight: 700;
-    text-transform: uppercase;
-}
-#footer p {
-    color: #bdbdbd;
-    text-align: left;
-}
-
-#footer form {
-    border: 2px solid #009897;
-    display: table;
-    width: 100%;
-    max-width: 300px;
-}
-
-#footer i {
-    color: #bdbdbd;
-    font-size: 30px;
-    padding: 20px;
-}
-#footer i:hover {
-    color: #009897;
-}
-#footer ul {
-    list-style: none;
-    text-align: left;
-    padding-left: 0;
-}
-#footer ul li a {
-    font-weight: 500;
-}
-
-
-
-
-
-
-
 /* ==========================================================================
    Pricing Tables
    ========================================================================== */
 
-.pricing-option {
+/*.pricing-option {
     padding-bottom: 40px;
 }
 .pricing-option .pricing-top {
@@ -716,4 +968,4 @@ hr {
 }
 .pricing-option .pricing-signup:hover {
     background: #009897;
-}
+}*/

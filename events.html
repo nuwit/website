@@ -14,8 +14,11 @@
     <link href="assets/css/bootstrap.css" rel="stylesheet">
     <link href="assets/css/font-awesome.min.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
     <link href="assets/css/main.css" rel="stylesheet">
+
+    <link href='assets/css/fullcalendar.css' rel='stylesheet' />
+    <link href='assets/css/fullcalendar.print.css' rel='stylesheet' media='print' />
+
 
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -36,7 +39,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html"><img src="assets/img/logo_textonly.png"/></a>
+          <a class="navbar-brand" href="index.html"><img src="assets/img/logo.png" /></a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
@@ -55,57 +58,59 @@
 		<div class="container">
 			<div class="row centered">
 				<div class="col-lg-8 col-lg-offset-2">
-				<h4>WE CAN DO A LOT OF THINGS</b></h4>
-				<p>JUST TAKE A LOOK & CONTACT US</p>
+				<h4>Keep up with all of our events!</b></h4>
+				<!-- <p>JUST TAKE A LOOK & CONTACT US</p> -->
 				</div>
 			</div><!-- row -->
 		</div><!-- container -->
 	</div><!-- blue wrap -->
 
+    <div id="event-calendar">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div id='calendar'></div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-	<div class="container w">
-		<div class="row centered">
-			<br><br>
-			<div class="col-lg-4">
-				<i class="fa fa-desktop"></i>
-				<h4>WEB DESIGN</h4>
-				<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
-			</div><!-- col-lg-4 -->
 
-			<div class="col-lg-4">
-				<i class="fa fa-cogs"></i>
-				<h4>WEB DEVELOPMENT</h4>
-				<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
-			</div><!-- col-lg-4 -->
-
-			<div class="col-lg-4">
-				<i class="fa fa-eye"></i>
-				<h4>SEO SERVICES</h4>
-				<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
-			</div><!-- col-lg-4 -->
-		</div><!-- row -->
-		<br>
-		<div class="row centered">
-			<br><br>
-			<div class="col-lg-4">
-				<i class="fa fa-heart"></i>
-				<h4>SOCIAL MEDIA</h4>
-				<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
-			</div><!-- col-lg-4 -->
-
-			<div class="col-lg-4">
-				<i class="fa fa-shopping-cart"></i>
-				<h4>E-COMMERCE</h4>
-				<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
-			</div><!-- col-lg-4 -->
-
-			<div class="col-lg-4">
-				<i class="fa fa-cloud"></i>
-				<h4>CLOUD SERVICES</h4>
-				<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
-			</div><!-- col-lg-4 -->
-		</div><!-- row -->
-	</div><!-- container -->
+    <div id="sched">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+					<ul class="dates">
+						<li>
+							<span class="date">Jan <strong>27</strong></span>
+							<h3><a href="#">Lorem dolor sit amet veroeros</a></h3>
+							<p>Ipsum dolor sit amet veroeros consequat blandit ipsum phasellus lorem consequat etiam.</p>
+						</li>
+						<li>
+							<span class="date">Jan <strong>23</strong></span>
+							<h3><a href="#">Ipsum sed blandit nisl consequat</a></h3>
+							<p>Blandit phasellus lorem ipsum dolor tempor sapien tortor hendrerit adipiscing feugiat lorem.</p>
+						</li>
+						<li>
+							<span class="date">Jan <strong>15</strong></span>
+							<h3><a href="#">Magna tempus lorem feugiat</a></h3>
+							<p>Dolore consequat sed phasellus lorem sed etiam nullam dolor etiam sed amet sit consequat.</p>
+						</li>
+						<li>
+							<span class="date">Jan <strong>12</strong></span>
+							<h3><a href="#">Dolore tempus ipsum feugiat nulla</a></h3>
+							<p>Feugiat lorem dolor sed nullam tempus lorem ipsum dolor sit amet nullam consequat.</p>
+						</li>
+						<li>
+							<span class="date">Jan <strong>10</strong></span>
+							<h3><a href="#">Blandit tempus aliquam?</a></h3>
+							<p>Feugiat sed tempus blandit tempus adipiscing nisl lorem ipsum dolor sit amet dolore.</p>
+						</li>
+					</ul>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 	<!-- PRICING SECTION -->
@@ -182,30 +187,30 @@
 
 
 
-	<div id="subscribe">
-		<div class="container">
-			<div class="row centered">
-				<div class="col-lg-8 col-lg-offset-2">
-					<h4>Be the first to know!</h4>
-					<p>We believe ideas come from everyone, everywhere. At BlackTie, everyone within our agency walls is a designer in their own right.</p>
+    <div id="subscribe">
+        <div class="container">
+            <div class="row centered">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h4>Be the first to know!</h4>
+                    <p>We believe ideas come from everyone, everywhere. At BlackTie, everyone within our agency</p>
                     <div id="mc_embed_signup">
                         <form action="//design4.us3.list-manage.com/subscribe/post?u=36c4fd991d266f23781ded980&id=aefe40901a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                             <div id="mc_embed_signup_scroll">
-                                <label for="mce-EMAIL">Stay Up To Date:</label>
+                                <!-- <label for="mce-EMAIL">Stay Up To Date:</label> -->
                                 <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Your Email Address" required>
                                 <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
                                 <div style="position: absolute; left: -5000px;">
                                     <input type="text" name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value="">
                                 </div>
-                                <button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">Submit <i class="fa fa-envelope"></i></button>
+                                <button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">Subscribe <i class="fa fa-envelope"></i></button>
                                 <div class="info"></div>
                             </div>
                         </form>
                     </div>
-				</div>
-			</div>
-		</div>
-	</div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <div id="footer">
         <div class="container">
@@ -234,10 +239,91 @@
     </div>
 
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
+
+    <script src='assets/js/jquery.min.js'></script>
+    <script src='assets/js/moment.min.js'></script>
+    <script src='assets/js/fullcalendar.min.js'></script>
+
+    <script>
+
+    	$(document).ready(function() {
+
+    		$('#calendar').fullCalendar({
+    			header: {
+    				left: 'prev,next today',
+    				center: 'title',
+    				right: 'month,basicWeek,basicDay'
+    			},
+    			defaultDate: '2015-12-12',
+    			editable: true,
+    			eventLimit: true, // allow "more" link when too many events
+    			events: [
+    				{
+    					title: 'All Day Event',
+    					start: '2015-12-01'
+    				},
+    				{
+    					title: 'All Day Event 2',
+    					start: '2015-12-02'
+    				},
+    				{
+    					title: 'Long Event',
+    					start: '2015-12-07',
+    					end: '2015-12-10'
+    				},
+    				{
+    					id: 999,
+    					title: 'Repeating Event',
+    					start: '2015-12-09T16:00:00'
+    				},
+    				{
+    					id: 999,
+    					title: 'Repeating Event',
+    					start: '2015-12-16T16:00:00'
+    				},
+    				{
+    					title: 'Conference',
+    					start: '2015-12-11',
+    					end: '2015-12-13'
+    				},
+    				{
+    					title: 'Meeting',
+    					start: '2015-12-12T10:30:00',
+    					end: '2015-12-12T12:30:00'
+    				},
+    				{
+    					title: 'Lunch',
+    					start: '2015-12-12T12:00:00'
+    				},
+    				{
+    					title: 'Meeting',
+    					start: '2015-12-12T14:30:00'
+    				},
+    				{
+    					title: 'Happy Hour',
+    					start: '2015-12-12T17:30:00'
+    				},
+    				{
+    					title: 'Dinner',
+    					start: '2015-12-12T20:00:00'
+    				},
+    				{
+    					title: 'Birthday Party',
+    					start: '2015-12-13T07:00:00'
+    				},
+    				{
+    					title: 'Click for Google',
+    					url: 'http://google.com/',
+    					start: '2015-12-28'
+    				}
+    			]
+    		});
+
+    	});
+
+    </script>
+
   </body>
 </html>
