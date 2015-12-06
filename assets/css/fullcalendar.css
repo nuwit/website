@@ -14,6 +14,10 @@
 	text-align: right;
 }
 
+.fc-head {
+	background: #e6e6e6;
+}
+
 body .fc { /* extra precedence to overcome jqui */
 	font-size: 1em;
 }

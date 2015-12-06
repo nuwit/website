@@ -166,6 +166,11 @@ hr {
     padding-top: 35px;
     padding-bottom: 35px;
 }
+#blue h2 {
+    color: #fff;
+    font-size: 36px;
+    text-transform: uppercase;
+}
 #blue h4 {
     color: white;
     font-weight: 700;
@@ -499,8 +504,10 @@ pre.line-numbers > code {
     text-transform: uppercase;
 }
 .officers {
-    padding-top: 35px;
+    padding-top: 0px;
+    margin-bottom: 0px;
     background: #e0e0e0;
+    width: 80%;
 }
 .officers h4 {
     font-weight: 700;
@@ -517,7 +524,7 @@ pre.line-numbers > code {
     font-size: 22px;
 }
 .officers .img-circle {
-    margin: 20px 20px 10px;
+    margin: 30px 20px 10px;
     width: 125px;
     height: 125px;
     transition: all .2s ease-in-out;
@@ -534,10 +541,6 @@ pre.line-numbers > code {
 }
 .officers .officer:hover .img-circle {
     transform: scale(1.05);
-}
-.officers {
-    padding-top: 35px;
-    margin-bottom: 0px;
 }
 .officers h4 {
     font-weight: 700;
@@ -630,11 +633,13 @@ pre.line-numbers > code {
 }
 #subscribe h4 {
     color: white;
-    font-weight: 700;
+    font-weight: 500;
+    font-size: 30px;
 }
 #subscribe p {
     color: white;
     margin-bottom: 0;
+    font-size: 20px;
 }
 #mc_embed_signup, #mc_embed_signup * {
     box-sizing: border-box;
@@ -693,7 +698,8 @@ pre.line-numbers > code {
     letter-spacing: 2px;
 }
 #mc_embed_signup button:hover {
-    background: #a0cf63;
+    background: #fff;
+    color: #009897;
 }
 @media only screen and (max-width: 480px) {
     #mc_embed_signup button {
@@ -754,12 +760,29 @@ pre.line-numbers > code {
 
 ul.dates {
     list-style: none;
-    margin-top: 50px;
+    margin: 70px auto;
 }
 ul.dates li {
 	position: relative;
 	border-top: solid 1px #ccc;
 	padding: 1.3em 0 1.3em 6.75em;
+}
+ul.dates h3 a {
+    font-weight: 500;
+    font-size: 24px;
+}
+ul.dates p {
+    line-height: 24px;
+}
+ul.dates .event-date {
+    font-weight: 700;
+    color: #666;
+    margin-bottom: 5px;
+}
+ul.dates .event-location {
+    font-weight: 500;
+    color: #777;
+    margin-left: 40px;
 }
 
 ul.dates .date {
@@ -810,6 +833,35 @@ ul.dates li:first-child {
 	ul.dates li:first-child .date {
 		top: 0;
 	}
+
+
+
+/* ==========================================================================
+   BLOG PAGE
+   ========================================================================== */
+
+#gallery .container {
+    padding: 0 0 50px;
+    width: 80%;
+}
+#gallery .col-lg-3, #gallery .col-md-3, #gallery .col-sm-3 {
+    margin: 10px auto;
+}
+#gallery a.gallery-item {
+    height: 250px;
+    max-height: 250px;
+}
+#gallery img {
+    cursor: zoom-in;
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    height: auto;
+}
+#gallery img.cover {
+    object-fit: cover;
+    height: 180px;
+}
 
 
 
