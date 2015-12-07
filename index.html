@@ -9,11 +9,11 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="assets/ico/favicon.png">
 
-    <title>NU WiT</title>
+    <title>nuWiT</title>
 
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
-    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="assets/css/main.css" rel="stylesheet">
@@ -76,17 +76,16 @@
         description: A student group at Northeastern University created
         with the intention of supporting and connecting females who are
         studying or interested in the fields of computer and information
-        science.;
-
-		email-us: "nuwit-officers@ccs.neu.edu";
+        science;
 
 	}
 </code>
 </pre>
 </div>
 
-                    <a class="scroll-down" href="#about">
-                        <img id="mouse" src="assets/img/mouse-icon-white.png" />
+                    <a class="scroll-down" href="#mission">
+                        <!-- <i class="fa fa-chevron-down"></i> -->
+                        <img src="assets/img/down-flaticon.png">
                     </a>
                 </div>
             </div>
@@ -98,9 +97,7 @@
             <div class="row centered">
                 <div class="col-lg-8 col-lg-offset-2">
                     <h2>Our Mission</h2>
-                    <p>We are Northeastern Women in Technology. We are an on campus community that supports women that are interested in computer and information science and all things tech. We host tech talks, community leaders and business leaders from
-                        around the Boston area on a weekly basis. Our goal is to create and inspire a strong campus community of women in technology fields. We bring support, networking and mentoring to help women on our campus find success in the classroom
-                        and in the office.</p>
+                    <p>We are Northeastern Women in Technology. We are an on campus community that supports women that are interested in computer and information science and all things tech. We host tech talks, community leaders and business leaders from around the Boston area on a weekly basis. Our goal is to create and inspire a strong campus community of women in technology fields. We bring support, networking and mentoring to help women on our campus find success in the classroom and in the office.</p>
                 </div>
             </div>
         </div>
@@ -254,38 +251,51 @@
         <div class="container">
             <div class="row">
                 <br>
-                <br>
-                <div class="col-lg-4">
-                    <h4>Stay in the loop</h4>
-                    <p>Want to get updates on what's happening in the nuWiT universe?</p>
+                <div class="col-lg-5 col-md-5 col-sm-5">
+                    <h4>Made with<i class="fa fa-heart"></i>at</h4>
+                    <p><img class="ccis-logo" src="assets/img/ccis-logo.png"></p>
+                    <p class="copyright">&copy; NUWIT 2015</p>
                 </div>
-                    <div class="col-lg-4">
-                        <h4>Upcoming events</h4>
-                        <ul>
-                            <li><a href="#">Event</a></li>
-                            <li><a href="#">Event</a></li>
-                            <li><a href="#">Event</a></li>
-                            <li><a href="#">Event</a></li>
-                            <li><a href="#">Event</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="col-lg-4">
-                        <!-- <div class="container"> -->
-                        <h4>Social</h4>
-                        <a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a>
-                        <!-- </div> -->
-                    </div>
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <h4>Upcoming events</h4>
+                    <ul>
+                        <li><a href="#">Event</a></li>
+                        <li><a href="#">Event</a></li>
+                        <li><a href="#">Event</a></li>
+                    </ul>
                 </div>
-                <br>
-                <br>
+                <div class="col-lg-3 col-md-3 col-sm-3">
+                    <h4>Social</h4>
+                    <!-- <a href="#" target="_blank"><i class="fa fa-envelope"></i></a> -->
+                    <a href="https://www.facebook.com/groups/nucisters/" target="_blank"><i class="fa fa-facebook-official"></i></a>
+                    <a href="https://twitter.com/nuWomenInTech" target="_blank"><i class="fa fa-twitter"></i></a>
+                    <a href="#" target="_blank"><i class="fa fa-instagram"></i></a>
+                    <!-- <a href="#" target="_blank"><i class="fa fa-medium"></i></a> -->
+                </div>
             </div>
+            <br>
         </div>
+    </div>
 
 
-        <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-        <script src="assets/js/bootstrap.min.js"></script>
-        <script src="assets/js/code-editor.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/code-editor.js"></script>
+    <script src="assets/js/jquery.easing.1.3.js"></script>
+    <script src="assets/js/jquery.scrollTo.min.js"></script>
+
+    <script>
+        //jQuery for page scrolling feature - requires jQuery Easing plugin
+        $(function() {
+            $('a.scroll-down').bind('click', function(event) {
+                var $anchor = $(this);
+                $('html, body').stop().animate({
+                    scrollTop: $($anchor.attr('href')).offset().top - 65
+                }, 1500, 'easeInOutExpo');
+                event.preventDefault();
+            });
+        });
+    </script>
+
 </body>
-
 </html>

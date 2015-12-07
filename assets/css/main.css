@@ -1,11 +1,9 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900);
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,300,700,900);
-
 html {
     padding: 0;
     margin: 0;
 }
-
 body {
     background-color: #e0e0e0;
     font-family: "Lato";
@@ -60,10 +58,14 @@ hr {
     margin: 1em 0;
     padding: 0;
 }
+button:focus {
+    outline: 0 !important;
+}
 
 /* ==========================================================================
    NAVBAR PAGE
    ========================================================================== */
+
 .navbar {
     font-weight: 800;
     font-size: 14px;
@@ -101,23 +103,30 @@ hr {
 /* ==========================================================================
    FOOTER
    ========================================================================== */
+
 #footer {
     background: #2d2d2d;
     color: #bdbdbd;
 }
 #footer .container {
-    width: 1000px;
+    width: 75%;
 }
 #footer h4 {
     color: #bdbdbd;
     text-align: left;
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 500;
     text-transform: uppercase;
 }
 #footer p {
-    color: #bdbdbd;
+    color: #aaa;
     text-align: left;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+#footer .copyright {
+    font-size: 14px;
+    color: #777;
 }
 #footer form {
     border: 2px solid #009897;
@@ -128,7 +137,11 @@ hr {
 #footer i {
     color: #bdbdbd;
     font-size: 30px;
-    padding: 20px;
+    padding: 10px;
+}
+#footer i.fa-heart {
+    font-size: 16px;
+    padding: 0 10px 5px;
 }
 #footer i:hover {
     color: #009897;
@@ -140,6 +153,21 @@ hr {
 }
 #footer ul li a {
     font-weight: 500;
+}
+#footer ul li a:hover {
+    color: #00b7b4;
+}
+#footer .ccis-logo {
+    width: 70%;
+    /*-webkit-filter: grayscale(100%);
+    filter: grayscale(100%);*/
+    /*filter: invert(1);
+	-webkit-filter: invert(1);
+	-moz-filter: invert(1);
+	-o-filter: invert(1);
+	-ms-filter: invert(1);*/
+    -webkit-filter: brightness(0) invert(0.7);
+    filter: brightness(0) invert(0.7);
 }
 
 /*TILT*/
@@ -168,7 +196,7 @@ hr {
 }
 #blue h2 {
     color: #fff;
-    font-size: 36px;
+    font-size: 32px;
     text-transform: uppercase;
 }
 #blue h4 {
@@ -184,38 +212,43 @@ hr {
    ========================================================================== */
 
 #headerwrap {
-    background: url(../img/background.png) no-repeat center top;
-    background-size: cover;
+    background-image: url(../img/gplaypattern_@2X.png);
+    /*background-size: cover;*/
     background-position: center;
     background-attachment: fixed;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-color: #bdbdbd;
-    color: #bbb;
+    color: #333;
     margin-top: 10px;
     padding-top: 40px;
     text-align: center;
     min-height: 700px;
     width: 100%;
-    -webkit-background-size: 100%;
+    /*-webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
     background-size: 100%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+    background-size: cover;*/
     /*-webkit-filter: grayscale(100%);
     filter: grayscale(100%);*/
 }
 #headerwrap img {
-    width: 500px;
+    width: 30px;
     height: auto;
-    /*position: fixed;*/
+    margin-top: 50px;
 }
 #headerwrap img#mouse {
     width: 30px;
     height: auto;
     margin-top: 60px;
+}
+#headerwrap .fa-chevron-down {
+    margin-top: 50px;
+    color: #333;
+    font-size: 30px;
 }
 #headerwrap h1 {
     margin-top: 150px;
@@ -250,29 +283,35 @@ hr {
     -webkit-box-sizing: border-box;
     margin: 40px auto 0 auto;
     width: 750px;
+    height: 400px;
     text-align: left;
-    background-color: #21252b;
+    background-color: #0d274c;
     border-radius: 0 0 5px 5px;
     overflow: auto;
     -webkit-transition: all .5s ease-in-out;
-    -moz-transition: wall .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
     -o-transition: all .5s ease-in-out;
     transition: all .5s ease-in-out;
+    -webkit-box-shadow: 1px 7px 50px 10px rgba(187,187,187,1);
+    -moz-box-shadow: 1px 7px 50px 10px rgba(187,187,187,1);
+    box-shadow: 1px 7px 50px 10px rgba(187,187,187,1);
 }
 .code-editor:before {
     content: 'nuWiT';
     font-family: 'Consolas';
-    color: #222;
+    color: #eee;
     padding-top: 6px;
     text-align: center;
     top: 25px;
     width: 750px;
     height: 30px;
-    background-color: #fafafa;
+    background-color: #333;
     border-radius: 5px 5px 0 0;
     -moz-border-radius: 5px 5px 0 0;
     -o-border-radius: 5px 5px 0 0;
     -webkit-border-radius: 5px 5px 0 0;
+    border: 1px solid #ccc;
+    border-bottom: 0px solid transparent;
 }
 .code-editor span.control:before {
     content: '';
@@ -296,6 +335,9 @@ hr {
     margin-left: 55px;
     background-color: #97c38a;
 }
+
+/* -- iPad Screen -- */
+
 @media only screen and (min-width: 480px) and (max-width: 768px) {
     .code-editor {
         width: 90%;
@@ -304,6 +346,9 @@ hr {
         width: 88.1%;
     }
 }
+
+/* -- iPhone Screen -- */
+
 @media only screen and (max-width: 479px) {
     .code-editor {
         width: 300px;
@@ -334,6 +379,9 @@ code[class*="language-"], pre[class*="language-"] {
     -ms-hyphens: none;
     hyphens: none;
 }
+
+/* Code blocks */
+
 pre[class*="language-"] {
     padding: 1em;
     margin: 0em 0;
@@ -341,8 +389,11 @@ pre[class*="language-"] {
     overflow: auto;
 }
 :not(pre) > code[class*="language-"], pre[class*="language-"] {
-    background: #21252b;
+    background: #030f1e;
 }
+
+/* Inline code */
+
 :not(pre) > code[class*="language-"] {
     padding: .1em;
     border-radius: .3em;
@@ -366,7 +417,7 @@ pre[class*="language-"] {
     color: #f08d49;
 }
 .token.property, .token.class-name, .token.constant, .token.symbol {
-    color: #ddc16c;
+    color: #cca439;
 }
 .token.selector, .token.important, .token.atrule, .token.keyword, .token.builtin {
     color: #00bab7;
@@ -385,12 +436,12 @@ pre[class*="language-"] {
 }
 pre.line-numbers {
     position: relative;
-    padding-top: 11px;
-    padding-left: 1.8em;
-    padding-bottom: 0;
     counter-reset: linenumber;
-    height: 412px;
-    font-size: 16px;
+    padding-top: 0.65em;
+    padding-left: 1.8em;
+    padding-bottom: 1px;
+    font-size: 17px;
+    height: 400px;
 }
 pre.line-numbers > code {
     position: relative;
@@ -438,7 +489,7 @@ pre.line-numbers > code {
     text-align: center;
 }
 .mission h2 {
-    font-size: 44px;
+    font-size: 40px;
     margin: 0 auto 30px;
 }
 .mission p {
@@ -451,6 +502,7 @@ pre.line-numbers > code {
 /* ==========================================================================
    JOIN US
    ========================================================================== */
+
 #meetings {
     background: #f0f0f0;
     width: 100%;
@@ -466,7 +518,7 @@ pre.line-numbers > code {
     }
 }
 #meetings h2 {
-    font-size: 44px;
+    font-size: 40px;
 }
 #meetings p {
     display: inline;
@@ -490,11 +542,6 @@ pre.line-numbers > code {
     }
 }
 
-
-
-
-
-
 /* ==========================================================================
    OFFICERS PAGE
    ========================================================================== */
@@ -515,14 +562,14 @@ pre.line-numbers > code {
 .officers i {
     color: #777;
     font-size: 20px;
-    margin: 0 7px;
+    margin: 0 5px;
 }
 .officers i:hover {
     color: #009897;
 }
-.officers .fa-github {
+/*.officers .fa-github {
     font-size: 22px;
-}
+}*/
 .officers .img-circle {
     margin: 30px 20px 10px;
     width: 125px;
@@ -551,7 +598,7 @@ pre.line-numbers > code {
 @media screen and (min-width: 768px) {
     .modal-dialog {
         width: 700px;
-        padding-top: 66px;
+        padding-top: 70px;
         padding-bottom: 30px;
     }
 }
@@ -572,7 +619,14 @@ pre.line-numbers > code {
 }
 .modal-header .close {
     margin-top: -7px;
+    margin-right: -7px;
     font-size: 30px;
+    padding: 3px 11px 5px;
+}
+.modal-header .close:hover {
+    padding: 3px 11px 5px;
+    background: #aaa;
+    border-radius: 50%;
 }
 .modal-body {
     background: #f2f2f2;
@@ -613,20 +667,32 @@ pre.line-numbers > code {
     margin: 10px;
     line-height: 24px;
 }
+.modal-body .modal-links {
+    margin-left: 20px;
+}
+.modal-body .modal-links a {
+    margin: 0 3px;
+    font-size: 19px;
+    color: #777;
+}
+.modal-body .modal-links a:hover {
+    margin: 0 3px;
+    font-size: 19px;
+    color: #009897;
+}
 .modal-footer {
     background: #f2f2f2;
     margin-top: 0px;
 }
 
-
-
 /* ==========================================================================
    EMAIL SUBSCRIPTION BOX
    ========================================================================== */
+
 #subscribe {
     background: #009897;
-    padding-top: 35px;
-    padding-bottom: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 #subscribe .container {
     width: 100%;
@@ -743,33 +809,32 @@ pre.line-numbers > code {
         margin-left: 0.5em;
     }
 }
-
-
 #event-calendar {
     background: #f0f0f0;
 }
 #calendar {
     background: #f0f0f0;
     max-width: 900px;
-	margin: 70px auto;
+    margin: 70px auto;
 }
 #calendar h2 {
     font-family: 'Lato', sans-serif;
 }
-
-
 ul.dates {
     list-style: none;
     margin: 70px auto;
 }
 ul.dates li {
-	position: relative;
-	border-top: solid 1px #ccc;
-	padding: 1.3em 0 1.3em 6.75em;
+    position: relative;
+    border-top: solid 1px #ccc;
+    padding: 1.3em 0 1.3em 6.75em;
 }
 ul.dates h3 a {
     font-weight: 500;
     font-size: 24px;
+}
+ul.dates h3 a:hover {
+    color: #00b7b4;
 }
 ul.dates p {
     line-height: 24px;
@@ -784,60 +849,51 @@ ul.dates .event-location {
     color: #777;
     margin-left: 40px;
 }
-
 ul.dates .date {
-	display: block;
-	position: absolute;
-	left: 0;
-	top: 1.3em;
-	background-color: #009897;
-	height: 3.5em;
-	text-align: center;
-	color: #fff;
-	line-height: 1em;
-	border-top-left-radius: 5px;
-	border-bottom-left-radius: 5px;
-	padding: 0.5em 0.75em 0 1em;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 1.3em;
+    background-color: #009897;
+    height: 3.5em;
+    text-align: center;
+    color: #fff;
+    line-height: 1em;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 0.5em 0.75em 0 1em;
 }
-
-	ul.dates .date:after {
-		content: '';
-		position: absolute;
-		bottom: 0;
-		right: -1.2em;
-		border-left: solid 1.25em #009897;
-		border-top: solid 1.8em transparent;
-		border-bottom: solid 1.8em transparent;
-	}
-
-	ul.dates .date strong {
-		display: block;
-		font-size: 1.75em;
-		padding-top: 0.15em;
-	}
-
+ul.dates .date:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: -1.2em;
+    border-left: solid 1.25em #009897;
+    border-top: solid 1.8em transparent;
+    border-bottom: solid 1.8em transparent;
+}
+ul.dates .date strong {
+    display: block;
+    font-size: 1.75em;
+    padding-top: 0.15em;
+}
 ul.dates h3 {
-	font-size: 1.1em;
+    font-size: 1.1em;
     margin-top: 0px;
 }
-
 ul.dates p {
-	margin: 0;
+    margin: 0;
 }
-
 ul.dates li:first-child {
-	border-top: 0;
-	padding-top: 0;
+    border-top: 0;
+    padding-top: 0;
 }
-
-	ul.dates li:first-child .date {
-		top: 0;
-	}
-
-
+ul.dates li:first-child .date {
+    top: 0;
+}
 
 /* ==========================================================================
-   BLOG PAGE
+   GALLERY PAGE
    ========================================================================== */
 
 #gallery .container {
@@ -863,14 +919,12 @@ ul.dates li:first-child {
     height: 180px;
 }
 
-
-
-
-
 /* ==========================================================================
    BLOG PAGE
    ========================================================================== */
-
+#blog {
+    padding-bottom: 50px;
+}
 @media screen and (min-width: 1200px) {
     #blog .container {
         width: 990px;
@@ -889,18 +943,37 @@ ul.dates li:first-child {
 #blog p {
     margin-bottom: 10px;
     line-height: 24px;
+    font-size: 15px;
 }
 #blog a {
     font-weight: 500;
+}
+#blog a:hover {
+    color: #00b7b4;
 }
 #blog i {
     font-size: 12px;
     color: #777;
 }
+#blog a.blog-image {
+    height: 250px;
+    max-height: 250px;
+}
+#blog img {
+    cursor: pointer;
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    height: auto;
+}
+#blog img.cover {
+    object-fit: cover;
+    height: 200px;
+}
 #blog .btn-default {
     color: #009897;
     background: transparent;
-    border: 3px solid #009897;
+    border: 2px solid #009897;
     padding: 7px 15px;
     font-weight: 700;
 }
@@ -908,17 +981,11 @@ ul.dates li:first-child {
     background: #009897;
     color: #fff;
 }
-.contact-header h2 {
-    font-size: 44px;
-    color: #eee;
-}
-
-
-
 
 /* ==========================================================================
    CONTACT PAGE
    ========================================================================== */
+
 #contact .container {
     padding: 50px 0;
 }
@@ -931,6 +998,9 @@ ul.dates li:first-child {
 #contact a {
     font-weight: 500;
 }
+#contact a:hover {
+    color: #00b7b4;
+}
 #contact-map .container {
     width: 100%;
 }
@@ -938,10 +1008,10 @@ ul.dates li:first-child {
     margin-bottom: -5px;
 }
 
-
 /* ==========================================================================
    Pricing Tables
    ========================================================================== */
+
 
 /*.pricing-option {
     padding-bottom: 40px;
