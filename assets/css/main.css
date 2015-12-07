@@ -3,6 +3,12 @@
 html {
     padding: 0;
     margin: 0;
+
+    perspective: 1px;
+    transform-style: preserve-3d;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 body {
     background-color: #e0e0e0;
@@ -12,7 +18,13 @@ body {
     color: #555;
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
-    margin-top: 65px;
+    /*margin-top: 65px;*/
+
+    perspective: 1px;
+    transform-style: preserve-3d;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: "Raleway";
@@ -123,7 +135,7 @@ button:focus {
     }
 }
 #footer h4 {
-    color: #bdbdbd;
+    color: #f0f0f0;
     text-align: left;
     font-size: 18px;
     font-weight: 500;
@@ -231,28 +243,33 @@ button:focus {
    ========================================================================== */
 
 #headerwrap {
-    background-image: url(../img/gplaypattern_@2X.png);
+    /*background-image: url(../img/gplaypattern_@2X.png);*/
     /*background-size: cover;*/
     background-position: center;
     background-attachment: fixed;
     background-repeat: repeat;
-    background-color: #bdbdbd;
+    /*background-color: #bdbdbd;*/
     color: #333;
-    margin-top: 10px;
+    margin-top: 70px;
     padding-top: 40px;
     text-align: center;
     min-height: 700px;
     width: 100%;
-    /*-webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;*/
-    /*-webkit-filter: grayscale(100%);
-    filter: grayscale(100%);*/
+
+    position: relative;
+    transform-style: inherit;
+    min-height: 100vh;
+}
+#headerwrap:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url(../img/gplaypattern_@2X.png);
+    transform: translateZ(-1px) scale(2);
+    z-index: -1;
 }
 #headerwrap img {
     width: 30px;
@@ -311,9 +328,9 @@ button:focus {
     -moz-transition: all .5s ease-in-out;
     -o-transition: all .5s ease-in-out;
     transition: all .5s ease-in-out;
-    -webkit-box-shadow: 1px 7px 50px 10px rgba(187,187,187,1);
-    -moz-box-shadow: 1px 7px 50px 10px rgba(187,187,187,1);
-    box-shadow: 1px 7px 50px 10px rgba(187,187,187,1);
+    -webkit-box-shadow: 1px 7px 50px 10px rgba(170,170,170,1);
+    -moz-box-shadow: 1px 7px 50px 10px rgba(170,170,170,1);
+    box-shadow: 1px 7px 50px 10px rgba(170,170,170,1);
 }
 .code-editor:before {
     content: 'nuWiT';
