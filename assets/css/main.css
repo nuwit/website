@@ -99,6 +99,12 @@ button:focus {
     height: auto;
     margin-top: 10px;
 }
+@media screen and (max-width: 768px) {
+    .navbar-inverse .navbar-brand img {
+        margin-top: 13px;
+        margin-left: 15px;
+    }
+}
 
 /* ==========================================================================
    FOOTER
@@ -111,12 +117,22 @@ button:focus {
 #footer .container {
     width: 75%;
 }
+@media screen and (max-width: 480px) {
+    #footer .container {
+        width: 85%;
+    }
+}
 #footer h4 {
     color: #bdbdbd;
     text-align: left;
     font-size: 18px;
     font-weight: 500;
     text-transform: uppercase;
+}
+@media screen and (max-width: 768px) {
+    #footer h4 {
+        margin-top: 30px;
+    }
 }
 #footer p {
     color: #aaa;
@@ -159,15 +175,13 @@ button:focus {
 }
 #footer .ccis-logo {
     width: 70%;
-    /*-webkit-filter: grayscale(100%);
-    filter: grayscale(100%);*/
-    /*filter: invert(1);
-	-webkit-filter: invert(1);
-	-moz-filter: invert(1);
-	-o-filter: invert(1);
-	-ms-filter: invert(1);*/
     -webkit-filter: brightness(0) invert(0.7);
     filter: brightness(0) invert(0.7);
+}
+@media screen and (max-width: 480px) {
+    #footer .ccis-logo {
+        width: 90%;
+    }
 }
 
 /*TILT*/
@@ -205,6 +219,11 @@ button:focus {
 }
 #blue p {
     color: white;
+}
+@media screen and (max-width: 768px) {
+    #blue h2 {
+        line-height: 42px;
+    }
 }
 
 /* ==========================================================================
@@ -285,7 +304,7 @@ button:focus {
     width: 750px;
     height: 400px;
     text-align: left;
-    background-color: #0d274c;
+    background-color: #030f1e;
     border-radius: 0 0 5px 5px;
     overflow: auto;
     -webkit-transition: all .5s ease-in-out;
@@ -336,25 +355,39 @@ button:focus {
     background-color: #97c38a;
 }
 
-/* -- iPad Screen -- */
-
-@media only screen and (min-width: 480px) and (max-width: 768px) {
-    .code-editor {
-        width: 90%;
-    }
+@media only screen and (max-width: 1200px) {
     .code-editor:before {
-        width: 88.1%;
+        top: -15px;
+    }
+    .code-editor span.control:before {
+        top: -5px;
     }
 }
 
-/* -- iPhone Screen -- */
-
-@media only screen and (max-width: 479px) {
+@media only screen and (max-width: 768px) {
     .code-editor {
-        width: 300px;
+        width: 90%;
+        height: 350px;
     }
     .code-editor:before {
-        width: 300px;
+        width: 86.4%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .code-editor {
+        width: 330px;
+    }
+    .code-editor:before {
+        width: 330px;
+    }
+}
+@media only screen and (max-width: 330px) {
+    .code-editor {
+        width: 290px;
+    }
+    .code-editor:before {
+        width: 290px;
     }
 }
 
@@ -474,6 +507,14 @@ pre.line-numbers > code {
     text-align: right;
 }
 
+@media screen and (max-width: 768px) {
+    pre.line-numbers {
+        font-size: 15px;
+        height: 350px;
+    }
+}
+
+
 /* ==========================================================================
    MISSION
    ========================================================================== */
@@ -482,17 +523,29 @@ pre.line-numbers > code {
     background: #e0e0e0;
     width: 100%;
 }
-.mission {
+#mission .container {
     background: #e0e0e0;
     padding-top: 70px;
     padding-bottom: 70px;
     text-align: center;
 }
-.mission h2 {
+@media screen and (max-width: 768px) {
+    #mission .container {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+@media screen and (max-width: 480px) {
+    #mission .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+#mission h2 {
     font-size: 40px;
     margin: 0 auto 30px;
 }
-.mission p {
+#mission p {
     max-width: 630px;
     margin: 0 auto;
     font-size: 18px;
@@ -508,17 +561,15 @@ pre.line-numbers > code {
     width: 100%;
 }
 #meetings .container {
-    width: 100%;
+    width: 60%;
     padding: 70px 0;
     margin: 0 auto;
 }
-@media screen and (min-width: 990px) {
-    #meetings .container {
-        width: 60%;
-    }
-}
 #meetings h2 {
     font-size: 40px;
+}
+#meetings h4 {
+    font-family: 'Lato', sans-serif;
 }
 #meetings p {
     display: inline;
@@ -529,9 +580,6 @@ pre.line-numbers > code {
     margin: 0 20px;
     vertical-align: middle;
 }
-#meeting .meeting-col {
-    width: 100%;
-}
 @media screen and (max-width: 1206px) {
     #meetings i.fa-clock-o {
         margin-right: 24px;
@@ -541,6 +589,43 @@ pre.line-numbers > code {
         margin-right: 31px;
     }
 }
+@media screen and (max-width: 1080px) {
+    #meetings .container {
+        width: 100%;
+        padding: 40px 0;
+    }
+}
+@media screen and (max-width: 768px) {
+    #meetings h4 {
+        margin: 20px auto;
+    }
+    #meetings i.fa {
+        font-size: 40px;
+    }
+    #meetings i.fa-clock-o {
+        margin-left: 45px;
+    }
+    #meetings i.fa-map-marker {
+        margin-left: 67px;
+    }
+}
+@media screen and (max-width: 480px) {
+    #meetings i.fa {
+        margin-left: 0;
+        margin-right: 20px;
+    }
+    #meetings i.fa-clock-o {
+        margin-left: 24px;
+    }
+    #meetings i.fa-map-marker {
+        margin-left: 45px;
+        margin-right: 25px;
+    }
+}
+
+
+
+
 
 /* ==========================================================================
    OFFICERS PAGE
@@ -592,15 +677,17 @@ pre.line-numbers > code {
 .officers h4 {
     font-weight: 700;
 }
+@media screen and (max-width: 768px) {
+    .officers i {
+        margin-bottom: 20px;
+    }
+}
 
 /***** OFFICER MODALS *****/
-
-@media screen and (min-width: 768px) {
-    .modal-dialog {
-        width: 700px;
-        padding-top: 70px;
-        padding-bottom: 30px;
-    }
+.modal-dialog {
+    width: 700px;
+    padding-top: 70px;
+    padding-bottom: 30px;
 }
 .modal-content {
     border-radius: 0px;
@@ -684,6 +771,37 @@ pre.line-numbers > code {
     background: #f2f2f2;
     margin-top: 0px;
 }
+@media screen and (max-width: 768px) {
+    .modal-dialog {
+        width: 90%;
+        padding: 5%;
+    }
+    .modal-body {
+        padding: 0;
+    }
+}
+@media screen and (max-width: 517px) {
+    .modal-body .modal-description {
+        margin: 10px 0;
+    }
+}
+@media screen and (max-width: 480px) {
+    .modal-dialog {
+        width: 95%;
+        padding: 5%;
+    }
+}
+@media screen and (max-width: 440px) {
+    .modal-body .img-circle {
+        margin-top: 0;
+    }
+}
+@media screen and (max-width: 360px) {
+    .modal-body h3 {
+        font-size: 20px;
+    }
+}
+
 
 /* ==========================================================================
    EMAIL SUBSCRIPTION BOX
@@ -745,7 +863,6 @@ pre.line-numbers > code {
 }
 #mc_embed_signup #mce-EMAIL {
     width: 60%;
-    /*width: calc(90% - 7em);*/
 }
 #mc_embed_signup input:focus {
     outline: 1px solid rgba(0, 0, 0, 0.2);
@@ -767,9 +884,12 @@ pre.line-numbers > code {
     background: #fff;
     color: #009897;
 }
-@media only screen and (max-width: 480px) {
+@media screen and (max-width: 480px) {
+    #mc_embed_signup #mce-EMAIL {
+        width: 95%;
+    }
     #mc_embed_signup button {
-        width: 60%;
+        width: 95%;
         margin-left: 0;
     }
 }
@@ -809,6 +929,15 @@ pre.line-numbers > code {
         margin-left: 0.5em;
     }
 }
+
+
+
+
+
+/* ==========================================================================
+   CALENDAR
+   ========================================================================== */
+
 #event-calendar {
     background: #f0f0f0;
 }
@@ -891,6 +1020,19 @@ ul.dates li:first-child {
 ul.dates li:first-child .date {
     top: 0;
 }
+@media screen and (max-width: 768px) {
+    ul.dates {
+        padding-left: 10px;
+    }
+}
+@media screen and (max-width: 360px) {
+    ul.dates .date {
+        font-size: 12px;
+    }
+    ul.dates li {
+        padding: 1.3em 0 1.3em 4.75em;
+    }
+}
 
 /* ==========================================================================
    GALLERY PAGE
@@ -918,7 +1060,18 @@ ul.dates li:first-child .date {
     object-fit: cover;
     height: 180px;
 }
-
+@media screen and (max-width: 990px) {
+    #gallery img.cover {
+        object-fit: cover;
+        height: 210px;
+    }
+}
+@media screen and (max-width: 768px) {
+    #gallery img.cover {
+        object-fit: cover;
+        height: 100%;
+    }
+}
 /* ==========================================================================
    BLOG PAGE
    ========================================================================== */
@@ -981,6 +1134,22 @@ ul.dates li:first-child .date {
     background: #009897;
     color: #fff;
 }
+@media screen and (max-width: 768px) {
+    #blog .container {
+        padding: 0 50px;
+    }
+    #blog h4 {
+        margin-top: 30px;
+    }
+    #blog a.blog-image {
+        height: 100%;
+        max-height: 100%;
+    }
+    #blog img.cover {
+        object-fit: cover;
+        height: auto;
+    }
+}
 
 /* ==========================================================================
    CONTACT PAGE
@@ -997,6 +1166,7 @@ ul.dates li:first-child .date {
 }
 #contact a {
     font-weight: 500;
+    font-family: 'Lato', sans-serif;
 }
 #contact a:hover {
     color: #00b7b4;
@@ -1006,6 +1176,11 @@ ul.dates li:first-child .date {
 }
 #contact-map #map iframe {
     margin-bottom: -5px;
+}
+@media screen and (max-width: 768px) {
+    #contact .container {
+        padding: 50px;
+    }
 }
 
 /* ==========================================================================

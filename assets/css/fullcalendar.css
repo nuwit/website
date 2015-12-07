@@ -180,6 +180,12 @@ NOTE: use percentage font sizes or else old IE chokes
 	white-space: nowrap;
 	cursor: pointer;
 }
+@media screen and (max-width: 370px) {
+	.fc button {
+		font-size: 12px;
+	}
+
+}
 
 /* Firefox has an annoying inner border */
 .fc button::-moz-focus-inner { margin: 0; padding: 0; }
@@ -696,6 +702,11 @@ a.fc-more:hover {
 	display: inline-block;
 }
 
+@media screen and (max-width: 572px) {
+	.fc-toolbar .fc-center {
+		margin-top: 20px;
+	}
+}
 /* the things within each left/right/center section */
 .fc .fc-toolbar > * > * { /* extra precedence to override button border margins */
 	float: left;
