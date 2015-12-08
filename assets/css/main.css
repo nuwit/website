@@ -1,6 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900);
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,300,700,900);
-html {
+html, body {
     padding: 0;
     margin: 0;
 
@@ -290,16 +290,32 @@ button:focus {
 }
 #headerwrap h1 {
     margin-top: 150px;
-    color: white;
+    color: #333;
     font-size: 70px;
     font-weight: 300;
     letter-spacing: 3px;
 }
 #headerwrap h2 {
-    color: #fff;
+    color: #333;
     font-size: 20px;
     font-weight: 700;
     letter-spacing: 2px;
+}
+#headerwrap .mobile-logo {
+    margin: 150px auto 0px;
+    width: 85%;
+    display: none;
+}
+#headerwrap .mobile-subtitle {
+    margin: 30px auto;
+    width: 100%;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 500;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 0.5px;
+    /* text-transform: uppercase; */
+    display: none;
 }
 .code-editor:before, .code-editor:after, .code-editor span.control:before, .code-editor span.after:after {
     box-sizing: border-box;
@@ -333,6 +349,14 @@ button:focus {
     -webkit-box-shadow: 1px 7px 50px 10px rgba(170,170,170,1);
     -moz-box-shadow: 1px 7px 50px 10px rgba(170,170,170,1);
     box-shadow: 1px 7px 50px 10px rgba(170,170,170,1);
+}
+@media screen and (max-width: 740px) {
+    #headerwrap .mobile-logo, #headerwrap .mobile-subtitle {
+        display: block;
+    }
+    .code-editor {
+        display: none;
+    }
 }
 .code-editor:before {
     content: 'nuWiT';
@@ -394,6 +418,9 @@ button:focus {
 }
 
 @media only screen and (max-width: 480px) {
+    #headerwrap .mobile-logo {
+        width: 100%;
+    }
     .code-editor {
         width: 330px;
     }
@@ -565,9 +592,10 @@ pre.line-numbers > code {
 }
 #mission p {
     max-width: 630px;
-    margin: 0 auto;
     font-size: 18px;
     line-height: 1.7;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
 /* ==========================================================================
@@ -581,6 +609,9 @@ pre.line-numbers > code {
     width: 60%;
     padding: 70px 0;
     margin: 0 auto;
+}
+#meetings .row {
+    margin: 0;
 }
 #meetings h2 {
     font-size: 40px;
@@ -1175,14 +1206,17 @@ ul.dates li:first-child .date {
     font-size: 20px;
     line-height: 28px;
     font-weight: 300;
-    margin-bottom: 10px;
+    margin: 30px auto;
 }
 #contact a {
     font-weight: 500;
     font-family: 'Lato', sans-serif;
+    padding: 5px 15px;
+    border: 2px solid #009897;
 }
 #contact a:hover {
-    color: #00b7b4;
+    color: #fff;
+    background: #009897;
 }
 #contact-map .container {
     width: 100%;
