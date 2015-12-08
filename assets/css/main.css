@@ -1194,6 +1194,66 @@ ul.dates li:first-child .date {
     }
 }
 
+#blog-banner .container {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+#blog-banner .row {
+    margin: 0;
+}
+#blog-banner .col-lg-12, #blog-banner .col-md-12, #blog-banner .col-sm-12 {
+    padding: 0;
+}
+#blog-banner img {
+    cursor: pointer;
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    height: auto;
+}
+#blog-banner img.cover {
+    object-fit: cover;
+    height: 400px;
+}
+
+/*#post .col-lg-6, #blog-banner .col-md-6, #blog-banner .col-sm-6 {
+    margin: 0 auto;
+}*/
+#post .post-content {
+    margin: 50px auto;
+    max-width: 700px;
+    width: 650px;
+}
+#post .post-content h1 {
+    font-weight: 700;
+}
+#post .post-content .author {
+    font-weight: 500;
+}
+#post .post-content p {
+    font-size: 18px;
+    letter-spacing: 0.3px;
+}
+
+@media screen and (max-width: 768px) {
+    #post .post-content {
+        width: 80%;
+    }
+}
+#backToBlog {
+    padding: 20px 0 15px;
+    background: #009897;
+}
+#backToBlog h3 {
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0;
+    font-weight: 500;
+}
+#backToBlog a {
+    width: 100%;
+}
 
 /* ==========================================================================
    CONTACT PAGE
