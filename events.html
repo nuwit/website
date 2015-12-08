@@ -12,12 +12,9 @@
 
     <link href="assets/css/bootstrap.css" rel="stylesheet">
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
-
     <link href="assets/css/main.css" rel="stylesheet">
-
     <link href='assets/css/fullcalendar.css' rel='stylesheet' />
     <link href='assets/css/fullcalendar.print.css' rel='stylesheet' media='print' />
-
 
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -163,15 +160,11 @@
 
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
-
     <script src='assets/js/jquery.min.js'></script>
     <script src='assets/js/moment.min.js'></script>
     <script src='assets/js/fullcalendar.min.js'></script>
-
     <script>
-
-    	$(document).ready(function() {
-
+    	$(function() {
     		$('#calendar').fullCalendar({
     			header: {
     				left: 'prev,next today',
@@ -179,7 +172,7 @@
     				right: 'month,basicWeek,basicDay'
     			},
     			defaultDate: '2015-12-12',
-    			editable: true,
+    			editable: false,
     			eventLimit: true, // allow "more" link when too many events
     			events: [
     				{
@@ -191,9 +184,9 @@
     					start: '2015-12-02'
     				},
     				{
-    					title: 'Long Event',
-    					start: '2015-12-07',
-    					end: '2015-12-10'
+    					title: 'Potluck',
+    					url: 'https://www.facebook.com/events/442061115989508/443189779209975/',
+    					start: '2015-12-07T19:00:00'
     				},
     				{
     					id: 999,
@@ -236,16 +229,20 @@
     					start: '2015-12-13T07:00:00'
     				},
     				{
-    					title: 'Click for Google',
-    					url: 'http://google.com/',
+    					title: 'Click for FB event',
+    					url: 'https://www.facebook.com/events/442061115989508/443189779209975/',
     					start: '2015-12-28'
     				}
-    			]
+    			],
+                eventClick: function(event) {
+                    if (event.url) {
+                        window.open(event.url);
+                        return false;
+                    }
+                }
     		});
-
     	});
-
     </script>
 
-  </body>
+</body>
 </html>

@@ -4,11 +4,11 @@ html {
     padding: 0;
     margin: 0;
 
-    perspective: 1px;
+    /*perspective: 1px;
     transform-style: preserve-3d;
     height: 100%;
     overflow-y: scroll;
-    overflow-x: hidden;
+    overflow-x: hidden;*/
 }
 body {
     background-color: #e0e0e0;
@@ -18,13 +18,14 @@ body {
     color: #555;
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
+
     /*margin-top: 65px;*/
 
-    perspective: 1px;
+    /*perspective: 1px;
     transform-style: preserve-3d;
     height: 100%;
     overflow-y: scroll;
-    overflow-x: hidden;
+    overflow-x: hidden;*/
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: "Raleway";
@@ -129,22 +130,12 @@ button:focus {
 #footer .container {
     width: 75%;
 }
-@media screen and (max-width: 480px) {
-    #footer .container {
-        width: 85%;
-    }
-}
 #footer h4 {
     color: #f0f0f0;
     text-align: left;
     font-size: 18px;
     font-weight: 500;
     text-transform: uppercase;
-}
-@media screen and (max-width: 768px) {
-    #footer h4 {
-        margin-top: 30px;
-    }
 }
 #footer p {
     color: #aaa;
@@ -190,7 +181,19 @@ button:focus {
     -webkit-filter: brightness(0) invert(0.7);
     filter: brightness(0) invert(0.7);
 }
+@media screen and (max-width: 768px) {
+    #footer h4 {
+        margin-top: 30px;
+    }
+    #footer i {
+        font-size: 28px;
+        padding: 10px 3px;
+    }
+}
 @media screen and (max-width: 480px) {
+    #footer .container {
+        width: 85%;
+    }
     #footer .ccis-logo {
         width: 90%;
     }
@@ -214,11 +217,11 @@ button:focus {
 }
 
 /* Blue Wrap */
-
 #blue {
     background: #009897;
     padding-top: 35px;
     padding-bottom: 35px;
+    margin-top: 65px;
 }
 #blue h2 {
     color: #fff;
@@ -241,26 +244,25 @@ button:focus {
 /* ==========================================================================
    HOME PAGE
    ========================================================================== */
-
 #headerwrap {
-    /*background-image: url(../img/gplaypattern_@2X.png);*/
+    background-image: url(../img/gplaypattern_@2X.png);
     /*background-size: cover;*/
     background-position: center;
     background-attachment: fixed;
     background-repeat: repeat;
-    /*background-color: #bdbdbd;*/
+    background-color: #bdbdbd;
     color: #333;
-    margin-top: 70px;
+    margin-top: 65px;
     padding-top: 40px;
     text-align: center;
     min-height: 700px;
     width: 100%;
 
-    position: relative;
+    /*position: relative;
     transform-style: inherit;
-    min-height: 100vh;
+    min-height: 100vh;*/
 }
-#headerwrap:before {
+/*#headerwrap:before {
     content: '';
     position: absolute;
     top: 0;
@@ -270,7 +272,7 @@ button:focus {
     background-image: url(../img/gplaypattern_@2X.png);
     transform: translateZ(-1px) scale(2);
     z-index: -1;
-}
+}*/
 #headerwrap img {
     width: 30px;
     height: auto;
@@ -409,10 +411,10 @@ button:focus {
 }
 
 /**
-		 * prism.js tomorrow night eighties for JavaScript, CoffeeScript, CSS and HTML
-		 * Based on https://github.com/chriskempson/tomorrow-theme
-		 * @author Rose Pritchard
-		 */
+ * prism.js tomorrow night eighties for JavaScript, CoffeeScript, CSS and HTML
+ * Based on https://github.com/chriskempson/tomorrow-theme
+ * @author Rose Pritchard
+ */
 
 code[class*="language-"], pre[class*="language-"] {
     color: #ccc;
@@ -535,7 +537,6 @@ pre.line-numbers > code {
 /* ==========================================================================
    MISSION
    ========================================================================== */
-
 #mission {
     background: #e0e0e0;
     width: 100%;
@@ -570,9 +571,8 @@ pre.line-numbers > code {
 }
 
 /* ==========================================================================
-   JOIN US
+   MEETINGS
    ========================================================================== */
-
 #meetings {
     background: #f0f0f0;
     width: 100%;
@@ -642,12 +642,9 @@ pre.line-numbers > code {
 
 
 
-
-
 /* ==========================================================================
    OFFICERS PAGE
    ========================================================================== */
-
 .leadership h1, .leadership h3 {
     color: #ddd;
     text-transform: uppercase;
@@ -679,7 +676,6 @@ pre.line-numbers > code {
     transition: all .2s ease-in-out;
 }
 .officers .officer {
-    /*border: 1px solid #ccc;*/
     cursor: pointer;
 }
 .officers .officer-avatar {
@@ -823,7 +819,6 @@ pre.line-numbers > code {
 /* ==========================================================================
    EMAIL SUBSCRIPTION BOX
    ========================================================================== */
-
 #subscribe {
     background: #009897;
     padding-top: 20px;
@@ -949,12 +944,9 @@ pre.line-numbers > code {
 
 
 
-
-
 /* ==========================================================================
-   CALENDAR
+   EVENTS CALENDAR
    ========================================================================== */
-
 #event-calendar {
     background: #f0f0f0;
 }
@@ -1051,10 +1043,10 @@ ul.dates li:first-child .date {
     }
 }
 
+
 /* ==========================================================================
    GALLERY PAGE
    ========================================================================== */
-
 #gallery .container {
     padding: 0 0 50px;
     width: 80%;
@@ -1083,12 +1075,15 @@ ul.dates li:first-child .date {
         height: 210px;
     }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     #gallery img.cover {
         object-fit: cover;
         height: 100%;
+        margin: 15px auto;
     }
 }
+
+
 /* ==========================================================================
    BLOG PAGE
    ========================================================================== */
@@ -1168,6 +1163,7 @@ ul.dates li:first-child .date {
     }
 }
 
+
 /* ==========================================================================
    CONTACT PAGE
    ========================================================================== */
@@ -1199,87 +1195,6 @@ ul.dates li:first-child .date {
         padding: 50px;
     }
 }
-
-/* ==========================================================================
-   Pricing Tables
-   ========================================================================== */
-
-
-/*.pricing-option {
-    padding-bottom: 40px;
+.scrolloff {
+    pointer-events: none;
 }
-.pricing-option .pricing-top {
-    position: relative;
-    background: #222;
-    color: white;
-    text-align: center;
-    font-weight: bold;
-    padding: 40px 20px 30px 20px;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-.pricing-option .pricing-top .special-label {
-    display: block;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background: #1abc9c;
-    text-transform: uppercase;
-    font-size: 15px;
-    font-weight: bold;
-    padding: 3px 0;
-}
-.special .pricing-top {
-    background: black;
-}
-.pricing-option .pricing-edition {
-    text-transform: uppercase;
-    display: block;
-    font-size: 25px;
-    letter-spacing: 8px;
-}
-.pricing-option .price {
-    display: inline-block;
-    position: relative;
-}
-.pricing-option .price sup {
-    position: absolute;
-    top: 50px;
-    left: -10px;
-    font-size: 24px;
-}
-.pricing-option .price .price-amount {
-    font-size: 108px;
-    letter-spacing: -4px;
-}
-.pricing-option .price small {
-    position: relative;
-    left: -10px;
-    font-size: 18px;
-}
-.pricing-option ul {
-    list-style: none;
-    margin: 0;
-    background: #eee;
-    text-align: center;
-    padding-left: 0px;
-}
-.pricing-option ul li {
-    border-bottom: solid 1px #e1e1e1;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-.pricing-option .pricing-signup {
-    display: block;
-    text-align: center;
-    font-size: 18px;
-    font-weight: bold;
-    padding: 15px 10px;
-    color: white;
-    background: #1abc9c;
-}
-.pricing-option .pricing-signup:hover {
-    background: #009897;
-}*/

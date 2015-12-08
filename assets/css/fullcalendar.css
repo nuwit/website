@@ -657,6 +657,7 @@ a.fc-more {
 	font-size: .85em;
 	cursor: pointer;
 	text-decoration: none;
+	font-weight: 500;
 }
 
 a.fc-more:hover {
@@ -1085,4 +1086,7 @@ be a descendant of the grid when it is being dragged.
 
 #calendar button {
 	border-radius: 0 !important;
+}
+.fc-event:focus {
+	color: #aaa;
 }
