@@ -1233,7 +1233,13 @@ ul.dates li:first-child .date {
 }
 #post .post-content p {
     font-size: 18px;
-    letter-spacing: 0.3px;
+}
+
+#post .post-content li {
+    font-size: 20px;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 10px;
 }
 
 @media screen and (max-width: 768px) {
