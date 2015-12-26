@@ -158,6 +158,9 @@ button:focus {
     font-size: 30px;
     padding: 10px;
 }
+#footer i.fa-facebook-official {
+    padding-left: 3px;
+}
 #footer i.fa-heart {
     font-size: 16px;
     padding: 0 10px 5px;
@@ -229,11 +232,11 @@ button:focus {
     text-transform: uppercase;
 }
 #blue h4 {
-    color: white;
+    color: #fff;
     font-weight: 700;
 }
 #blue p {
-    color: white;
+    color: #fff;
 }
 @media screen and (max-width: 768px) {
     #blue h2 {
@@ -337,7 +340,7 @@ button:focus {
     -webkit-box-sizing: border-box;
     margin: 40px auto 0 auto;
     width: 750px;
-    height: 400px;
+    height: 390px;
     text-align: left;
     background-color: #030f1e;
     border-radius: 0 0 5px 5px;
@@ -516,11 +519,11 @@ pre[class*="language-"] {
 pre.line-numbers {
     position: relative;
     counter-reset: linenumber;
-    padding-top: 0.65em;
+    padding-top: 5px;
     padding-left: 1.8em;
     padding-bottom: 1px;
     font-size: 17px;
-    height: 400px;
+    height: 390px;
 }
 pre.line-numbers > code {
     position: relative;
@@ -528,6 +531,7 @@ pre.line-numbers > code {
 .line-numbers .line-numbers-rows {
     position: absolute;
     pointer-events: none;
+    padding-top: 20px;
     top: 0;
     font-size: 100%;
     left: -13em;
@@ -606,7 +610,7 @@ pre.line-numbers > code {
     width: 100%;
 }
 #meetings .container {
-    width: 60%;
+    width: 70%;
     padding: 70px 0;
     margin: 0 auto;
 }
@@ -618,13 +622,14 @@ pre.line-numbers > code {
 }
 #meetings h4 {
     font-family: 'Lato', sans-serif;
+    font-size: 20px;
 }
 #meetings p {
     display: inline;
 }
 #meetings i {
     color: #009897;
-    font-size: 50px;
+    font-size: 40px;
     margin: 0 20px;
     vertical-align: middle;
 }
@@ -646,6 +651,7 @@ pre.line-numbers > code {
 @media screen and (max-width: 768px) {
     #meetings h4 {
         margin: 20px auto;
+        margin-left: -30px;
     }
     #meetings i.fa {
         font-size: 40px;
@@ -741,7 +747,7 @@ pre.line-numbers > code {
 }
 .modal-header {
     background: #f2f2f2;
-    color: white;
+    color: #fff;
     border: none;
     padding: 5px;
 }
@@ -859,12 +865,12 @@ pre.line-numbers > code {
     width: 100%;
 }
 #subscribe h4 {
-    color: white;
+    color: #fff;
     font-weight: 500;
     font-size: 30px;
 }
 #subscribe p {
-    color: white;
+    color: #fff;
     margin-bottom: 0;
     font-size: 20px;
 }
@@ -896,7 +902,7 @@ pre.line-numbers > code {
 #mc_embed_signup label {
     display: block;
     text-transform: uppercase;
-    color: white;
+    color: #fff;
     font-family: 'lato';
     font-size: 0.9em;
     letter-spacing: 2px;
@@ -1078,6 +1084,9 @@ ul.dates li:first-child .date {
 /* ==========================================================================
    GALLERY PAGE
    ========================================================================== */
+#gallery {
+    height: 350px; /* just until pictures get put up */
+}
 #gallery .container {
     padding: 0 0 50px;
     width: 80%;
@@ -1156,7 +1165,6 @@ ul.dates li:first-child .date {
     max-height: 250px;
 }
 #blog img {
-    cursor: pointer;
     width: 100%;
     max-width: 100%;
     min-width: 100%;
@@ -1214,7 +1222,7 @@ ul.dates li:first-child .date {
 }
 #blog-banner img.cover {
     object-fit: cover;
-    height: 400px;
+    height: 250px;
 }
 
 /*#post .col-lg-6, #blog-banner .col-md-6, #blog-banner .col-sm-6 {
@@ -1228,13 +1236,18 @@ ul.dates li:first-child .date {
 #post .post-content h1 {
     font-weight: 700;
 }
+#post .post-content h2 {
+    line-height: 1.5;
+}
+#post .post-content i.fa-tag {
+    color: #555;
+}
 #post .post-content .author {
     font-weight: 500;
 }
 #post .post-content p {
     font-size: 18px;
 }
-
 #post .post-content li {
     font-size: 20px;
     font-weight: 500;
@@ -1277,7 +1290,7 @@ ul.dates li:first-child .date {
 #contact a {
     font-weight: 500;
     font-family: 'Lato', sans-serif;
-    padding: 5px 15px;
+    padding: 5px 15px 7px;
     border: 2px solid #009897;
 }
 #contact a:hover {

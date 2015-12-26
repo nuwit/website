@@ -7,14 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="assets/ico/favicon.png">
+    <link rel="shortcut icon" href="img/favicon.png">
 
     <title>nuWiT | Gallery</title>
 
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
-    <link href="assets/css/main.css" rel="stylesheet">
-    <link href="assets/css/magnific-popup.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/magnific-popup.css" rel="stylesheet">
 
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -35,7 +35,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="index.html">
-                    <img src="assets/img/logo.png" />
+                    <img src="img/logo.png" />
                 </a>
             </div>
             <div class="navbar-collapse collapse">
@@ -55,7 +55,7 @@
         <div class="container">
             <div class="row centered">
                 <div class="col-lg-8 col-lg-offset-2">
-                    <h2>Photos!</h2>
+                    <h2>Photos</h2>
                 </div>
             </div>
         </div>
@@ -67,7 +67,7 @@
             <div class="row centered">
                 <br>
                 <br>
-                <div class="col-lg-3 col-md-4 col-sm-6">
+                <!-- <div class="col-lg-3 col-md-4 col-sm-6">
                     <a class="gallery-item" href="http://www.petproductnews.com/puppies.jpeg">
                         <img class="cover" src="http://www.petproductnews.com/puppies.jpeg">
                     </a>
@@ -113,7 +113,7 @@
                     <a class="gallery-item" href="http://omgcutethings.com/wp-content/uploads/2013/05/puppies-feat-05122013.jpg">
                         <img class="cover" src="http://omgcutethings.com/wp-content/uploads/2013/05/puppies-feat-05122013.jpg">
                     </a>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
@@ -125,15 +125,19 @@
                 <br>
                 <div class="col-lg-5 col-md-5 col-sm-5">
                     <h4>Made with<i class="fa fa-heart"></i>at</h4>
-                    <p><img class="ccis-logo" src="assets/img/ccis-logo.png"></p>
-                    <p class="copyright">&copy; NUWIT 2015</p>
+                    <p>
+                        <a href="http://www.ccs.neu.edu/" target="blank">
+                            <img class="ccis-logo" src="img/ccis-logo.png">
+                        </a>
+                    </p>
+                    <p class="copyright">&copy; nuWiT 2015</p>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-4">
                     <h4>Upcoming events</h4>
                     <ul>
-                        <li><a href="#">Event</a></li>
-                        <li><a href="#">Event</a></li>
-                        <li><a href="#">Event</a></li>
+                        <li><a href="#">TBD</a></li>
+                        <!-- <li><a href="#">TBD</a></li>
+                        <li><a href="#">TBD</a></li> -->
                     </ul>
                 </div>
                 <div class="col-lg-3 col-md-3 col-sm-3">
@@ -141,7 +145,7 @@
                     <!-- <a href="#" target="_blank"><i class="fa fa-envelope"></i></a> -->
                     <a href="https://www.facebook.com/groups/nucisters/" target="_blank"><i class="fa fa-facebook-official"></i></a>
                     <a href="https://twitter.com/nuWomenInTech" target="_blank"><i class="fa fa-twitter"></i></a>
-                    <a href="#" target="_blank"><i class="fa fa-instagram"></i></a>
+                    <!-- <a href="#" target="_blank"><i class="fa fa-instagram"></i></a> -->
                     <!-- <a href="#" target="_blank"><i class="fa fa-medium"></i></a> -->
                 </div>
             </div>
@@ -151,10 +155,10 @@
 
 
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
     <script>
-        $(function () {
+        $(function() {
             $('.gallery-item').magnificPopup({
                 type: 'image',
                 gallery: {
