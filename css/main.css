@@ -878,10 +878,10 @@ pre.line-numbers > code {
     margin-bottom: 0;
     font-size: 20px;
 }
-#mc_embed_signup, #mc_embed_signup * {
+#signup, #signup * {
     box-sizing: border-box;
 }
-#mc_embed_signup {
+#signup {
     width: 100%;
     background-color: #009897;
     text-align: center;
@@ -891,7 +891,7 @@ pre.line-numbers > code {
     display: block;
     /*background: url('../bg.png');*/
 }
-#mc_embed_signup label, #mc_embed_signup .email, #mc_embed_signup button {
+#signup label, #signup .email, #signup button {
     border: none;
     display: inline;
     padding: 0 0.5em;
@@ -903,7 +903,7 @@ pre.line-numbers > code {
     font-family: 'lato';
     font-weight: normal;
 }
-#mc_embed_signup label {
+#signup label {
     display: block;
     text-transform: uppercase;
     color: #fff;
@@ -911,16 +911,16 @@ pre.line-numbers > code {
     font-size: 0.9em;
     letter-spacing: 2px;
 }
-#mc_embed_signup .email, #mc_embed_signup button, #mc_embed_signup .info {
+#signup .email, #signup button, #signup .info {
     font-family: "lato";
 }
-#mc_embed_signup .email {
+#signup .email {
     width: 60%;
 }
-#mc_embed_signup input:focus {
+#signup input:focus {
     outline: 1px solid rgba(0, 0, 0, 0.2);
 }
-#mc_embed_signup button {
+#signup button {
     border: none;
     font-weight: normal;
     color: #ffffff;
@@ -933,37 +933,37 @@ pre.line-numbers > code {
     cursor: pointer;
     letter-spacing: 2px;
 }
-#mc_embed_signup button:hover {
+#signup button:hover {
     background: #fff;
     color: #009897;
 }
 @media screen and (max-width: 480px) {
-    #mc_embed_signup .email {
+    #signup .email {
         width: 95%;
     }
-    #mc_embed_signup button {
+    #signup button {
         width: 95%;
         margin-left: 0;
     }
 }
 @media only screen and (min-width: 600px) {
-    #mc_embed_signup label, #mc_embed_signup .email, #mc_embed_signup button {
+    #signup label, #signup .email, #signup button {
         min-height: 2.2em;
     }
-    #mc_embed_signup {
+    #signup {
         padding: 1.85em 1em;
     }
 }
 @media only screen and (min-width: 800px) {
-    #mc_embed_signup label {
+    #signup label {
         display: inline;
         /*width: 30%;*/
         width: 10em;
     }
-    #mc_embed_signup .email {
+    #signup .email {
         width: 13em;
     }
-    #mc_embed_signup button {
+    #signup button {
         font-size: 1em;
         width: 9em;
         font-weight: 400;
@@ -971,14 +971,14 @@ pre.line-numbers > code {
     }
 }
 @media only screen and (min-width: 1026px) {
-    #mc_embed_signup label {
+    #signup label {
         width: 15em;
     }
-    #mc_embed_signup .email {
+    #signup .email {
         margin-left: 0.55em;
         width: 20.5em;
     }
-    #mc_embed_signup button {
+    #signup button {
         margin-left: 0.5em;
     }
 }
