@@ -3,7 +3,6 @@
 html, body {
     padding: 0;
     margin: 0;
-
     /*perspective: 1px;
     transform-style: preserve-3d;
     height: 100%;
@@ -18,9 +17,7 @@ body {
     color: #555;
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
-
     /*margin-top: 65px;*/
-
     /*perspective: 1px;
     transform-style: preserve-3d;
     height: 100%;
@@ -98,7 +95,7 @@ button:focus {
     background: #009897;
 }
 .navbar-inverse .navbar-nav > .active > a:hover {
-    background: #007f7d;
+    background: #00b7b4;
 }
 .navbar-inverse .navbar-brand {
     color: #999999;
@@ -188,10 +185,6 @@ button:focus {
     #footer h4 {
         margin-top: 30px;
     }
-    #footer i {
-        font-size: 28px;
-        padding: 10px 3px;
-    }
 }
 @media screen and (max-width: 480px) {
     #footer .container {
@@ -202,24 +195,8 @@ button:focus {
     }
 }
 
-/*TILT*/
-
-.tilt {
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
-    -ms-transition: all 0.5s ease;
-    transition: all 0.5s ease;
-}
-.tilt:hover {
-    -webkit-transform: rotate(-10deg);
-    -moz-transform: rotate(-10deg);
-    -o-transform: rotate(-10deg);
-    -ms-transform: rotate(-10deg);
-    transform: rotate(-10deg);
-}
-
 /* Blue Wrap */
+
 #blue {
     background: #009897;
     padding-top: 35px;
@@ -247,6 +224,7 @@ button:focus {
 /* ==========================================================================
    HOME PAGE
    ========================================================================== */
+
 #headerwrap {
     background-image: url(../img/gplaypattern_@2X.png);
     /*background-size: cover;*/
@@ -260,11 +238,11 @@ button:focus {
     text-align: center;
     min-height: 700px;
     width: 100%;
-
     /*position: relative;
     transform-style: inherit;
     min-height: 100vh;*/
 }
+
 /*#headerwrap:before {
     content: '';
     position: absolute;
@@ -276,12 +254,13 @@ button:focus {
     transform: translateZ(-1px) scale(2);
     z-index: -1;
 }*/
+
 #headerwrap img {
     width: 30px;
     height: auto;
     margin-top: 50px;
 }
-#headerwrap img:hover {
+#headerwrap #scroll-down:hover {
     opacity: .7;
 }
 #headerwrap .fa-chevron-down {
@@ -347,9 +326,9 @@ button:focus {
     -moz-transition: all .5s ease-in-out;
     -o-transition: all .5s ease-in-out;
     transition: all .5s ease-in-out;
-    -webkit-box-shadow: 1px 7px 50px 10px rgba(170,170,170,1);
-    -moz-box-shadow: 1px 7px 50px 10px rgba(170,170,170,1);
-    box-shadow: 1px 7px 50px 10px rgba(170,170,170,1);
+    -webkit-box-shadow: 1px 7px 50px 10px rgba(170, 170, 170, 1);
+    -moz-box-shadow: 1px 7px 50px 10px rgba(170, 170, 170, 1);
+    box-shadow: 1px 7px 50px 10px rgba(170, 170, 170, 1);
 }
 @media screen and (max-width: 700px) {
     #headerwrap .mobile-logo, #headerwrap .mobile-subtitle {
@@ -398,7 +377,6 @@ button:focus {
     margin-left: 55px;
     background-color: #97c38a;
 }
-
 @media only screen and (max-width: 1200px) {
     .code-editor:before {
         top: -15px;
@@ -407,7 +385,6 @@ button:focus {
         top: -5px;
     }
 }
-
 @media only screen and (max-width: 768px) {
     .code-editor {
         width: 90%;
@@ -417,7 +394,6 @@ button:focus {
         width: 86.4%;
     }
 }
-
 @media only screen and (max-width: 480px) {
     #headerwrap .mobile-logo {
         width: 100%;
@@ -437,13 +413,6 @@ button:focus {
         width: 290px;
     }
 }
-
-/**
- * prism.js tomorrow night eighties for JavaScript, CoffeeScript, CSS and HTML
- * Based on https://github.com/chriskempson/tomorrow-theme
- * @author Rose Pritchard
- */
-
 code[class*="language-"], pre[class*="language-"] {
     color: #ccc;
     font-family: Consolas, Monaco, 'Andale Mono', monospace;
@@ -554,7 +523,6 @@ pre.line-numbers > code {
     padding-right: 0.8em;
     text-align: right;
 }
-
 @media screen and (max-width: 768px) {
     pre.line-numbers {
         font-size: 15px;
@@ -562,10 +530,10 @@ pre.line-numbers > code {
     }
 }
 
-
 /* ==========================================================================
    MISSION
    ========================================================================== */
+
 #mission {
     background: #e0e0e0;
     width: 100%;
@@ -603,6 +571,7 @@ pre.line-numbers > code {
 /* ==========================================================================
    MEETINGS
    ========================================================================== */
+
 #meetings {
     background: #f0f0f0;
     width: 100%;
@@ -675,11 +644,10 @@ pre.line-numbers > code {
     }
 }
 
-
-
 /* ==========================================================================
    OFFICERS PAGE
    ========================================================================== */
+
 .leadership h1, .leadership h3 {
     color: #ddd;
     text-transform: uppercase;
@@ -701,9 +669,11 @@ pre.line-numbers > code {
 .officers i:hover {
     color: #009897;
 }
+
 /*.officers .fa-github {
     font-size: 22px;
 }*/
+
 .officers .img-circle {
     margin: 30px 20px 10px;
     width: 125px;
@@ -732,6 +702,7 @@ pre.line-numbers > code {
 }
 
 /***** OFFICER MODALS *****/
+
 .modal-dialog {
     width: 700px;
     padding-top: 70px;
@@ -856,10 +827,10 @@ pre.line-numbers > code {
     }
 }
 
-
 /* ==========================================================================
    EMAIL SUBSCRIPTION BOX
    ========================================================================== */
+
 #subscribe {
     background: #009897;
     padding-top: 20px;
@@ -889,7 +860,6 @@ pre.line-numbers > code {
     margin: 0 auto;
     font-size: 20px;
     display: block;
-    /*background: url('../bg.png');*/
 }
 #signup label, #signup .email, #signup button {
     border: none;
@@ -983,11 +953,10 @@ pre.line-numbers > code {
     }
 }
 
-
-
 /* ==========================================================================
    EVENTS CALENDAR
    ========================================================================== */
+
 #event-calendar {
     background: #f0f0f0;
 }
@@ -1084,12 +1053,13 @@ ul.dates li:first-child .date {
     }
 }
 
-
 /* ==========================================================================
    GALLERY PAGE
    ========================================================================== */
+
 #gallery {
-    height: 350px; /* just until pictures get put up */
+    height: 350px;
+    /* just until pictures get put up */
 }
 #gallery .container {
     padding: 0 0 50px;
@@ -1127,10 +1097,10 @@ ul.dates li:first-child .date {
     }
 }
 
-
 /* ==========================================================================
    BLOG PAGE
    ========================================================================== */
+
 #blog {
     padding-bottom: 50px;
 }
@@ -1205,7 +1175,6 @@ ul.dates li:first-child .date {
         height: auto;
     }
 }
-
 #blog-banner .container {
     width: 100%;
     margin: 0;
@@ -1228,10 +1197,6 @@ ul.dates li:first-child .date {
     object-fit: cover;
     height: 250px;
 }
-
-/*#post .col-lg-6, #blog-banner .col-md-6, #blog-banner .col-sm-6 {
-    margin: 0 auto;
-}*/
 #post .post-content {
     margin: 50px auto;
     max-width: 700px;
@@ -1261,7 +1226,6 @@ ul.dates li:first-child .date {
     color: #333;
     margin-bottom: 10px;
 }
-
 @media screen and (max-width: 768px) {
     #post .post-content {
         width: 80%;
