@@ -281,10 +281,8 @@ button:focus {
     height: auto;
     margin-top: 50px;
 }
-#headerwrap img#mouse {
-    width: 30px;
-    height: auto;
-    margin-top: 60px;
+#headerwrap img:hover {
+    opacity: .7;
 }
 #headerwrap .fa-chevron-down {
     margin-top: 50px;
@@ -353,7 +351,7 @@ button:focus {
     -moz-box-shadow: 1px 7px 50px 10px rgba(170,170,170,1);
     box-shadow: 1px 7px 50px 10px rgba(170,170,170,1);
 }
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 700px) {
     #headerwrap .mobile-logo, #headerwrap .mobile-subtitle {
         display: block;
     }
@@ -413,7 +411,7 @@ button:focus {
 @media only screen and (max-width: 768px) {
     .code-editor {
         width: 90%;
-        height: 350px;
+        height: 345px;
     }
     .code-editor:before {
         width: 86.4%;
@@ -560,7 +558,7 @@ pre.line-numbers > code {
 @media screen and (max-width: 768px) {
     pre.line-numbers {
         font-size: 15px;
-        height: 350px;
+        height: 345px;
     }
 }
 
@@ -809,12 +807,10 @@ pre.line-numbers > code {
 }
 .modal-body .modal-links a {
     margin: 0 3px;
-    font-size: 19px;
+    font-size: 22px;
     color: #777;
 }
 .modal-body .modal-links a:hover {
-    margin: 0 3px;
-    font-size: 19px;
     color: #009897;
 }
 .modal-footer {
@@ -827,7 +823,12 @@ pre.line-numbers > code {
         padding: 5%;
     }
     .modal-body {
-        padding: 0;
+        padding: 10px;
+    }
+}
+@media screen and (max-width: 545px) {
+    .modal-body {
+        padding-top: 50px;
     }
 }
 @media screen and (max-width: 517px) {
@@ -844,6 +845,9 @@ pre.line-numbers > code {
 @media screen and (max-width: 440px) {
     .modal-body .img-circle {
         margin-top: 0;
+    }
+    .modal-body {
+        padding: 10px;
     }
 }
 @media screen and (max-width: 360px) {
@@ -887,7 +891,7 @@ pre.line-numbers > code {
     display: block;
     /*background: url('../bg.png');*/
 }
-#mc_embed_signup label, #mc_embed_signup #mce-EMAIL, #mc_embed_signup button {
+#mc_embed_signup label, #mc_embed_signup .email, #mc_embed_signup button {
     border: none;
     display: inline;
     padding: 0 0.5em;
@@ -907,10 +911,10 @@ pre.line-numbers > code {
     font-size: 0.9em;
     letter-spacing: 2px;
 }
-#mc_embed_signup #mce-EMAIL, #mc_embed_signup button, #mc_embed_signup .info {
+#mc_embed_signup .email, #mc_embed_signup button, #mc_embed_signup .info {
     font-family: "lato";
 }
-#mc_embed_signup #mce-EMAIL {
+#mc_embed_signup .email {
     width: 60%;
 }
 #mc_embed_signup input:focus {
@@ -934,7 +938,7 @@ pre.line-numbers > code {
     color: #009897;
 }
 @media screen and (max-width: 480px) {
-    #mc_embed_signup #mce-EMAIL {
+    #mc_embed_signup .email {
         width: 95%;
     }
     #mc_embed_signup button {
@@ -943,7 +947,7 @@ pre.line-numbers > code {
     }
 }
 @media only screen and (min-width: 600px) {
-    #mc_embed_signup label, #mc_embed_signup #mce-EMAIL, #mc_embed_signup button {
+    #mc_embed_signup label, #mc_embed_signup .email, #mc_embed_signup button {
         min-height: 2.2em;
     }
     #mc_embed_signup {
@@ -956,7 +960,7 @@ pre.line-numbers > code {
         /*width: 30%;*/
         width: 10em;
     }
-    #mc_embed_signup #mce-EMAIL {
+    #mc_embed_signup .email {
         width: 13em;
     }
     #mc_embed_signup button {
@@ -970,7 +974,7 @@ pre.line-numbers > code {
     #mc_embed_signup label {
         width: 15em;
     }
-    #mc_embed_signup #mce-EMAIL {
+    #mc_embed_signup .email {
         margin-left: 0.55em;
         width: 20.5em;
     }
@@ -1232,6 +1236,9 @@ ul.dates li:first-child .date {
     margin: 50px auto;
     max-width: 700px;
     width: 650px;
+}
+#post .post-content a {
+    font-weight: 500;
 }
 #post .post-content h1 {
     font-weight: 700;
