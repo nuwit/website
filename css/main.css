@@ -682,6 +682,7 @@ pre.line-numbers > code {
 }
 .officers .officer {
     cursor: pointer;
+    height: 280px;
 }
 .officers .officer-avatar {
     overflow: hidden;
