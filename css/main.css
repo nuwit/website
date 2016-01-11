@@ -679,6 +679,7 @@ pre.line-numbers > code {
     width: 125px;
     height: 125px;
     transition: all .2s ease-in-out;
+    object-fit: cover;
 }
 .officers .officer {
     cursor: pointer;
@@ -766,6 +767,7 @@ pre.line-numbers > code {
     margin-bottom: 10px;
     width: 100px;
     height: 100px;
+    object-fit: cover;
 }
 .modal-body .officer-title {
     display: inline-block;

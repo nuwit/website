@@ -1088,5 +1088,5 @@ be a descendant of the grid when it is being dragged.
 	border-radius: 0 !important;
 }
 .fc-event:focus {
-	color: #aaa;
+	color: #eee;
 }
