@@ -980,6 +980,9 @@ ul.dates h3 a:hover {
 ul.dates p {
     line-height: 24px;
 }
+ul.dates a {
+    font-weight: 500;
+}
 ul.dates .event-date {
     font-weight: 700;
     color: #666;
