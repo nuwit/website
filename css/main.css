@@ -296,7 +296,7 @@ button:focus {
     position: absolute;
     z-index: 1;
     -webkit-transition: all .5s ease-in-out;
-    -moz-transition: wall .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
     -o-transition: all .5s ease-in-out;
     transition: all .5s ease-in-out;
 }
@@ -863,7 +863,7 @@ pre.line-numbers > code {
     width: 100%;
     margin: 0;
     min-height: 2em;
-    font-family: 'lato';
+    font-family: 'lato', sans-serif;
     font-weight: normal;
 }
 #signup label {
@@ -875,7 +875,7 @@ pre.line-numbers > code {
     letter-spacing: 2px;
 }
 #signup .email, #signup button, #signup .info {
-    font-family: "lato";
+    font-family: "lato", sans-serif;
 }
 #signup .email {
     width: 60%;
@@ -1054,7 +1054,7 @@ ul.dates li:first-child .date {
    ========================================================================== */
 
 #gallery {
-    
+
 }
 #gallery .container {
     padding: 0 0 50px;
