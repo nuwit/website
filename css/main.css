@@ -1203,8 +1203,9 @@ ul.dates li:first-child .date {
 #post .post-content h1 {
     font-weight: 700;
 }
-#post .post-content h2 {
+#post .post-content h2, #post .post-content h3 {
     line-height: 1.5;
+    font-weight: 700;
 }
 #post .post-content i.fa-tag {
     color: #555;
@@ -1217,7 +1218,7 @@ ul.dates li:first-child .date {
 }
 #post .post-content li {
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 300;
     color: #333;
     margin-bottom: 10px;
 }
