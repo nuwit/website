@@ -502,7 +502,8 @@ temporary rendered events).
 --------------------------------------------------------------------------------------------------*/
 
 .fc-scroller { /* this class goes on elements for guaranteed vertical scrollbars */
-	overflow-y: scroll;
+	/*overflow-y: scroll;*/
+	overflow-y: hidden !important;
 	overflow-x: hidden;
 }
 
@@ -783,6 +784,11 @@ a.fc-more:hover {
 
 .fc-basic-view .fc-body .fc-row {
 	min-height: 4em; /* ensure that all rows are at least this tall */
+}
+@media screen and (max-width: 600px) {
+	.fc-basic-view .fc-body .fc-row {
+		max-height: 4em;
+	}
 }
 
 /* a "rigid" row will take up a constant amount of height because content-skeleton is absolute */
