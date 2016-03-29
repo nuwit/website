@@ -154,6 +154,10 @@ button:focus {
     color: #bdbdbd;
     font-size: 30px;
     padding: 10px;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
 }
 #footer i.fa-facebook-official {
     padding-left: 3px;
@@ -895,6 +899,10 @@ pre.line-numbers > code {
     margin-left: -5px;
     cursor: pointer;
     letter-spacing: 2px;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
 }
 #signup button:hover {
     background: #fff;
