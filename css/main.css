@@ -311,7 +311,7 @@ button:focus {
     -webkit-box-sizing: border-box;
     margin: 40px auto 0 auto;
     width: 750px;
-    height: 390px;
+    height: 375px;
     text-align: left;
     background-color: #030f1e;
     border-radius: 0 0 5px 5px;
@@ -334,8 +334,9 @@ button:focus {
 }
 .code-editor:before {
     content: '/Users/nuWiT/website';
-    font-family: 'Consolas';
-    color: #eee;
+    font-family: Consolas, Monaco, 'Andale Mono', monospace;
+    font-size: 14px;
+    color: #ccc;
     padding-top: 6px;
     text-align: center;
     top: 25px;
@@ -481,18 +482,25 @@ pre.line-numbers {
     position: relative;
     counter-reset: linenumber;
     padding-top: 5px;
-    padding-left: 1.8em;
+    padding-left: 1em;
     padding-bottom: 1px;
-    font-size: 18px;
-    height: 390px;
+    font-size: 16px;
+    height: 375px;
 }
 pre.line-numbers > code {
     position: relative;
+}
+.line-numbers > code > span.token.selector,
+.line-numbers > code > span.token.comment,
+.line-numbers > code > span.token:last-of-type {
+    /*margin-left: 20px;*/
 }
 .line-numbers .line-numbers-rows {
     position: absolute;
     pointer-events: none;
     padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0;
     top: 0;
     font-size: 100%;
     left: -13em;
