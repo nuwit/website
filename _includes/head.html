@@ -1,0 +1,29 @@
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<title>{{ site.title }} {% if page.title %}| {{ page.title }}{% endif %}</title>
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="shortcut icon" href="{{ site.baseurl }}/img/favicon.png" />
+
+<meta name="keywords" content="nuWiT, Northeastern University, Women in Tech, Women, Technology, CCIS, Computer Science, Information Science" />
+<meta name="author" content="nuWiT" />
+<meta name="description" content="We are an on campus community that supports women that are interested in computer and information science and all things tech." />
+<meta property="og:description" content="We are an on campus community that supports women that are interested in computer and information science and all things tech." />
+<meta property="og:image" content="http://nuwit.ccs.neu.edu/img/og.jpg" />
+<meta property="og:image:type" content="image/jpg" />
+<meta property="og:title" content="nuWiT | Northeastern University Women in Technology" />
+<meta property="og:url" content="http://nuwit.ccs.neu.edu/" />
+<meta property="og:type" content="website" />
+
+<!-- CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+{% if page.title == "Events" %}
+<link href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.0.1/fullcalendar.min.css" rel="stylesheet" />
+<link href="http://cdn.jsdelivr.net/qtip2/2.2.1/jquery.qtip.min.css" rel="stylesheet" />
+{% endif %}
+{% if page.title == "Gallery" %}
+<link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" rel="stylesheet" />
+{% endif %}
+<link href="http://cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="{{ site.baseurl }}/css/main.css" />

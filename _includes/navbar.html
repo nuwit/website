@@ -1,0 +1,25 @@
+<!-- Fixed navbar -->
+<div class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="{{ site.baseurl }}/">
+        <img src="{{ site.baseurl }}/img/assets/logo.png" />
+      </a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li {% if page.title == "Home" %}class="active"{% endif %}><a href="{{ site.baseurl }}/">Home</a></li>
+        <li {% if page.title == "Officers" %}class="active"{% endif %}><a href="{{ site.baseurl }}/officers">Officers</a></li>
+        <li {% if page.title == "Events" %}class="active"{% endif %}><a href="{{ site.baseurl }}/events">Events</a></li>
+        <li {% if page.title == "Gallery" %}class="active"{% endif %}><a href="{{ site.baseurl }}/gallery">Gallery</a></li>
+        <li {% if page.title == "Blog" or page.layout == "post" %}class="active"{% endif %}><a href="{{ site.baseurl }}/blog">Blog</a></li>
+        <li {% if page.title == "Contact" %}class="active"{% endif %}><a href="{{ site.baseurl }}/contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</div>

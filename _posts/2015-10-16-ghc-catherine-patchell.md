@@ -1,0 +1,14 @@
+---
+layout: post
+title: "GHC 2015 with Catherine Patchell"
+author: "Catherine Patchell"
+img: ghc2015.png
+---
+
+Attending the Grace Hopper Conference (GHC) for a year is in itself a phenomenal experience to have been a part of. Having been given the opportunity to attend for three years in a row is something that I will always be thankful for. When I first attended in 2013, there were 4,750 attendees. This having been my first major conference, this felt huge. My second year, in 2014, numbers were nearly doubled, coming in at 8,000 attendees. This past year, 2015, there were 12,000 persons in attendance. It is hard to put into words how exciting it has felt to be able to see the excitement and the passion for technology that has increased every year as the conference has continued to grow!
+
+In 2013, I had yet to be on co-op, networking was a very intimidating thing for me and I was having some doubts about what the field could offer me. I met with a woman at one of the company booths during the career fair, handed her my resume and had a conversation with her about some of my interests in technology at the given time. I can remember walking away thinking “Okay, that went alright. At least I was able to answer the questions adequately."
+
+Two years later, with the search for full time employment after graduation on my radar, feeling confidant that technology is the right field for me, and feeling that I now know how to approach networking, I approached the same company. But about halfway through my conversation with one of the HR representatives, the developer that I interviewed with two years ago came up to the booth – and remembered me! She jumped in to continue the conversation. I even mentioned that when we first met, I was just starting out and had no idea what I wanted to do but that since then I had been through many learning opportunities that helped me learn much about what I wanted to do to and where my strengths in the field are. She mentioned that she was going to put a mark on my resume that indicated for the company that “this was someone we really want to keep in contact with” – which is a phenomenal feeling to come out of an interview having! I was then invited to a private evening event that they were co-hosting – which proved to be a great networking opportunity with others in management and great conversations about interface design and data security.
+
+Attending GHC has had a big impact on the growth that I have experienced over the last few years in the tech industry and helped me to boost my confidence that this is both the field that I want to be in and that I indeed have the skills to be part of it. I am so thankful for the support from CCIS and from those that contribute to the college for making it possible for me to have attended GHC for the last three years.

@@ -1,0 +1,31 @@
+---
+layout: blog
+title: blog
+---
+
+<div id="post">
+  <div class="container">
+    <div class="row">
+      <div class="post-content">
+        <h1>{{ page.title }}</h1>
+        <div class="post-info-wrapper">
+          <p class="author">{% if page.author %}By {{ page.author }} on {% endif %}{{ page.date | date: "%B %-d, %Y" }}</p>
+        </div>
+        <hr />
+        <p>{{ content }}</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<a href="{{ site.baseurl }}/blog">
+  <div id="backToBlog">
+    <div class="container">
+      <div class="row centered">
+        <div class="col-lg-8 col-lg-offset-2">
+          <h3>Back to Blog</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</a>

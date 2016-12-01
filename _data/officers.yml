@@ -1,0 +1,103 @@
+# Team names, titles and social links
+- name: Brittany Chiang
+  position: President
+  modal: brittany
+  pic: brittany
+  year: 4th
+  major: Information Science (concentration in HCI)
+  coops: Mullen Lowe US, Starry
+  iceCream: Coffee
+  spiritAnimal: Sea Otter
+  social:
+    - title: envelope
+      url: mailto:chiang.b@husky.neu.edu
+    - title: github
+      url: https://github.com/bchiang7
+    - title: linkedin
+      url: https://www.linkedin.com/in/bchiang7
+    - title: link
+      url: http://brittanychiang.com
+
+- name: Emily Hontoria
+  position: Vice President
+  pic: default
+  modal: emily
+  year: 3rd
+  major: Computer Science
+  coops: Blueport Commerce
+  iceCream:
+  spiritAnimal:
+  social:
+    - title: envelope
+      url: mailto:hontoria.e@husky.neu.edu
+
+- name: Kristy Chen
+  position: Treasurer
+  modal: kristy
+  pic: kristy
+  year: 2nd
+  major: Computer Science and Business
+  coops: None... for now
+  iceCream: Cheesecake
+  spiritAnimal: Panda
+  social:
+    - title: envelope
+      url: mailto:chen.kr@husky.neu.edu
+    - title: linkedin
+      url: https://www.linkedin.com/in/kristy-chen-222278114
+
+- name: Nadine Shaalan
+  position: Public Relations
+  modal: nadine
+  pic: default
+  year: 2nd
+  major: Computer Science
+  coops: None... for now
+  iceCream:
+  spiritAnimal:
+  social:
+    - title: envelope
+      url: mailto:shaalan.n@husky.neu.edu
+
+- name: Yifan Xing
+  position: Outreach
+  modal: yifan
+  pic: yifan
+  year: 3rd
+  major: Computer Science and Business
+  coops: State Street
+  iceCream:
+  spiritAnimal:
+  social:
+    - title: envelope
+      url: mailto:xing.yif@husky.neu.edu
+    - title: linkedin
+      url: https://www.linkedin.com/in/yifan-xing-b0a658b0
+
+- name: Courtney(CJ) Oka
+  position: Web & Design
+  modal: cj
+  pic: CJ
+  year: 2nd
+  major: Computer Science
+  coops: No where yet
+  iceCream: Phish Food
+  spiritAnimal: Otter
+  social:
+    - title: envelope
+      url: mailto:oka.c@husky.neu.edu
+    - title: linkedin
+      url: https://www.linkedin.com/in/courtney-oka-341b3a100
+
+- name: Lisa Chan
+  position: Clerk
+  modal: lisa
+  pic: lisa
+  year: 2nd
+  major: Computer Science
+  coops: No coops yet
+  iceCream: Cookies and cream
+  spiritAnimal: Does a mango qualify as a spirit animal?
+  social:
+    - title: envelope
+      url: mailto:chan.lis@husky.neu.edu
