@@ -30,8 +30,7 @@ The code for the site lives on the CCIS server at `/net/www/ccs/groups/CISters`.
 When you're in the `CISters` directory, you can drag and drop the files from `_site` into the folder to override the files.
 
 
-### Things to know
+## Caveats
 Since the site is hosted on the CCIS server, there are some hoops you may need to jump through in order to push things to the server for the first time. If at any point you find yourself not being able to change things on the server, you probably don't have the right permissions. Go ahead and email [systems@ccs.neu.edu](mailto:systems@ccs.neu.edu) and tell them you're on the NU WIT e-board. They'll be able to give you the right permissions.
 
 Also, for consistency, please use **2 spaces** (NOT tabs, NOT 4 spaces) for indentation!!!
-  
