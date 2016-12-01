@@ -1,17 +1,19 @@
 # NUWIT Website
-This is the repo for the NU Women in Tech club website. It's hosted on the CCIS servers at [nuwit.ccs.neu.edu](http://nuwit.ccs.neu.edu).
+This is the repo for the NU Women in Tech club website. It's hosted on the CCIS servers under `/net/www/ccs/groups/CISters` with the domain [nuwit.ccs.neu.edu](http://nuwit.ccs.neu.edu).
 
 
 ## Getting started
 This site is built on a static site generator called [Jekyll](https://jekyllrb.com/). So first, check out Jekyll's [quick start guide](https://jekyllrb.com/docs/quickstart/) and [installation docs](https://jekyllrb.com/docs/installation/).
 
-Once you've installed all the requirements and Jekyll, go ahead and clone this repo onto your computer.
+After you've installed Jekyll and all its dependences, open up a terminal window and then:
 
-Navigate to the directory and run `bundle install`.
+1. `git clone git@github.com:nuwit/website.git nuwit-website`
+1. `cd nuwit-website`
+1. `bundle install`
+1. `jekyll serve` (this command watches for local changes automatically)
+1. Open up a browser and go to `localhost:4000`
 
-Once everything has successfully installed, you should be good to go!
-
-In your terminal, run `jekyll serve`. This command will start a development server at `localhost:4000` and will watch for local changes automatically.
+At any point if you find yourself confused about any of the code, [Jekyll docs](https://jekyllrb.com/docs/home/) and google are your best friends.
 
 
 ## Deployment
@@ -31,6 +33,8 @@ When you're in the `CISters` directory, you can drag and drop the files from `_s
 
 
 ## Caveats
-Since the site is hosted on the CCIS server, there are some hoops you may need to jump through in order to push things to the server for the first time. If at any point you find yourself not being able to change things on the server, you probably don't have the right permissions. Go ahead and email [systems@ccs.neu.edu](mailto:systems@ccs.neu.edu) and tell them you're on the NU WIT e-board. They'll be able to give you the right permissions.
+Since the site is hosted on the CCIS server, there are some hoops you may need to jump through in order to push things to the server for the first time. If at any point you find yourself not being able to change things on the server, you probably don't have the right permissions. 
+
+Go ahead and email [systems@ccs.neu.edu](mailto:systems@ccs.neu.edu) and tell them you're on the NU WIT E-Board. They'll be able to give you the right permissions.
 
 Also, for consistency, please use **2 spaces** (NOT tabs, NOT 4 spaces) for indentation!!!
