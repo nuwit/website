@@ -223,7 +223,7 @@ button:focus {
   position: relative;
   text-align: center;
   width: 100%;
-  height: 100vh;
+  height: 110vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -263,7 +263,7 @@ button:focus {
 
 .code-editor {
   position: relative;
-  top: 30px;
+  margin-top: 30px;
   width: 100%;
   height: 440px;
   color: #ccc;
@@ -354,6 +354,14 @@ button:focus {
   }
   .no-mobile {
     display: none;
+  }
+}
+@media screen and (max-width: 400px) {
+  .code-editor {
+    margin-top: 50px;
+  }
+  #headerwrap .fa-chevron-down {
+    margin-top: 20px;
   }
 }
 
