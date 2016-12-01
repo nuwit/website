@@ -1,5 +1,4 @@
 exclude:
-  - "/vendor/"
   - "Gemfile"
   - "Gemfile.lock"
   - "README.md"
@@ -14,7 +13,6 @@ keep_files:
 title: NUWIT
 description: "Northeastern University Women in Tech"
 email: nuwomenintech@gmail.com
-# baseurl: "/" # the subpath of your site
 url: "http://nuwit.ccs.neu.edu" # the base hostname & protocol for your site
 cover: "/assets/cover.png"
 logo: "/assets/logo.png"
