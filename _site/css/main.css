@@ -98,7 +98,7 @@ button:focus {
 @media screen and (max-width: 768px) {
   .navbar-inverse .navbar-brand img {
     margin-top: 13px;
-    margin-left: 15px;
+    margin-left: 25px;
   }
 }
 
@@ -771,6 +771,12 @@ button:focus {
   border-color: #ccc;
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
+}
+@media screen and (max-width: 630px) {
+  #calendar button {
+    padding: 0 .4em;
+    margin-bottom: 30px;
+  }
 }
 
 ul.dates {

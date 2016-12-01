@@ -4,7 +4,7 @@ title: "Fall E-Board Elections 2016"
 img: elections_ahead.jpg
 ---
 
-**APPLY HERE:** [https://docs.google.com/a/husky.neu.edu/forms/d/1xUrp-8nGidPBhECy2GPgNtSTUNAxE61RKanbBwTbSbk/viewform](https://docs.google.com/a/husky.neu.edu/forms/d/1xUrp-8nGidPBhECy2GPgNtSTUNAxE61RKanbBwTbSbk/viewform)
+[APPLY HERE](https://docs.google.com/a/husky.neu.edu/forms/d/1xUrp-8nGidPBhECy2GPgNtSTUNAxE61RKanbBwTbSbk/viewform)
 
 **President:** In charge of picking the direction the club is going in. They are in charge of managing the e-board and ensuring that the goals of the semester are met. They are also in charge of interacting with the college on behalf of the club. Candidates for this position must have spent one year on the e-board previously in another role.
 
