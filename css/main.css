@@ -233,10 +233,6 @@ button:focus {
   height: auto;
   margin-top: 50px;
 }
-#headerwrap .scroll-down {
-  position: relative;
-  top: 25px;
-}
 #headerwrap #scroll-down:hover {
   opacity: .7;
 }
