@@ -79,7 +79,8 @@ button:focus {
 .navbar-inverse .navbar-nav > .active > a {
   background: #009897;
 }
-.navbar-inverse .navbar-nav > .active > a:hover {
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
   background: #00b7b4;
 }
 .navbar-inverse .navbar-brand {
@@ -155,7 +156,8 @@ button:focus {
   font-size: 16px;
   padding: 0 10px 5px;
 }
-#footer i:hover {
+#footer i:hover,
+#footer i:focus {
   color: #009897;
 }
 #footer ul {
@@ -166,7 +168,8 @@ button:focus {
 #footer ul li a {
   font-weight: 500;
 }
-#footer ul li a:hover {
+#footer ul li a:hover,
+#footer ul li a:focus {
   color: #00b7b4;
 }
 #footer .ccis-logo {
@@ -233,7 +236,8 @@ button:focus {
   height: auto;
   margin-top: 50px;
 }
-#headerwrap #scroll-down:hover {
+#headerwrap #scroll-down:hover,
+#headerwrap #scroll-down:focus {
   opacity: .7;
 }
 #headerwrap .fa-chevron-down {
@@ -453,7 +457,8 @@ button:focus {
   font-size: 20px;
   margin: 0 5px;
 }
-.officers i:hover {
+.officers i:hover,
+.officers i:focus {
   color: #009897;
 }
 .officers .img-circle {
@@ -471,10 +476,12 @@ button:focus {
 .officers .officer-avatar {
   overflow: hidden;
 }
-.officers .officer:hover {
+.officers .officer:hover,
+.officers .officer:focus {
   background: #f2f2f2;
 }
-.officers .officer:hover .img-circle {
+.officers .officer:hover .img-circle,
+.officers .officer:focus .img-circle {
   transform: scale(1.05);
 }
 .officers h4 {
@@ -957,7 +964,8 @@ ul.dates li:first-child .date {
 #blog a {
   font-weight: 500;
 }
-#blog a:hover {
+#blog a:hover,
+#blog a:focus {
   color: #00b7b4;
 }
 #blog i {
@@ -990,7 +998,8 @@ ul.dates li:first-child .date {
   display: inline-block;
   margin-top: 20px;
 }
-#blog .btn-default:hover {
+#blog .btn-default:hover,
+#blog .btn-default:focus {
   background: #009897;
   color: #fff;
 }
@@ -1100,7 +1109,8 @@ ul.dates li:first-child .date {
   text-decoration: none;
   font-size: 24px;
 }
-#contact #email-link:hover {
+#contact #email-link:hover,
+#contact #email-link:focus {
   color: #fff;
   background: #009897;
 }
