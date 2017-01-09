@@ -6,7 +6,6 @@ $('#calendar').fullCalendar({
     center: 'title',
     right: 'month,basicWeek,basicDay'
   },
-  defaultDate: '2016-12-12',
   editable: false,
   eventLimit: true, // allow "more" link when too many events
   contentHeight: 650,

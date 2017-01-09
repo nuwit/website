@@ -46,18 +46,18 @@
     - title: linkedin
       url: https://www.linkedin.com/in/kristy-chen-222278114
 
-- name: Nadine Shaalan
+- name: Raveena Jain
   position: Public Relations
-  modal: nadine
+  modal:
   pic: default
   year: 2nd
-  major: Computer Science
-  coops: None... for now
+  major:
+  coops:
   iceCream:
   spiritAnimal:
   social:
     - title: envelope
-      url: mailto:shaalan.n@husky.neu.edu
+      url: mailto:jain.rav@husky.neu.edu
 
 - name: Yifan Xing
   position: Outreach
@@ -74,20 +74,18 @@
     - title: linkedin
       url: https://www.linkedin.com/in/yifan-xing-b0a658b0
 
-- name: Courtney(CJ) Oka
+- name: Bahar Sheikhi
   position: Web & Design
-  modal: cj
-  pic: CJ
+  modal: bahar
+  pic: bahar
   year: 2nd
-  major: Computer Science
-  coops: No where yet
-  iceCream: Phish Food
-  spiritAnimal: Otter
+  major:
+  coops:
+  iceCream:
+  spiritAnimal:
   social:
     - title: envelope
-      url: mailto:oka.c@husky.neu.edu
-    - title: linkedin
-      url: https://www.linkedin.com/in/courtney-oka-341b3a100
+      url: mailto:haji-sheikhi.b@husky.neu.edu
 
 - name: Lisa Chan
   position: Clerk
