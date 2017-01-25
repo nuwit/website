@@ -2,12 +2,28 @@
 # Events go from most recent -> least recent
 
 - title: Personal Website Hack Day
-  url: #
+  url: https://www.facebook.com/events/1252814924756248/
   start: "2017-01-28T11:00:00"
   date: January 28th, 2016
   time: 11:00am - 5:00pm
   location: 108 WVH
   description: Come join us for our third annual Personal Website Hack Day! Lunch will be included.
+
+- title: Pixel Perfect UI with React
+  url: https://www.facebook.com/events/1626031127703286/
+  start: "2017-01-24T19:00:00"
+  date: January 24, 2016
+  time: 7:00pm - 8:00pm
+  location: 305 Shillman
+  description: On Tuesday, Intuit will be on campus to give a talk about building a real-time collaborative app that helps women in engineering find mentors in the industry. This is a great opportunity to learn more about the React.js framework and brush up your web-dev skills! Food from Amelia's Taqueria will be provided. And don't forget to bring your laptops!
+
+- title: Acing the Virtual Interview with Intuit
+  url: https://www.facebook.com/events/1821861661385377/
+  start: "2017-01-17T19:00:00"
+  date: January 17, 2016
+  time: 7:00pm - 8:00pm
+  location: 425 Shillman
+  description: Welcome back everyone! In preparation for co-op and other job opportunities, come learn how to get ready for the virtual interview with Intuit.
 
 - title: End of Semester Potluck
   url: #
