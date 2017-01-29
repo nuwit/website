@@ -1,6 +1,14 @@
 # Add new events to the top
 # Events go from most recent -> least recent
 
+- title: UX Workshop with Dockyard and Cookin
+  url: https://www.facebook.com/events/249443038814932/
+  start: "2017-01-30T19:00:00"
+  date: January 30th, 2016
+  time: 7:00pm - 9:00pm
+  location: 011 Kariotis
+  description: Next week, we will be partnering with Dockyard and the NU Startup Cookin to host a UX Workshop. Come improve your skills and work on Cookin's actual user interface. Whatever is made will go towards helping the startup!
+
 - title: Personal Website Hack Day
   url: https://www.facebook.com/events/1252814924756248/
   start: "2017-01-28T11:00:00"
