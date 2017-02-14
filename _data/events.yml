@@ -1,6 +1,14 @@
 # Add new events to the top
 # Events go from most recent -> least recent
 
+- title: Techniques for Visually Communicating Your Message
+  url: https://www.facebook.com/events/1324210007618143/
+  start: "2017-02-13T19:00:00"
+  date: February 13th, 2016
+  time: 7:00pm - 8:00pm
+  location: 415 Shillman
+  description: Next week, Professor Michelle Borkin will be here to teach us about her ongoing data visualization work in computer and cognitive science! <br>She will be explaining the impact her work has had on the visualization design process (which is essentially determining what key messages of the data the author wants to visually convey to the viewer).
+
 - title: Synaptics Tech Talk - History and Evolution of Touch Sensors
   url: https://www.facebook.com/events/1870426436566668/
   start: "2017-02-06T19:00:00"
