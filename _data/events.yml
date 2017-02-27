@@ -1,10 +1,18 @@
 # Add new events to the top
 # Events go from most recent -> least recent
 
+- title: Study Abroad Student Panel
+  url: https://www.facebook.com/events/1766399673679414/
+  start: "2017-02-27T19:00:00"
+  date: February 27th, 2017
+  time: 7:00pm - 8:00pm
+  location: 415 Shillman
+  description: Interested in Study Abroad or Dialogue of Civilizations? Then next week's meeting is for you! A panel of students will be joining us to answer any questions you might have about going abroad. And, as always, there will be pizza!
+
 - title: Techniques for Visually Communicating Your Message
   url: https://www.facebook.com/events/1324210007618143/
   start: "2017-02-13T19:00:00"
-  date: February 13th, 2016
+  date: February 13th, 2017
   time: 7:00pm - 8:00pm
   location: 415 Shillman
   description: Next week, Professor Michelle Borkin will be here to teach us about her ongoing data visualization work in computer and cognitive science! <br>She will be explaining the impact her work has had on the visualization design process (which is essentially determining what key messages of the data the author wants to visually convey to the viewer).
@@ -12,7 +20,7 @@
 - title: Synaptics Tech Talk - History and Evolution of Touch Sensors
   url: https://www.facebook.com/events/1870426436566668/
   start: "2017-02-06T19:00:00"
-  date: February 6th, 2016
+  date: February 6th, 2017
   time: 7:00pm - 8:00pm
   location: 415 Shillman
   description: Synaptics is going to be here next week to talk to us about touch sensors and their history and evolution. They will also be demoing some of the technology!
@@ -20,7 +28,7 @@
 - title: UX Workshop with Dockyard and Cookin
   url: https://www.facebook.com/events/249443038814932/
   start: "2017-01-30T19:00:00"
-  date: January 30th, 2016
+  date: January 30th, 2017
   time: 7:00pm - 9:00pm
   location: 011 Kariotis
   description: Next week, we will be partnering with Dockyard and the NU Startup Cookin to host a UX Workshop. Come improve your skills and work on Cookin's actual user interface. Whatever is made will go towards helping the startup!
@@ -28,7 +36,7 @@
 - title: Personal Website Hack Day
   url: https://www.facebook.com/events/1252814924756248/
   start: "2017-01-28T11:00:00"
-  date: January 28th, 2016
+  date: January 28th, 2017
   time: 11:00am - 5:00pm
   location: 108 WVH
   description: Come join us for our third annual Personal Website Hack Day! Lunch will be included.
@@ -36,7 +44,7 @@
 - title: Pixel Perfect UI with React
   url: https://www.facebook.com/events/1626031127703286/
   start: "2017-01-24T19:00:00"
-  date: January 24, 2016
+  date: January 24, 2017
   time: 7:00pm - 8:00pm
   location: 305 Shillman
   description: On Tuesday, Intuit will be on campus to give a talk about building a real-time collaborative app that helps women in engineering find mentors in the industry. This is a great opportunity to learn more about the React.js framework and brush up your web-dev skills! Food from Amelia's Taqueria will be provided. And don't forget to bring your laptops!
@@ -44,7 +52,7 @@
 - title: Acing the Virtual Interview with Intuit
   url: https://www.facebook.com/events/1821861661385377/
   start: "2017-01-17T19:00:00"
-  date: January 17, 2016
+  date: January 17, 2017
   time: 7:00pm - 8:00pm
   location: 425 Shillman
   description: Welcome back everyone! In preparation for co-op and other job opportunities, come learn how to get ready for the virtual interview with Intuit.
