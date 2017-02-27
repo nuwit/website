@@ -21,7 +21,9 @@ At any point if you find yourself confused about any of the code, [Jekyll docs](
 
 
 ## Deployment
-When you want to push things live, run `jekyll build`. This will generate a fresh build of the project into the `_site` folder.
+#### Step 1: Run `jekyll build`
+
+(This will generate a fresh build of the project into the `_site` folder.)
 
 There are several ways you can push files onto the CCIS server, but the easiest way is probably FTP (File Transfer Protocol). If you haven't used an FTP client before, go ahead and download [Filezilla](https://filezilla-project.org/download.php?type=client) or [Cyberduck](https://cyberduck.io/?l=en).
 
@@ -29,11 +31,18 @@ Under site manager, set up your connection to the CCIS server like so:
 
 ![](img/ftp.jpg)
 
-**The code for the site lives on the CCIS server at `/net/www/ccs/groups/CISters`.** The easiest way to navigate to that directory is by copying and pasting that path into the remote site input like so:
+#### Step 2: Navigate to the CISters directory `/net/www/ccs/groups/CISters`
+
+The easiest way to navigate to that directory is by _**copying and pasting**_ that path into the remote site input like so:
 
 ![](img/path.jpg)
 
-When you're in the `CISters` directory, you can drag and drop the files from `_site` into the folder to override the files.
+Make sure you _**COPY AND PASTE**_ the path, you won't be able to find the directory by clicking through the folders.
+
+
+#### Step 3: Drag and drop the files from `_site` into the `CISters` directory
+
+##### Important (!!!) If you drag and drop _everything_ in your directory, you'll break the whole site. The correct files are ONLY the files in the `_site` directory
 
 
 ## Caveats
