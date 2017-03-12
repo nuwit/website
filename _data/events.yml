@@ -1,6 +1,14 @@
 # Add new events to the top
 # Events go from most recent -> least recent
 
+- title: Intro to Android Workshop
+  url: https://www.facebook.com/events/238176109924375/
+  start: "2017-03-13T19:00:00"
+  date: March 13th, 2017
+  time: 7:00pm - 8:00pm
+  location: 415 Shillman
+  description: If you've never used Android Studio before but want to learn more, then Monday's meeting is for you! Joint with ACM, we'll be holding an hour long workshop where you’ll get to learn about Android tooling and how to create and run your first basic app! To get the most out of the event, bring your laptop with Android Studio installed. And as always, there will be pizza!
+
 - title: Study Abroad Student Panel
   url: https://www.facebook.com/events/1766399673679414/
   start: "2017-02-27T19:00:00"
