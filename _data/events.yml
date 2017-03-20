@@ -1,6 +1,14 @@
 # Add new events to the top
 # Events go from most recent -> least recent
 
+- title: Technology and Terminology with Runkeeper
+  url: https://www.facebook.com/events/1886011108308017/
+  start: "2017-03-20T19:00:00"
+  date: March 20th, 2017
+  time: 7:00pm - 8:00pm
+  location: 415 Shillman
+  description: Have you ever wondered what technologies are actually used in a real-world work environment? Or what all those technical sounding terms being thrown around actually mean? If you have, then this meeting is for you! Runkeeper will be here to explain more and answer any questions you might have about all that technology and terminology.
+
 - title: Intro to Android Workshop
   url: https://www.facebook.com/events/238176109924375/
   start: "2017-03-13T19:00:00"
