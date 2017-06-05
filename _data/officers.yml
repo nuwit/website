@@ -1,101 +1,116 @@
 # Team names, titles and social links
-- name: Brittany Chiang
-  position: President
-  modal: brittany
-  pic: brittany2
-  year: 4th
-  major: Information Science (concentration in HCI)
-  coops: Mullen Lowe US, Starry
-  iceCream: Coffee
-  spiritAnimal: Sea Otter
-  social:
-    - title: envelope
-      url: mailto:chiang.b@husky.neu.edu
-    - title: github
-      url: https://github.com/bchiang7
-    - title: linkedin
-      url: https://www.linkedin.com/in/bchiang7
-    - title: link
-      url: http://brittanychiang.com
-
-- name: Emily Hontoria
-  position: Vice President
-  pic: default
-  modal: emily
-  year: 3rd
-  major: Computer Science
-  coops: Blueport Commerce
-  iceCream:
-  spiritAnimal:
-  social:
-    - title: envelope
-      url: mailto:hontoria.e@husky.neu.edu
-
 - name: Kristy Chen
-  position: Treasurer
+  position: President
   modal: kristy
   pic: kristy
-  year: 2nd
+  year: 3rd
   major: Computer Science and Business
-  coops: None... for now
-  iceCream: Cheesecake
-  spiritAnimal: Panda
+  tvShow: Code Iyoko
+  spiritFruit: Orange
   social:
     - title: envelope
       url: mailto:chen.kr@husky.neu.edu
     - title: linkedin
-      url: https://www.linkedin.com/in/kristy-chen-222278114
-
-- name: Raveena Jain
-  position: Public Relations
-  modal:
-  pic: default
-  year: 2nd
-  major:
-  coops:
-  iceCream:
-  spiritAnimal:
-  social:
-    - title: envelope
-      url: mailto:jain.rav@husky.neu.edu
-
-- name: Yifan Xing
-  position: Outreach
-  modal: yifan
-  pic: yifan
-  year: 3rd
-  major: Computer Science and Business
-  coops: State Street
-  iceCream:
-  spiritAnimal:
-  social:
-    - title: envelope
-      url: mailto:xing.yif@husky.neu.edu
-    - title: linkedin
-      url: https://www.linkedin.com/in/yifan-xing-b0a658b0
-
-- name: Bahar Sheikhi
-  position: Web & Design
-  modal: bahar
-  pic: bahar
-  year: 2nd
-  major:
-  coops:
-  iceCream:
-  spiritAnimal:
-  social:
-    - title: envelope
-      url: mailto:haji-sheikhi.b@husky.neu.edu
+      url: https://www.linkedin.com/in/kristy-chen-222278114/
+    - title: github
+      url: https://github.com/kristychen8
+    - title: link
+      url: http://kristychen8.github.io
 
 - name: Lisa Chan
-  position: Clerk
-  modal: lisa
+  position: Vice President
   pic: lisa
-  year: 2nd
+  modal: lisa2
+  year: 3rd
   major: Computer Science
-  coops: No coops yet
-  iceCream: Cookies and cream
-  spiritAnimal: Does a mango qualify as a spirit animal?
+  iceCream:
+  spiritAnimal:
   social:
     - title: envelope
       url: mailto:chan.lis@husky.neu.edu
+    - title: linkedin
+      url: linkedin.com/in/chanlis
+    - title: github
+      url: github.com/chanlis
+    - title: link
+      url: chanlis.github.io
+
+- name: Adriell Louis
+  position: Treasurer
+  modal: adriell
+  pic: adriell
+  year: 2nd
+  major: Computer Science and Biology
+  tvShow: The Wiggles
+  spiritFruit:
+  social:
+    - title: envelope
+      url: mailto:louis.ad@husky.neu.edu
+    - title: linkedin
+      url: www.linkedin.com/in/adriell-louis
+    - title: github
+      url: https://github.ccs.neu.edu/alouis35
+
+- name: Raveena Jain
+  position: Public Relations
+  modal: raveena
+  pic: default
+  year: 3rd
+  major: Computer Science and Math
+  tvShow: Kim Possible
+  spiritFruit: Strawberry
+  social:
+    - title: envelope
+      url: mailto:jain.rav@husky.neu.edu
+    - title: linkedin
+      url: https://www.linkedin.com/in/raveena-jain
+    - title: github
+      url: https://github.com/raveenajain
+    - title: link
+      url: raveenajain.github.ios
+
+- name: Izzi Tripp
+  position: Outreach
+  modal: izzi
+  pic: izzi
+  year: 2nd
+  major: Computer Science
+  tvShow: 
+  spiritFruit: Apricot
+  social:
+    - title: envelope
+      url: mailto:tripp.i@husky.neu.edu
+    - title: linkedin
+      url: https://www.linkedin.com/in/isabel-t-a6461b133/      
+    - title: github
+      url: https://github.com/tahitihat
+
+- name: Felicia Zhang
+  position: Web
+  modal: felicia
+  pic: felicia
+  year: 2nd
+  major: Computer Engineering and Computer Science
+  tvShow: Avatar the Last Airbender
+  spiritFruit: Lemon
+  social:
+    - title: envelope
+      url: mailto:zhang.fel@husky.neu.edu
+    - title: linkedin
+      url: https://www.linkedin.com/in/feliciayzhang
+    - title: github
+      url: https://github.com/feliciazhang
+
+- name: Raquel Levy
+  position: Design
+  modal: raquel
+  pic: default
+  year: 2nd
+  major: Computer Science and Design
+  tvShow:
+  spiritFruit: Avocado
+  social:
+    - title: envelope
+      url: mailto:chan.levy.r@husky.neu.edu
+    - title: linkedin
+      url: https://www.linkedin.com/in/raquel-levy-396485102
