@@ -15,25 +15,25 @@
     - title: github
       url: https://github.com/kristychen8
     - title: link
-      url: http://kristychen8.github.io
+      url: https://kristychen8.github.io
 
 - name: Lisa Chan
   position: Vice President
-  pic: lisa
-  modal: lisa2
+  pic: lisa2
+  modal: lisa
   year: 3rd
   major: Computer Science
-  iceCream:
-  spiritAnimal:
+  tvShow: Spongebob
+  spiritFruit: Mango
   social:
     - title: envelope
       url: mailto:chan.lis@husky.neu.edu
     - title: linkedin
-      url: linkedin.com/in/chanlis
+      url: https://www.linkedin.com/in/chanlis
     - title: github
-      url: github.com/chanlis
+      url: https://github.com/chanlis
     - title: link
-      url: chanlis.github.io
+      url: https://chanlis.github.io
 
 - name: Adriell Louis
   position: Treasurer
@@ -47,7 +47,7 @@
     - title: envelope
       url: mailto:louis.ad@husky.neu.edu
     - title: linkedin
-      url: www.linkedin.com/in/adriell-louis
+      url: https://www.linkedin.com/in/adriell-louis
     - title: github
       url: https://github.ccs.neu.edu/alouis35
 
@@ -67,7 +67,7 @@
     - title: github
       url: https://github.com/raveenajain
     - title: link
-      url: raveenajain.github.io
+      url: https://raveenajain.github.io
 
 - name: Izzi Tripp
   position: Outreach
