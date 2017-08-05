@@ -13,7 +13,7 @@ keep_files:
 title: NUWIT
 description: "Northeastern University Women in Tech"
 email: nuwomenintech@gmail.com
-url: "http://nuwit.ccs.neu.edu" # the base hostname & protocol for your site
+url: "https://nuwit.ccs.neu.edu" # the base hostname & protocol for your site
 cover: "/assets/cover.png"
 logo: "/assets/logo.png"
 
