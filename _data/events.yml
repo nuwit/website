@@ -1,6 +1,14 @@
 # Add new events to the top
 # Events go from most recent -> least recent
 
+- title: Welcome Dinner
+  url: https://www.facebook.com/events/113461499348731/
+  start: "2017-09-12T18:30:00"
+  date: September 12th, 2017
+  time: 6:30pm - 8:00pm
+  location: 106 WVG
+  description: Welcome to another semester of NUWiT! Come by to meet fellow students and CCIS faculty and for some great food!
+
 - title: Elections and End of Semester Potluck
   url: https://www.facebook.com/events/776480669173904/
   start: "2017-04-10T19:00:00"
