@@ -1,6 +1,14 @@
 # Add new events to the top
 # Events go from most recent -> least recent
 
+- title: Grace Hopper Student Panel
+  url: https://www.facebook.com/events/117483472271584/
+  start: "2017-09-19T19:00:00"
+  date: September 19th, 2017
+  time: 7:00pm - 8:00pm
+  location: 106 WVG
+  description: Learn about the Grace Hopper Conference from fellow students who have attended in the past.
+
 - title: Welcome Dinner
   url: https://www.facebook.com/events/113461499348731/
   start: "2017-09-12T18:30:00"
