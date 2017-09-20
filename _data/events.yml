@@ -1,5 +1,12 @@
 # Add new events to the top
 # Events go from most recent -> least recent
+- title: JavaScript Talk with Catalant
+  url: https://www.facebook.com/events/130814950899618/
+  start: "2017-09-26T19:00:00"
+  date: September 26th, 2017
+  time: 7:00pm - 8:00pm
+  location: 106 WVG
+  description: Are you looking to learn JavaScript or just brush up your skills? Catalant, a Boston-based startup, will be giving a JS tech talk!
 
 - title: Grace Hopper Student Panel
   url: https://www.facebook.com/events/117483472271584/
