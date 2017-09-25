@@ -1,5 +1,13 @@
 # Add new events to the top
 # Events go from most recent -> least recent
+- title: Beyond the Language - Knowing Frameworks with Intuit
+  url: https://www.facebook.com/events/353849668376381/
+  start: "2017-09-28T18:00:00"
+  date: September 28th, 2017
+  time: 6:00pm - 7:00pm
+  location: 019 INV
+  description: Intuit will be here this Thursday to give a talk about the importance of learning framworks along with languages! They will be focusing on the use of the language Java, with the framework SpringBoot. 
+
 - title: JavaScript Talk with Catalant
   url: https://www.facebook.com/events/130814950899618/
   start: "2017-09-26T19:00:00"
