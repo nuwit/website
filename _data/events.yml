@@ -1,5 +1,21 @@
 # Add new events to the top
 # Events go from most recent -> least recent
+- title: Hubspot - Imposter Syndrome
+  url: https://www.facebook.com/events/127636977893904/
+  start: "2017-10-10T19:00:00"
+  date: October 10th, 2017
+  time: 7:00pm - 8:00pm
+  location: 106 WVG
+  description: If you've ever experienced Imposter Syndrome as a woman in tech, come to Hubspot's talk about what it is and how to overcome it.
+
+- title: Questions, Answers, and Advice
+  url: https://www.facebook.com/events/307477196400511/
+  start: "2017-10-03T19:00:00"
+  date: October 3rd, 2017
+  time: 7:00pm - 8:00pm
+  location: 106 WVG
+  description: How is your semester going? Come with any questions you have about class, co-op, or anything else to this informal Q&A.
+
 - title: Beyond the Language - Knowing Frameworks with Intuit
   url: https://www.facebook.com/events/353849668376381/
   start: "2017-09-28T18:00:00"
