@@ -1,5 +1,13 @@
 # Add new events to the top
 # Events go from most recent -> least recent
+- title: My Facebook Story
+  url: https://www.facebook.com/events/1566792683381106/
+  start: "2017-11-07T19:00:00"
+  date: November 7th, 2017
+  time: 7:00pm - 8:00pm
+  location: 106 WVG
+  description: Niky, an engineer from Facebook, will be talking about her work at Facebook and her career journey.
+
 - title: Career Panel with SASE and NUBCC
   url: https://www.facebook.com/events/180841612476399/
   start: "2017-10-26T18:30:00"
