@@ -1,5 +1,13 @@
 # Add new events to the top
 # Events go from most recent -> least recent
+- title: Building UIs with Runkeeper
+  url: https://www.facebook.com/events/1506522072750598/
+  start: "2017-11-14T19:00:00"
+  date: November 14th, 2017
+  time: 7:00pm - 8:00pm
+  location: 106 WVG
+  description: Runkeeper will be giving a talk on how to build a strong UI and how to break down complex problems.
+
 - title: My Facebook Story
   url: https://www.facebook.com/events/1566792683381106/
   start: "2017-11-07T19:00:00"
