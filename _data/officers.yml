@@ -35,39 +35,33 @@
     - title: link
       url: https://chanlis.github.io
 
-- name: Adriell Louis
+- name: Elizabeth Cho
   position: Treasurer
-  modal: adriell
-  pic: adriell
+  modal: elizabeth
+  pic: elizabeth
   year: 2nd
-  major: Computer Science and Biology
-  tvShow: The Wiggles
-  spiritFruit:
+  major: Computer Science
+  tvShow: Arthur
+  spiritFruit: Peach
   social:
     - title: envelope
-      url: mailto:louis.ad@husky.neu.edu
-    - title: linkedin
-      url: https://www.linkedin.com/in/adriell-louis
-    - title: github
-      url: https://github.ccs.neu.edu/alouis35
+      url: mailto:cho.e@husky.neu.edu
 
-- name: Raveena Jain
+- name: Mahema Singh
   position: Public Relations
-  modal: raveena
-  pic: default
-  year: 3rd
-  major: Computer Science and Math
-  tvShow: Kim Possible
-  spiritFruit: Strawberry
+  modal: mahema
+  pic: mahema
+  year: 1st
+  major: Computer Science and Business
+  tvShow: Cyberquest
+  spiritFruit: Mango
   social:
     - title: envelope
-      url: mailto:jain.rav@husky.neu.edu
+      url: mailto:singh.mah@husky.neu.edu
     - title: linkedin
-      url: https://www.linkedin.com/in/raveena-jain
+      url: https://www.linkedin.com/in/mahema-singh-2a1977149/
     - title: github
-      url: https://github.com/raveenajain
-    - title: link
-      url: https://raveenajain.github.io
+      url: https://github.com/MahemaS27
 
 - name: Izzi Tripp
   position: Outreach
@@ -103,16 +97,20 @@
     - title: link
       url: https://feliciazhang.github.io
 
-- name: Raquel Levy
+- name: Catu Berretta
   position: Design
-  modal: raquel
-  pic: default
+  modal: catu
+  pic: catu
   year: 2nd
-  major: Computer Science and Design
-  tvShow:
-  spiritFruit: Avocado
+  major: Computer Science
+  tvShow: Barbie Nutcracker
+  spiritFruit:
   social:
     - title: envelope
-      url: mailto:chan.levy.r@husky.neu.edu
+      url: mailto:berretta.c@husky.neu.edu
     - title: linkedin
-      url: https://www.linkedin.com/in/raquel-levy-396485102
+      url: https://www.linkedin.com/in/catalina-berretta-51b789101/
+    - title: github
+      url: https://github.com/catumaga
+    - title: link
+      url: catumaga.github.io

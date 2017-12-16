@@ -1,5 +1,21 @@
 # Add new events to the top
 # Events go from most recent -> least recent
+- title: Potluck and Elections
+  url: https://www.facebook.com/events/142136409886225/
+  start: "2017-12-05T19:00:00"
+  date: December 5th, 2017
+  time: 7:00pm - 8:00pm
+  location: 106 WVG
+  description: Come to the last meeting of the semester for some good food and elections for next semester's E-Board!
+
+- title: Intro to Git
+  url: https://www.facebook.com/events/1727003327351847/
+  start: "2017-11-28T19:00:00"
+  date: November 28th, 2017
+  time: 7:00pm - 8:00pm
+  location: 106 WVG
+  description: One of NUWiT's own members will be giving an introduction to Git and how to use it for school or work.
+
 - title: Building UIs with Runkeeper
   url: https://www.facebook.com/events/1506522072750598/
   start: "2017-11-14T19:00:00"
