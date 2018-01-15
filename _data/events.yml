@@ -1,5 +1,29 @@
 # Add new events to the top
 # Events go from most recent -> least recent
+- title: Personal Website Hack Day
+  url: https://www.facebook.com/events/306061073131430/
+  start: "2018-01-20T11:00:00"
+  date: January 20th, 2018
+  time: 11:00am - 5:00pm
+  location: 108 WVH
+  description: Start building your own website using HTML, CSS, and JavaScript.
+
+- title: Intro to Hacking with Hack Beanpot
+  url: https://www.facebook.com/events/158553504789267/
+  start: "2018-01-16T19:00:00"
+  date: January 16th, 2018
+  time: 7:00pm - 8:00pm
+  location: 106 WVG
+  description: Learn the ins and outs of participating in a hackathon, presented by the team of Hack Beanpot.
+
+- title: Game Night
+  url: https://www.facebook.com/events/686547201733585/
+  start: "2018-01-09T19:00:00"
+  date: January 9th, 2018
+  time: 7:00pm - 8:00pm
+  location: 106 WVG
+  description: Happy new year! Join us for the first meeting of Spring '18 where there will be food, games, and mingling.
+
 - title: Potluck and Elections
   url: https://www.facebook.com/events/142136409886225/
   start: "2017-12-05T19:00:00"
