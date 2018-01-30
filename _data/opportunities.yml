@@ -1,0 +1,44 @@
+#List events in chronological order
+#Remove events once they have occurred
+#Link to files using ../files/<fileName>
+- title: Programming and Linguistics Research Opportunity
+  click: Details
+  url: ../files/2018_Linguistics_Research-Opportunity.pdf
+  date: "!!!"
+  location: Interdisciplinary Affective Science Laboratory at NEU
+  description: The Interdisciplinary Affective Science Laboratory is looking for someone with programming experience who can help develop a custom GUI to collect experimental data on word similarity. Contact Katie Hoemann at khoemann@gmail.com.
+
+- title: Hack Beanpot
+  click: More info here
+  url: https://hackbeanpot.com/
+  date: February 9th - 11th, 2018
+  location: Genuine Headquarters
+  description: A Boston hackathon for students, hackers, makers, beginners, and other curious folk. *Registration is currently closed*
+
+- title: WiCHacks
+  click: Find out more
+  url: https://www.wichacks.io/
+  date: February 10th - 11th, 2018
+  location: Rochester Institute of Technology
+  description: WiCHacks is an all-women, 24-hour hackathon hosted by Women in Computing at RIT that is open to all skill levels.
+
+- title: Intro to Julia
+  click: Facebook event
+  url: https://www.facebook.com/events/140737193389046/
+  date: February 19th, 2018
+  location: 333 CSC
+  description: An introduction to the programming language Julia, open to all undergrad and grad NEU students. Remember to RSVP!
+
+- title: Husky Treks (Google, Education First, Boston Children's Hospital, etc)
+  click: Read more
+  url: https://www.northeastern.edu/careers/2016/09/husky-treks-test-drive-a-career/
+  date: March 5th - 9th, 2018
+  location: Various Boston companies
+  description: Husky Treks take place at some of Boston's top companies for you to explore different career paths. <b>Applications are due February 19th.</b>
+
+- title: Women in Computing Scholarship
+  click: Apply
+  url: https://www.loadview-testing.com/scholarship/
+  date: April 1st, 2018
+  location: 
+  description: Dotcom-Moniter is now accepting applications for women pursuing a career in computing to earn a $1000 scholarship.

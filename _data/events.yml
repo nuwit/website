@@ -1,5 +1,21 @@
 # Add new events to the top
 # Events go from most recent -> least recent
+- title: GraphQL and APIs with Intuit
+  url: https://www.facebook.com/events/876043619243566/
+  start: "2018-01-30T19:00:00"
+  date: January 30th, 2018
+  time: 7:00pm - 8:00pm
+  location: 106 WVG
+  description: Bring a laptop and follow along as Intuit demos how to use GraphQL, as well as how to succeed as an engineer. Catered by Amelia's!
+  
+- title: Chill and Catch Up
+  url: https://www.facebook.com/events/160941818016827/
+  start: "2018-01-23T19:00:00"
+  date: January 23th, 2018
+  time: 7:00pm - 8:00pm
+  location: 106 WVG
+  description: Keep working on your website, hang out and meet new people with some pizza as always.
+
 - title: Personal Website Hack Day
   url: https://www.facebook.com/events/306061073131430/
   start: "2018-01-20T11:00:00"

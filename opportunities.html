@@ -1,0 +1,29 @@
+---
+layout: default
+title: Opportunities
+subtitle: Find tech experiences around you
+permalink: /opportunities/
+---
+<div id="opportunities">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2">
+        <ul class="dates">
+          {% for opp in site.data.opportunities %}
+          <li>
+            <span class="date">{{ opp.date | date: "%B" | truncate: 3, ""}}<strong>{{ opp.date | date: "%-d" }}</strong></span>
+            <h3>{{ opp.title }}</h3>
+            <h4><a href="{{ opp.url }}" target="_blank">{{ opp.click }}</a></h4>
+            <p class="event-date">{{ opp.date }}<span class="event-location">{{ opp.location }}</span></p>
+            <p>{{ opp.description }}</p>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  var opportunities = {{ site.data.opportunities | jsonify }};
+</script>
