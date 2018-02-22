@@ -1,5 +1,29 @@
 # Add new events to the top
 # Events go from most recent -> least recent
+- title: GEO Study Abroad Panel
+  url: https://www.facebook.com/events/221881228385872/
+  start: "2018-02-20T19:00:00"
+  date: February 20, 2018
+  time: 7:00pm - 8:00pm
+  location: 106 WVG
+  description: Want to see the world? Find out how you can study abroad and still fulfill your CS requirements.
+
+- title: Negotiation with Runkeeper
+  url: https://www.facebook.com/events/191327561615703/
+  start: "2018-02-13T19:00:00"
+  date: February 13, 2018
+  time: 7:00pm - 8:00pm
+  location: 106 WVG
+  description: Learn to negotiate as a female in the workplace and get some interviewing tips from Runkeeper.
+
+- title: Resume and Interview Prep
+  url: https://www.facebook.com/events/1645974222130196
+  start: "2018-02-06T19:00:00"
+  date: February 6, 2018
+  time: 7:00pm - 8:00pm
+  location: 106 WVG
+  description: Get your resume reviewed and get advice for how to prepare yourself for interviews and Brush Up Your Skills.
+
 - title: GraphQL and APIs with Intuit
   url: https://www.facebook.com/events/876043619243566/
   start: "2018-01-30T19:00:00"
@@ -7,7 +31,7 @@
   time: 7:00pm - 8:00pm
   location: 106 WVG
   description: Bring a laptop and follow along as Intuit demos how to use GraphQL, as well as how to succeed as an engineer. Catered by Amelia's!
-  
+
 - title: Chill and Catch Up
   url: https://www.facebook.com/events/160941818016827/
   start: "2018-01-23T19:00:00"
