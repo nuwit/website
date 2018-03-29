@@ -1,5 +1,45 @@
 # Add new events to the top
 # Events go from most recent -> least recent
+- title: HubSpot Tech Talk
+  url: https://www.facebook.com/events/160483661326164/
+  start: "2018-04-03T19:00:00"
+  date: April 3, 2018
+  time: 7:00pm - 8:00pm
+  location: 106 WVG
+  description: Curious what it takes to go from Individual Contributor to Director of Engineering? Come listen to HubSpot Director of Engineering, Kerry Munz, talk about her experience growing her career as a female engineer and earning her seat at the leadership table.
+
+- title: The Startup Journey with Covered Security
+  url: https://www.facebook.com/events/176314216501315/
+  start: "2018-03-27T19:00:00"
+  date: March 27, 2018
+  time: 7:00pm - 8:00pm
+  location: 106 WVG
+  description: Starting a company is about more than technology and a great idea. What else should do you need to think about? The speakers will share their experiences, guidance, and lessons learned from their involvement in starting 3 companies in the software field.
+
+- title: Hands On Docker Tutorial with BookBub
+  url: https://www.facebook.com/events/1804651673175686/
+  start: "2018-03-20T19:00:00"
+  date: March 20, 2018
+  time: 7:00pm - 8:00pm
+  location: 104 WVG
+  description: This talk about Docker will cover both a brief technical overview of containerized environments and hands-on Docker tutorial. It assumes zero prior experience with Docker.
+
+- title: SWE- Permission to Fail with iRobot
+  url: ../files/2018_iRobot_SWE_Collab.pdf
+  start: "2018-03-14T19:00:00"
+  date: March 14, 2018
+  time: 7:00pm - 8:00pm
+  location: 104 WVG
+  description: In this event hosted by Society of Women Engineers, engineers from iRobot will talk about the truth of what it means to be an engineer and their journies in the field.
+
+- title: Catalant Career Talk
+  url: https://www.facebook.com/events/612819875716588/
+  start: "2018-02-27T19:00:00"
+  date: February 27, 2018
+  time: 7:00pm - 8:00pm
+  location: 106 WVG
+  description: How will you know if you’re doing the right thing with your life? When is the right time to start looking for a new job? Laura Miyakawa from Catalant will answer these questions and more.
+
 - title: GEO Study Abroad Panel
   url: https://www.facebook.com/events/221881228385872/
   start: "2018-02-20T19:00:00"
