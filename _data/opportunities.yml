@@ -9,33 +9,19 @@
 #  location: Where
 #  description: Important info ie overview, alternative deadlines, travel grants available
 
-- title: Women in Computing Scholarship
-  click: Apply
-  url: https://www.loadview-testing.com/scholarship/
-  date: April 1st, 2018
+- title: Igniting the Computational Renaissance
+  click: Attend  
+  url: https://www.eventbrite.com/e/igniting-the-computational-renaissance-at-northeastern-university-tickets-44711796186
+  date: April 10th, 2018
+  location: West Village F
+  description: Please join Tristen Blake, founder of the Machine Learning Society and the CO, Science & Tech social network for a fireside chat. The registration password for the event is MLSBOS2018.
+
+- title: STEM Advocacy 101 Workshops
+  click: Apply  
+  url: https://docs.google.com/forms/d/e/1FAIpQLSdVH7aykEvjNF0Ln-w6arGTraVLQE7UyUGXrYobsvMqqjuXGQ/viewform
+  date: April 11th, 18th, 25th 2018
   location: 
-  description: Dotcom-Moniter is now accepting applications for women pursuing a career in computing to earn a $1000 scholarship.
-
-- title: Violence Against Women in the Age of Social Media Panel
-  click: Attend
-  url: https://www.facebook.com/events/1915449941833120/
-  date: April 4th, 2018
-  location: Center for Intercultural Engagement (144 Curry Student Center)
-  description: For many women, the Internet is not a safe space. Join us along with Amnesty International for this panel in which we will explore this issue and dive into opportunities for action. Dinner will be provided!
-
-- title: Google Code Jam
-  click: Participate
-  url: https://codejam.withgoogle.com/codejam/
-  date: April 6th, 2018
-  location: 
-  description: Code Jam calls on programmers around the world to put their skills to the test by solving multiple rounds of algorithmic puzzles. The international finals this year will be located in Toronto, Canada.
-
-- title: HackThePack
-  click: Sign Up
-  url: https://hackthepack.github.io/
-  date: April 7th - 8th, 2018
-  location: IV Basement
-  description: A beginner friendly, student run 24 hour hackathon hosted for and by Northeastern students, bringing together COE, COS and CCIS to solve biotech and pharma challenges.
+  description: Workshops will be interactive discussions led by Northeastern's Science Policy Group, featuring guest speakers who are experts in areas of policy, advocacy, and communication.
 
 - title: PerkinsHacks
   click: Register  
@@ -57,6 +43,13 @@
   date: April 14th - 15th, 2018
   location: Dartmouth College
   description: Dartmouth is hosting their fourth annual hackathon this year. Build something amazing, meet people, and get swag and prizes! Stay tuned for information about chartered busses from Boston.
+
+- title: Glasswing Ventures- Startup meetup
+  click: Join
+  url: https://docs.google.com/forms/d/e/1FAIpQLSfdRuEo99utSR3vSR6XqVStmdfYuoLc-07AWJtDFYK0rW471g/viewform
+  date: April 23th, 2018
+  location: Boston/Cambridge - exact will be sent to attendees
+  description: The event will feature unfiltered discussion by the Glasswing team with Q&A and the opportunity to network with founders, funders and entrepreneurial-minded students who share your strong interest in how emerging technologies can change the world!
 
 - title: Boston Blockchain Week
   click: About

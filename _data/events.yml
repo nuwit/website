@@ -1,5 +1,13 @@
 # Add new events to the top
 # Events go from most recent -> least recent
+- title: Elections!
+  url: https://www.facebook.com/events/359243674578610/
+  start: "2018-04-09T19:00:00"
+  date: April 9, 2018
+  time: 7:00pm - 8:00pm
+  location: 106 WVG
+  description: Vote for your Fall 2018 E-Board!
+
 - title: HubSpot Tech Talk
   url: https://www.facebook.com/events/160483661326164/
   start: "2018-04-03T19:00:00"
