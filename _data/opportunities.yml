@@ -9,41 +9,6 @@
 #  location: Where
 #  description: Important info ie overview, alternative deadlines, travel grants available
 
-- title: Igniting the Computational Renaissance
-  click: Attend  
-  url: https://www.eventbrite.com/e/igniting-the-computational-renaissance-at-northeastern-university-tickets-44711796186
-  date: April 10th, 2018
-  location: West Village F
-  description: Please join Tristen Blake, founder of the Machine Learning Society and the CO, Science & Tech social network for a fireside chat. The registration password for the event is MLSBOS2018.
-
-- title: STEM Advocacy 101 Workshops
-  click: Apply  
-  url: https://docs.google.com/forms/d/e/1FAIpQLSdVH7aykEvjNF0Ln-w6arGTraVLQE7UyUGXrYobsvMqqjuXGQ/viewform
-  date: April 11th, 18th, 25th 2018
-  location: 
-  description: Workshops will be interactive discussions led by Northeastern's Science Policy Group, featuring guest speakers who are experts in areas of policy, advocacy, and communication.
-
-- title: PerkinsHacks
-  click: Register  
-  url: http://www.perkins.org/get-involved/events/perkins-hacks
-  date: April 13th - 14th, 2018
-  location: Perkins School for the Blind in Watertown, MA
-  description: Perkins is hosting its first ever hackathon focused on new, innovative ways to address challenges faced by members of the blind community.
-
-- title: Scientista Symposium
-  click: More
-  url: http://scisymp18.weebly.com/
-  date: April 13th - 15th, 2018
-  location: Microsoft Headquarters, NYC
-  description: A 3-day conference for women in STEM fields including workshops, career fair, poster session and more. Use discount code "spring" for 10% off. Scholarships and travel grants can be provided.
-
-- title: Hack Dartmouth
-  click: Register
-  url: http://hackdartmouth.io/
-  date: April 14th - 15th, 2018
-  location: Dartmouth College
-  description: Dartmouth is hosting their fourth annual hackathon this year. Build something amazing, meet people, and get swag and prizes! Stay tuned for information about chartered busses from Boston.
-
 - title: Glasswing Ventures- Startup meetup
   click: Join
   url: https://docs.google.com/forms/d/e/1FAIpQLSfdRuEo99utSR3vSR6XqVStmdfYuoLc-07AWJtDFYK0rW471g/viewform
