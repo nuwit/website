@@ -9,41 +9,6 @@
 #  location: Where
 #  description: Important info ie overview, alternative deadlines, travel grants available
 
-- title: Glasswing Ventures- Startup meetup
-  click: Join
-  url: https://docs.google.com/forms/d/e/1FAIpQLSfdRuEo99utSR3vSR6XqVStmdfYuoLc-07AWJtDFYK0rW471g/viewform
-  date: April 23th, 2018
-  location: Boston/Cambridge - exact will be sent to attendees
-  description: The event will feature unfiltered discussion by the Glasswing team with Q&A and the opportunity to network with founders, funders and entrepreneurial-minded students who share your strong interest in how emerging technologies can change the world!
-
-- title: Boston Blockchain Week
-  click: About
-  url: https://www.bostonblockchainweek.com/
-  date: April 23th - 27th, 2018
-  location: Various locations in Boston area
-  description: Hosted by MIT, Hubspot and more, Boston Blockchain Week brings together founders, researchers, students and investors to explore the evolution of blockchain and cryptocurrency. Check out the blockchain fundamentals developer training bootcamp.
-
-- title: Embrace Ambition Summit
-  click: Apply
-  url: http://www.toryburchfoundation.org/embraceambition/summit/application/
-  date: April 24th, 2018
-  location: Lincoln Center, NYC
-  description: The Embrace Ambition Summit is a one-day event focused on overcoming the negative attitudes about ambition in women and addressing other harmful stereotypes that impact gender, race and sexuality. Applications will be reviewed by <b>March 22nd</b>.
-
-- title: USC Viterbi CS Preview Day
-  click: Attend
-  url: https://viterbigradadmission.usc.edu/cspreview/
-  date: April 27th, 2018
-  location: University of Southern California
-  description: Interested in pursuing a doctoral degree in Computer Science? Visit USC's Viterbi school for more information. Applications for travel grants close <b>March 30th</b>.
-
-- title: ScholarJet Scholarships
-  click: Details
-  url: ../files/2018_ScholarJet_Scholarships.pdf
-  date: April 30th, 2018
-  location:
-  description: ScholarJet offers scholarships earned through alternative forms such as creating videos. Deadlines coming up for Green Hero and Dream Chaser awards.
-
 - title: Nurse Hackathon 2018- The Opioid Crisis
   click: More information
   url: http://www.northeastern.edu/nurseinnovation/hackathon-2018/

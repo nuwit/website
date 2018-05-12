@@ -1,92 +1,12 @@
-# Team names, titles and social links
-- name: Kristy Chen
-  position: President
-  modal: kristy
-  pic: kristy
-  year: 3rd
-  major: Computer Science and Business
-  tvShow: Code Iyoko
-  spiritFruit: Orange
-  social:
-    - title: envelope
-      url: mailto:chen.kr@husky.neu.edu
-    - title: linkedin
-      url: https://www.linkedin.com/in/kristy-chen-222278114/
-    - title: github
-      url: https://github.com/kristychen8
-    - title: link
-      url: https://kristychen8.github.io
-
-- name: Lisa Chan
-  position: Vice President
-  pic: lisa2
-  modal: lisa
-  year: 3rd
-  major: Computer Science
-  tvShow: Spongebob
-  spiritFruit: Mango
-  social:
-    - title: envelope
-      url: mailto:chan.lis@husky.neu.edu
-    - title: linkedin
-      url: https://www.linkedin.com/in/chanlis
-    - title: github
-      url: https://github.com/chanlis
-    - title: link
-      url: https://chanlis.github.io
-
-- name: Elizabeth Cho
-  position: Treasurer
-  modal: elizabeth
-  pic: elizabeth
-  year: 2nd
-  major: Computer Science
-  tvShow: Arthur
-  spiritFruit: Peach
-  social:
-    - title: envelope
-      url: mailto:cho.e@husky.neu.edu
-
-- name: Mahema Singh
-  position: Public Relations
-  modal: mahema
-  pic: mahema
-  year: 1st
-  major: Computer Science and Business
-  tvShow: Cyberquest
-  spiritFruit: Mango
-  social:
-    - title: envelope
-      url: mailto:singh.mah@husky.neu.edu
-    - title: linkedin
-      url: https://www.linkedin.com/in/mahema-singh-2a1977149/
-    - title: github
-      url: https://github.com/MahemaS27
-
-- name: Izzi Tripp
-  position: Outreach
-  modal: izzi
-  pic: izzi
-  year: 2nd
-  major: Computer Science
-  tvShow: 
-  spiritFruit: Apricot
-  social:
-    - title: envelope
-      url: mailto:tripp.i@husky.neu.edu
-    - title: linkedin
-      url: https://www.linkedin.com/in/isabel-t-a6461b133/      
-    - title: github
-      url: https://github.com/tahitihat
 
 - name: Felicia Zhang
-  position: Web
+  position: President
   modal: felicia
   pic: felicia
-  year: 2nd
+  year: 3rd
   major: Computer Engineering and Computer Science
-  tvShow: Avatar the Last Airbender
-  spiritFruit: Lemon
+  superhero: Artemis (from Young Justice)
+  flavor: Lemon Drop
   social:
     - title: envelope
       url: mailto:zhang.fel@husky.neu.edu
@@ -98,13 +18,13 @@
       url: https://feliciazhang.github.io
 
 - name: Catu Berretta
-  position: Design
+  position: Vice President
   modal: catu
   pic: catu
-  year: 2nd
-  major: Computer Science
-  tvShow: Barbie Nutcracker
-  spiritFruit:
+  year: 3rd
+  major: Computer Science and Design
+  superhero: Wonder Woman
+  flavor: Skittles
   social:
     - title: envelope
       url: mailto:berretta.c@husky.neu.edu
@@ -114,3 +34,84 @@
       url: https://github.com/catumaga
     - title: link
       url: https://catumaga.github.io
+
+
+- name: Mahema Singh
+  position: Treasurer
+  modal: mahema
+  pic: mahema
+  year: 2nd
+  major: Computer Science and Business
+  superhero: Spider-Man
+  flavor: Mango
+  social:
+    - title: envelope
+      url: mailto:singh.mah@husky.neu.edu
+    - title: linkedin
+      url: https://www.linkedin.com/in/mahema-singh-2a1977149/
+    - title: github
+      url: https://github.com/MahemaS27
+
+- name: Elizabeth Cho
+  position: Public Relations
+  modal: elizabeth
+  pic: elizabeth
+  year: 3rd
+  major: Computer Science
+  superhero: Thor
+  flavor: Peach
+  social:
+    - title: envelope
+      url: mailto:cho.e@husky.neu.edu
+    - title: linkedin
+      url: https://www.linkedin.com/in/elizabeth-c/
+    - title: linkedin
+      url: https://github.com/cho-e/
+
+- name: Izzi Tripp
+  position: Outreach
+  modal: izzi
+  pic: izzi
+  year: 3rd
+  major: Computer Science
+  superhero: Black Panther
+  flavor: Mint
+  social:
+    - title: envelope
+      url: mailto:tripp.i@husky.neu.edu
+    - title: linkedin
+      url: https://www.linkedin.com/in/isabel-t-a6461b133/      
+    - title: github
+      url: https://github.com/tahitihat
+
+
+- name: Michelle Pine
+  position: Web
+  modal: michelle
+  pic: michelle
+  year: 3rd
+  major: Computer Science and Design
+  superhero: Superman
+  flavor: Blue Raspberry
+  social:
+    - title: envelope
+      url: mailto:pine.michelle63@husky.neu.edu
+    - title: linkedin
+      url: https://www.linkedin.com/in/michelle-pine      
+    - title: github
+      url: https://github.com/michelle-pine
+    - title: link
+      url: https://michelle-pine.github.io/my-portfolio/
+
+- name: Jaime Gonora
+  position: Design
+  modal: jaime
+  pic: jaime
+  year: 2nd
+  major: Computer Science and Media Arts
+  superhero: Spider-Man
+  flavor: Green Apple
+  social:
+    - title: envelope
+      url: mailto:Gonora.j@husky.neu.edu
+ 
