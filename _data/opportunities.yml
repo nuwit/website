@@ -9,12 +9,24 @@
 #  location: Where
 #  description: Important info ie overview, alternative deadlines, travel grants available
 
-- title: Nurse Hackathon 2018- The Opioid Crisis
-  click: More information
-  url: http://www.northeastern.edu/nurseinnovation/hackathon-2018/
-  date: May 18th - 20th, 2018
-  location: Egan Research Center, NEU
-  description: Listen to panelists present on the latest research related to the opioid epidemic and hack your own solution to the crisis. Contact Prof. Rebecca Love at r.love@neu.edu for possible scholarship opportunities.
+
+
+
+- title: Paid Summer Research Assistantship for Exergame Development
+  click: Send Resume/CV
+  url: mailto:stowell.e@husky.neu.edu
+  date: May - August 2018
+  location: Boston
+  description: The Northeastern Wellness Technology lab is looking for a part-time research assistant to develop an exergame used on mobile phones. The goal of the exergame is to increase physical activity and social connectedness among caregivers of people with Alzheimer’s Disease. We are primarily seeking someone to assist with front-end development. Experience with mobile application development (either android or cross platform) and Firebase or similar platform required. 
+
+
+- title: Anidjar & Levine Community Service Scholarship
+  click: Apply
+  url: https://www.anidjarlevine.com/community-service-scholarship/
+  date: June 30th, 2018
+  description: 'Students from all disciplines are welcome to respond to the following essay prompt for the chance to receive $1,000: "What job skill(s) did you develop through community service that you did not possess prior to volunteering?" Applications are due on <b>June 30th</b>.'
+
+
 
 - title: VMWare CodeHouse
   click: Apply
@@ -22,6 +34,88 @@
   date: July 28th - 31th, 2018
   location: Palo Alto
   description: Apply for VMWare's multi-day technical experience in Silicon Valley this summer. Chosen applicants will join a team of likeminded female students ready to make an impact and tackle a technical challenge that will give back to the community. Applications are due <b>May 18th</b>.
+
+
+
+- title: Business Today International Conference
+  click: Apply
+  url: https://www.ic18.org/
+  date: November 18th - 20th, 2018
+  location: New York City
+  description: Apply to attend Business Today's all-expenses paid, 3-day business conference with 150 undergraduate students, and 75 executives!
+
+
+- title: TopSpot SEM Scholarship
+  click: Apply
+  url: http://topspotsem.com/scholarship/
+  date: December 1st, 2018
+  description: 'Students from all disciplines are welcome to respond to the following essay prompt for the chance to receive $500: "How you Plan to Use Digital Marketing to achieve your Goals in Life?" Applications are due on <b>December 1st</b>.'
+
+
+- title: EasyRinger Scholarship
+  click: Apply
+  url: https://www.easyringer.com/scholarship
+  date: December 1st, 2018
+  description: 'Students from all disciplines are welcome to respond to the following essay prompt for the chance to receive $500: "The Role of International Communication in the Economy, in Technological Development, and in Interpersonal Relationships". Applications are due on <b>December 1st</b>.'
+
+
+
+
+
+- title: Dallas Car Accident Lawyers Cancer Awareness Scholarship
+  click: Apply
+  url: https://www.dallascaraccidentlawyers.net/cancer-awareness-scholarship/
+  date: December 15th, 2018
+  description: 'Students from all disciplines are welcome to respond to the following essay prompt for the chance to receive $1,000: "What’s one thing you think would make the biggest difference in how our society treats Cancer?" Applications are due on <b>December 15th</b>.'
+
+
+
+- title: Child of an American Veteran Scholarship
+  click: Apply
+  url: https://cck-law.com/2018-child-of-an-american-veteran-scholarship/
+  date: December 15th, 2018
+  description: 'Students from all disciplines are welcome to respond to the following essay prompt for the chance to receive $1,500: "How did growing up in a military family inspire your education and career aspirations?" Applications are due on <b>December 15th</b>.'
+
+
+
+
+- title: Atlanta Car Accident Lawyers Community Service Scholarship
+  click: Apply
+  url: https://www.atlantacaraccidentlawyer.com/2018-community-service-scholarship/
+  date: December 30th, 2018
+  description: 'Students from all disciplines are welcome to respond to the following essay prompt for the chance to receive $1,000: "What holds so many people back from performing service work?" Applications are due on <b>December 30th</b>.'
+
+
+
+
+- title:  Randall Blair Isenberg Alcohol Addiction Awareness Scholarship
+  click: Apply
+  url: https://www.rbisenberg.com/alcohol-addiction-awareness-scholarship/
+  date: March 19th, 2019
+  description: 'Students from all disciplines are welcome to respond to the following essay prompt for the chance to receive $500: "How does alcohol addiction affect young Americans today?" Applications are due on <b>March 19th</b>.'
+
+
+- title:  Enterprise Painters Scholarship
+  click: Apply
+  url: https://www.paintersaltlakecityut.com/scholarship
+  date: May 1st, 2019
+  description: 'Students from all disciplines are welcome to respond to the following essay prompt for the chance to receive $500: "The Negative Impact of Lead on the Health of Children in America". Applications are due on <b>May 1st</b>.'
+
+
+- title:  Herrmann Law Scholarship program
+  click: Apply
+  url: https://paycheckcollector.com/scholarship/
+  date: May 1st, 2019
+  description: 'Students from all disciplines are welcome to respond to the following essay prompt for the chance to receive $500: "How have your parents career choices affected yours?". Applications are due on <b>May 1st</b>.'
+
+
+
+- title:  HD Carolina Scholarship
+  click: Apply
+  url: https://www.hdcarolina.com/blog/scholarship/
+  date: June 1st, 2019
+  description: 'Students from all disciplines are welcome to respond to the following essay prompt for the chance to receive $500: "What makes the Carolinas so Special?" Applications are due on <b>June 1st</b>.'
+
 
 - title: Chart Wescott Scholarship
   click: Apply
