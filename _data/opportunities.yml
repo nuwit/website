@@ -11,41 +11,77 @@
 
 
 
+- title: Treatment Study for Women who experienced Sexual Assault or Violence
+  click: Participate
+  url: http://bostontraumastudy.org/
+  date: N/A
+  location: Boston, MA
+  description: Boston University researchers are looking for participants for a study that is comparing two therapy treatments for trauma related symptoms resulting from sexual assault or interpersonal violence. All study visits are located on BU’s Charles River campus, and eligible participants receive treatment at no cost and are compensated for other study visits.
+  
 
-- title: Paid Summer Research Assistantship for Exergame Development
-  click: Send Resume/CV
-  url: mailto:stowell.e@husky.neu.edu
-  date: May - August 2018
-  location: Boston
-  description: The Northeastern Wellness Technology lab is looking for a part-time research assistant to develop an exergame used on mobile phones. The goal of the exergame is to increase physical activity and social connectedness among caregivers of people with Alzheimer’s Disease. We are primarily seeking someone to assist with front-end development. Experience with mobile application development (either android or cross platform) and Firebase or similar platform required. 
-
-
-- title: Anidjar & Levine Community Service Scholarship
+- title: Become a Technica Ambassador
+  click: Participate
+  url: https://goo.gl/forms/movXz6OkbGC1qpaw2
+  date: N/A
+  location: Boston, MA
+  description: Become an ambassador for BMD’s all-women hackathon, Technica! As a campus ambassador, you will be in charge of generating awareness, excitement, and buzz about Technica at your school. You can also get exclusive Technica swag as an ambassador!
+  
+- title: Become a User Experience Research Coordinator
   click: Apply
-  url: https://www.anidjarlevine.com/community-service-scholarship/
-  date: June 30th, 2018
-  description: 'Students from all disciplines are welcome to respond to the following essay prompt for the chance to receive $1,000: "What job skill(s) did you develop through community service that you did not possess prior to volunteering?" Applications are due on <b>June 30th</b>.'
+  url: http://jobs.jobvite.com/curriculumassociates/job/oFMf8fwy
+  date: N/A
+  location: Billerica, MA
+  description: Curriculum Associates, an educational technology and publishing company in Billerica, MA, is looking for a Northeastern grad to join their UX Research team. Apply if interested! 
+
+- title: Mentor Matching Engine (MME)
+  click: Sign Up
+  url: https://istc1.typeform.com/to/dfb1Ts
+  date: N/A
+  location: Boston, MA
+  description: Interested in mentoring opportunities? The Illinois Science & Technology Institute (ISTI) is a nonprofit organization that runs a virtual mentoring platform called the Mentor Matching Engine (MME). MME is an online collaboration tool that pairs Illinois high school students with mentors to collaborate on student-driven research projects. MME is a great way for professionals to volunteer and give back to younger students - anytime, anywhere. It is also a helpful way to build your own experience in your field of study, build your CV, get students interested in your college, and interact with your community.
 
 
-
-- title: VMWare CodeHouse
+- title: Hack the North
   click: Apply
-  url: https://vmware.beamery.com/events/codehouse
-  date: July 28th - 31th, 2018
-  location: Palo Alto
-  description: Apply for VMWare's multi-day technical experience in Silicon Valley this summer. Chosen applicants will join a team of likeminded female students ready to make an impact and tackle a technical challenge that will give back to the community. Applications are due <b>May 18th</b>.
+  url: https://app.hackthenorth.com/
+  date: September 14th - 16th, 2018
+  location: University of Waterloo
+  description: Canada's biggest hackathon is back! Gather with 1,000 students from around the world and industry leaders at the University of Waterloo to collaborate and bring your ideas to life in 36 hours.
+
+
+
+- title: Tufts Women in Tech Conference 2018
+  click: Attend
+  url: https://www.eventbrite.com/e/tufts-women-in-tech-wit-conference-2018-registration-48534789863
+  date: September 22nd, 2018
+  location: Medford, MA
+  description: WiT 2018 is Tufts’ second annual conference celebrating women and femme non-binary individuals in technology. The conference strives to create community between women in tech in the Boston area, expose attendees to new and exciting computer science concepts, and prepare them to launch their careers in the tech field!
 
 
 
 - title: HerVentures Conference
   click: Apply
-  url: https://www.herventures.org
-  date: October 6th - 7th, 2018
+  url: https://www.herventures.org/
+  date: October 6th, 2018 - October 7th, 2018
   location: New York City
-  description: Her Ventures is an annual conference dedicated to female undergraduate founders, pioneers, and entrepreneurs. Enjoy an all-expenses-paid conference held in New York City while networking with other aspiring female founders. Participate in workshops led by top executives and venture capitalists, and develop entrepreneurial skills that will transform your venture into the next big thing. First round application deadline is <b>June 25th, 2018 at 11:59 pm.</b>
+  description: Her Ventures is an annual conference dedicated to female undergraduate founders, pioneers, and entrepreneurs. Enjoy an all-expenses-paid conference held in New York City while networking with other aspiring female founders. Participate in workshops led by top executives and venture capitalists, and develop entrepreneurial skills that will transform your venture into the next big thing. First round application deadline is <strong> June 25th, 2018 at 11:59 pm </strong>.
 
 
+- title: HackCooper 2018
+  click: Attend
+  url: http://www.hackcooper.org/
+  date: October 12th, 2018 - October 13th, 2018
+  location: New York City
+  description: HackCooper seeks to bring the community together through their hackathon, taking place through October 12th-13th 2018, starting at 4 PM ET at The Cooper Union in New York City. 
 
+
+- title: Technica Hackathon
+  click: Attend
+  url: https://gotechnica.org/#
+  date: November 10, 2018 - November 11, 2018
+  location: Boston, MA
+  description: Technica is the largest all-women hackathon, hosted annually at the University of Maryland. Over the duration of 24 hours, women are immersed in tech culture and encouraged to exercise their imagination to create interesting and innovative hacks.
+  
 
 
 - title: Business Today International Conference

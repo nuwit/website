@@ -1,5 +1,14 @@
 # Add new events to the top
 # Events go from most recent -> least recent
+
+- title: Welcome Dinner 2018
+  url: 
+  start: "2018-09-11T19:00:00"
+  date: September 11, 2018
+  time: 7:00pm - 8:00pm
+  location: TBD
+  description: Join NUWIT for their annual welcome dinner! Enjoy some delicious (and free) Thai food while mingling with fellow women in tech-related majors/fields! Plus, see cool project demos and play a fun Kahoot trivia game to win NUWIT swag!
+
 - title: Boba and Chill
   url: https://www.facebook.com/events/261952377687647
   start: "2018-06-21T11:00:00"
