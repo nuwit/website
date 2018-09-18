@@ -41,14 +41,13 @@
   description: Interested in mentoring opportunities? The Illinois Science & Technology Institute (ISTI) is a nonprofit organization that runs a virtual mentoring platform called the Mentor Matching Engine (MME). MME is an online collaboration tool that pairs Illinois high school students with mentors to collaborate on student-driven research projects. MME is a great way for professionals to volunteer and give back to younger students - anytime, anywhere. It is also a helpful way to build your own experience in your field of study, build your CV, get students interested in your college, and interact with your community.
 
 
-- title: Hack the North
-  click: Apply
-  url: https://app.hackthenorth.com/
-  date: September 14th - 16th, 2018
-  location: University of Waterloo
-  description: Canada's biggest hackathon is back! Gather with 1,000 students from around the world and industry leaders at the University of Waterloo to collaborate and bring your ideas to life in 36 hours.
-
-
+- title: GE Career Fair
+  click: Attend
+  url: http://tinyurl.com/ybmsllqa
+  date: September 20th, 2018
+  location: Cabral Center, Boston, MA
+  description: Looking for a co-op or full-time position? Attend GE's career fair!
+  
 
 - title: Tufts Women in Tech Conference 2018
   click: Attend
@@ -57,6 +56,23 @@
   location: Medford, MA
   description: WiT 2018 is Tufts’ second annual conference celebrating women and femme non-binary individuals in technology. The conference strives to create community between women in tech in the Boston area, expose attendees to new and exciting computer science concepts, and prepare them to launch their careers in the tech field!
 
+
+
+- title: FreshPrints Grand Plan Scholarship
+  click: Apply
+  url: https://apply.freshprints.com/scholarship6/?source=oldclub
+  date: September 30th, 2018
+  location: Boston
+  description: WThe Fresh Prints scholarship we emailed about was so inspiring that we're offering a $5,000 scholarship this September. It's for any and all current college students. 
+
+
+
+- title: DEEP Cybersecurity Conference
+  click: Sign Up
+  url: https://www.eventbrite.com/e/deep-2018-tickets-44700141326?discount=ATTENDDEEP
+  date: October 2nd, 2018 - October 3rd, 2018
+  location: Boston
+  description: Filled with maverick thought leaders, industry experts, and cybersecurity executives, this event will get below the surface of the cybersecurity problem by asking smart questions and connecting disparate ideas. No panels. No Death-By-Powerpoints. Just engaging content to help security professionals see through a new point of view.
 
 
 - title: HerVentures Conference
@@ -163,6 +179,15 @@
   url: https://thriftymommaramblings.com/500-college-essay-scholarship/
   date: December 31st, 2018
   description: 'Students from all disciplines are welcome to respond to the following essay prompt for the chance to receive $500: "What is the Biggest and Best Bargain you’ve ever come across?" Applications are due on <b>December 31st</b>.'
+
+
+- title: Reality Virtually Hackathon
+  click: Attend
+  url: https://realityvirtuallyhack.com/
+  date: January 17th - 21st, 2019
+  location: Boston, MA
+  description: 'Attend this AR/VR-centric hackathon at the MIT Media Lab! '
+
 
 
 

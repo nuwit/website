@@ -1,12 +1,78 @@
 # Add new events to the top
 # Events go from most recent -> least recent
 
+
+
+- title: Hubspot Tech Talk
+  url: /
+  start: "2018-11-27T19:00:00"
+  date: November 27, 2018
+  time: 7:00pm - 8:00pm
+  location: 106 West Village G
+  description: Hubspot returns to NUWIT to give another one of their cool tech talks! Be sure not to miss this!
+
+
+- title: Class Registration Discussion
+  url: /
+  start: "2018-11-06T19:00:00"
+  date: November 6, 2018
+  time: 7:00pm - 8:00pm
+  location: 106 West Village G
+  description: Worried about registering for classes? NUWIT can help! Attend this meeting for all the class-picking advice you need!
+
+
+
+- title: Google Tech Talk
+  url: /
+  start: "2018-10-16T19:00:00"
+  date: October 16, 2018
+  time: 7:00pm - 8:00pm
+  location: 106 West Village G
+  description: Google comes to Northeastern with cookies! Make sure to attend!
+
+
+- title: Datadog Tech Talk
+  url: /
+  start: "2018-10-09T19:00:00"
+  date: October 9, 2018
+  time: 7:00pm - 8:00pm
+  location: 106 West Village G
+  description: Datadog gives their debut tech talk at NUWIT! 
+
+- title: Airbnd Tech Talk
+  url: /
+  start: "2018-10-02T19:00:00"
+  date: October 2, 2018
+  time: 7:00pm - 8:00pm
+  location: 106 West Village G
+  description: Airbnb shares some of their amazing tech knowledge at this meeting of NUWIT! Don't miss it! 
+
+
+- title: GHC Workshop
+  url: /
+  start: "2018-09-20T19:00:00"
+  date: September 20, 2018
+  time: 6:00pm - 7:00pm
+  location: 109 Robinson Hall
+  description: For those going to the Grace Hopper Conference, attend this preparatory conference with Liberty Mutual!
+
+
+- title: VMWare Tech Talk
+  url: https://www.facebook.com/events/247355685974967/
+  start: "2018-09-18T19:00:00"
+  date: September 18, 2018
+  time: 7:00pm - 8:00pm
+  location: 106 West Village G
+  description: Join us at our FIRST meeting of the semester for a tech talk with VMware to learn about virtualization technology!
+
+
+
 - title: Welcome Dinner 2018
-  url: 
+  url: https://www.facebook.com/events/269448073695514/
   start: "2018-09-11T19:00:00"
   date: September 11, 2018
   time: 7:00pm - 8:00pm
-  location: TBD
+  location: 106 West Village G
   description: Join NUWIT for their annual welcome dinner! Enjoy some delicious (and free) Thai food while mingling with fellow women in tech-related majors/fields! Plus, see cool project demos and play a fun Kahoot trivia game to win NUWIT swag!
 
 - title: Boba and Chill
