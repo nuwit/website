@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Welcome Dinner 2019"
+title: "Welcome Dinner 2018"
 author: "Michelle Pine"
 img: welcome-photo.jpeg
 ---

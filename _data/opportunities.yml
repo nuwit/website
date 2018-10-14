@@ -40,56 +40,12 @@
   location: Boston, MA
   description: Interested in mentoring opportunities? The Illinois Science & Technology Institute (ISTI) is a nonprofit organization that runs a virtual mentoring platform called the Mentor Matching Engine (MME). MME is an online collaboration tool that pairs Illinois high school students with mentors to collaborate on student-driven research projects. MME is a great way for professionals to volunteer and give back to younger students - anytime, anywhere. It is also a helpful way to build your own experience in your field of study, build your CV, get students interested in your college, and interact with your community.
 
-
-- title: GE Career Fair
-  click: Attend
-  url: http://tinyurl.com/ybmsllqa
-  date: September 20th, 2018
-  location: Cabral Center, Boston, MA
-  description: Looking for a co-op or full-time position? Attend GE's career fair!
-  
-
-- title: Tufts Women in Tech Conference 2018
-  click: Attend
-  url: https://www.eventbrite.com/e/tufts-women-in-tech-wit-conference-2018-registration-48534789863
-  date: September 22nd, 2018
-  location: Medford, MA
-  description: WiT 2018 is Tufts’ second annual conference celebrating women and femme non-binary individuals in technology. The conference strives to create community between women in tech in the Boston area, expose attendees to new and exciting computer science concepts, and prepare them to launch their careers in the tech field!
-
-
-
-- title: FreshPrints Grand Plan Scholarship
-  click: Apply
-  url: https://apply.freshprints.com/scholarship6/?source=oldclub
-  date: September 30th, 2018
-  location: Boston
-  description: WThe Fresh Prints scholarship we emailed about was so inspiring that we're offering a $5,000 scholarship this September. It's for any and all current college students. 
-
-
-
-- title: DEEP Cybersecurity Conference
-  click: Sign Up
-  url: https://www.eventbrite.com/e/deep-2018-tickets-44700141326?discount=ATTENDDEEP
-  date: October 2nd, 2018 - October 3rd, 2018
-  location: Boston
-  description: Filled with maverick thought leaders, industry experts, and cybersecurity executives, this event will get below the surface of the cybersecurity problem by asking smart questions and connecting disparate ideas. No panels. No Death-By-Powerpoints. Just engaging content to help security professionals see through a new point of view.
-
-
-- title: HerVentures Conference
-  click: Apply
-  url: https://www.herventures.org/
-  date: October 6th, 2018 - October 7th, 2018
-  location: New York City
-  description: Her Ventures is an annual conference dedicated to female undergraduate founders, pioneers, and entrepreneurs. Enjoy an all-expenses-paid conference held in New York City while networking with other aspiring female founders. Participate in workshops led by top executives and venture capitalists, and develop entrepreneurial skills that will transform your venture into the next big thing. First round application deadline is <strong> June 25th, 2018 at 11:59 pm </strong>.
-
-
-- title: HackCooper 2018
-  click: Attend
-  url: http://www.hackcooper.org/
-  date: October 12th, 2018 - October 13th, 2018
-  location: New York City
-  description: HackCooper seeks to bring the community together through their hackathon, taking place through October 12th-13th 2018, starting at 4 PM ET at The Cooper Union in New York City. 
-
+- title: TechShift Alliance
+  click: Join
+  url: https://techshift.co/what-we-do/
+  date: N/A
+  location: Boston, MA
+  description: Join TechShift Alliance to support technological & social responsibility! 
 
 - title: Technica Hackathon
   click: Attend
@@ -99,6 +55,14 @@
   description: Technica is the largest all-women hackathon, hosted annually at the University of Maryland. Over the duration of 24 hours, women are immersed in tech culture and encouraged to exercise their imagination to create interesting and innovative hacks.
   
 
+
+- title: Boston Hacks
+  click: Attend
+  url: https://my.bostonhacks.io/
+  date: November 10, 2018 - November 11, 2018
+  location: Boston, MA
+  description: Boston University’s annual hackathon taking place November 10-11 on BU’s campus. We would love for you to join us this year as we celebrate creating hacks for social good, finding trends in data, and looking ahead to the future of the smart home.
+  
 
 - title: Business Today International Conference
   click: Apply
