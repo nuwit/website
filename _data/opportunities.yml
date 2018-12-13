@@ -9,76 +9,43 @@
 #  location: Where
 #  description: Important info ie overview, alternative deadlines, travel grants available
 
-
-- title: State Street Tech Talk
-  click: 
-  url: 
-  date: October 29, 2018
-  location: Boston, MA
-  description: State Street will be on campus to host a Tech Talk on Distributed Ledger Technology (DLT). Learn about the impact of DTL on FinTech and the way we do business. There is no better time to bring in your resume and apply to your dream internship or full-time job! Takes place at 5:30-6:00pm in West Village H room 108.
-
-- title: "CoSMO Panel: Major & Course Selection"
-  click: RSVP
-  url: https://facebook.us19.list-manage.com/track/click?u=7716e836b15ec0d0895367102&id=0e1e6b4472&e=0ec30f4529
-  date: October 29, 2018
-  location: Boston, MA
-  description: Stressed about upcoming course selection? Don't be! Come to CoSMO's next panel to get advice about choosing your major, balancing your schedule, picking electives, and more! Hosted in 109 Robinson Hall.
-  
-- title: Wayfair Datathon
-  click: Attend
-  url: https://wayfairdatathon.splashthat.com/
-  date: November 3, 2018
-  location: Boston, MA
-  description: Analyze real-world data with top students from around the Boston area -- and compete for a chance to win a trip to ICML 2019!
-  
-- title: Machine Learning With Python Workshop
-  click: Attend
-  url: https://www.ccis.northeastern.edu/event/womens-community-of-code-machine-learning-with-python/
-  date: November 3, 2018
-  location: Boston, MA
-  description: Python is a powerful programming language we can use to process and understand large amounts of data. In this workshop, we’ll learn how to use code to teach computers how to think… at least a little. This will be a fun, interactive learning experience that includes an introduction to machine learning, important applications, and some hands-on coding with Python. Our workshops are always free and beginner-friendly, and you don’t need any technical knowledge to get started with coding.
-  
-- title: Technica Hackathon
-  click: Attend
-  url: https://gotechnica.org/#
-  date: November 10, 2018 - November 11, 2018
-  location: Boston, MA
-  description: Technica is the largest all-women hackathon, hosted annually at the University of Maryland. Over the duration of 24 hours, women are immersed in tech culture and encouraged to exercise their imagination to create interesting and innovative hacks.
-
-- title: Boston Hacks
-  click: Attend
-  url: https://my.bostonhacks.io/
-  date: November 10, 2018 - November 11, 2018
-  location: Boston, MA
-  description: Boston University’s annual hackathon taking place November 10-11 on BU’s campus. We would love for you to join us this year as we celebrate creating hacks for social good, finding trends in data, and looking ahead to the future of the smart home.
-  
-- title: MIT Battlehack
-  click: Attend
-  url: https://docs.google.com/forms/d/e/1FAIpQLSfIF29mFXY3IlzGub5HfLtwxas9J8kmYG-chldFi7gs-rTnBQ/viewform
-  date: November 10, 2018 - November 11, 2018
-  location: Boston, MA
-  description: This 24 hour event will take place on Saturday, November 10th 10:00am to Sunday, November 11th 10:00am. In the hackathon, competitors will be writing a bot to play a secret game written by the Battlecode Devs. The competition will last 24 hours, and at the end of the competition, there will be a tournament to see who will win the final prizes. 
-
-- title: Resilience Storytelling Hackathon
-  click: Attend
-  url: https://www.eventbrite.com/e/sourcing-boston-a-food-security-and-resilience-hackathon-tickets-50755791940
-  date: November 10, 2018 - November 11, 2018
-  location: Boston, MA
-  description: CAMD — the journalism school in particular — is hosting a Resilience Storytelling Hackathon Nov. 10-11 that will focus on visualizing the impact of climate change and other shocks to Boston's food system. Participants will be able to explore data including economic, environmental, and urban planning data to tell stories and draw insights about food insecurity, economic disruption and resilience.
-
-- title: "Breaking Barriers: First-Gens in Tech"
-  click: Attend
-  url: https://www.eventbrite.com/e/breaking-barriers-first-gens-in-tech-tickets-48809799424
-  date: November 16, 2018 
-  location: Boston, MA
-  description: First-Gens in Tech is a free daylong workshop for folks interested in learning more about the opportunities in Boston’s technology industry. Attendees will grow their networks, learn how they can prepare themselves for jobs in tech, and leave with resources to help equip them for future applications, interviews, and beyond.
-
-- title: Business Today International Conference
+- title: 2019 Civic Digital Fellowship
   click: Apply
-  url: https://www.ic18.org/
-  date: November 18th - 20th, 2018
-  location: New York City
-  description: Apply to attend Business Today's all-expenses paid, 3-day business conference with 150 undergraduate students, and 75 executives!
+  url: https://www.codingitforward.com/apply
+  date: January 5th, 2019
+  location: Washington, DC
+  description: Coding it forward is looking for impact-driven software engineers, data scientists, designers, and product managers to modernize tech at federal government agencies—including the U.S. Census Bureau, Department of Health and Human Services, and the State Department. As a Fellow, you’ll take a large-scale, high-impact product from start to finish, such as creating a centralized information portal for the State Department’s foreign service officers. 
+
+- title:  HackHer413 
+  click: Register
+  url: https://www.hackher413.com
+  date: February 9th-10th, 2019
+  location: Amherst, MA
+  description: HackHer413 and is the first all-women and non-binary student hackathon in Western Massachusetts, taking place February 9th-10th 2019 at UMass Amherst!
+
+- title: Apply for a UChicago PhD Program
+  click: Apply
+  url: https://www.cs.uchicago.edu/admissions/graduate/
+  date: January 9th, 2019
+  location: Chicago, IL
+  description: 'University of Chicago hopes to reach women in computer science, as well as students who identify as underrepresented minorities, with information about the exciting growth at UChicago CS and to encourage them to apply to our PhD program. UChicago CS has offered to waive their PhD application fees. When finalizing the PhD application, please apply the waiver by entering the code: CSHHUFF18'
+
+- title: 2019 Scientista Symposium
+  click: Register
+  url: http://scisymp19.weebly.com/
+  date: March 29th-31st, 2019
+  location: Boston, MA
+  description: The Scientista Foundation is a national 501c3 nonprofit organization committed to empowering and advancing young women in science, technology, engineering, math, and medicine (STEMM) careers. Each year we host a three-day conference for young women (and those who support them!) to network with others in their fields, learn critical professional and technical skills, meet recruiters and representatives from top companies and academic programs, present their work, and compete for over $100,000 in scholarships. Submit abstracts and apply for travel grants by <strong>January 1st.</strong>
+
+
+- title: Try out LeapResume
+  click: Try it
+  url: https://leap.ai/resume?utm_source=tony&utm_campaign=studengorgs&utm_term=northeastern
+  date: N/A
+  location: 
+  description: LeapResume is looking for feedback on their resume analysis software. Help them out and see an example of comp sci application in the field! 
+
+
 
 - title: Chart Wescott Scholarship
   click: Apply
