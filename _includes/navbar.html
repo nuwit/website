@@ -16,11 +16,23 @@
         <li {% if page.title == "Home" %}class="active"{% endif %}><a href="{{ site.baseurl }}/">Home</a></li>
         <li {% if page.title == "Officers" %}class="active"{% endif %}><a href="{{ site.baseurl }}/officers">Officers</a></li>
         <li {% if page.title == "Events" %}class="active"{% endif %}><a href="{{ site.baseurl }}/events">Events</a></li>
-        <li {% if page.title == "Opportunities" %}class="active"{% endif %}><a href="{{ site.baseurl }}/opportunities">Opportunities</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Opportunities <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li {% if page.title == "Opportunities" %}class="active"{% endif %}><a href="{{ site.baseurl }}/opportunities">All Opportunities</a></li>
+            <li {% if page.title == "Tech Challenges" %}class="active"{% endif %}><a href="{{ site.baseurl }}/tech-challenge">Tech Challenges</a></li>
+          </ul>
+        </li>
         <li {% if page.title == "Gallery" %}class="active"{% endif %}><a href="{{ site.baseurl }}/gallery">Gallery</a></li>
         <li {% if page.title == "Blog" or page.layout == "post" %}class="active"{% endif %}><a href="{{ site.baseurl }}/blog">Blog</a></li>
-        <li {% if page.title == "Contact" %}class="active"{% endif %}><a href="{{ site.baseurl }}/contact">Contact</a></li>
-        <li><a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdYlzMpTXHxlup5GReVctZhndYArxlni9V75KU0mgKlkyWdUw/viewform">Feedback</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CONTACT <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li {% if page.title == "Contact" %}class="active"{% endif %}><a href="{{ site.baseurl }}/contact">Message</a></li>
+            <li><a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdYlzMpTXHxlup5GReVctZhndYArxlni9V75KU0mgKlkyWdUw/viewform">Feedback Form</a></li>
+          </ul>
+        </li>
+        
       </ul>
     </div>
   </div>

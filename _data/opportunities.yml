@@ -8,6 +8,13 @@
 #  date: Date in the form: January 1st, 2018
 #  location: Where
 #  description: Important info ie overview, alternative deadlines, travel grants available
+- title: '<strong style="color:teal;text-transform:uppercase;">NUWIT Technical Challenge: Week 1</strong>'
+  click: Enter
+  url: http://bit.ly/nuwit-challenge1
+  date: January 22nd, 2019
+  location: Boston, MA
+  description: Welcome to the first week of NUWIT Technical Coding Challenges! We're here to help you practice aceing those co-op technical interviews. If you submit your technical challenge, you'll be entered to win a free NUWIT t-shirt whether your solution is correct or not! Due <strong>January 22nd.</strong> 
+
 
 - title: 2019 Civic Digital Fellowship
   click: Apply
@@ -16,6 +23,20 @@
   location: Washington, DC
   description: Coding it forward is looking for impact-driven software engineers, data scientists, designers, and product managers to modernize tech at federal government agencies—including the U.S. Census Bureau, Department of Health and Human Services, and the State Department. As a Fellow, you’ll take a large-scale, high-impact product from start to finish, such as creating a centralized information portal for the State Department’s foreign service officers. 
 
+- title: Apply for a UChicago PhD Program
+  click: Apply
+  url: https://www.cs.uchicago.edu/admissions/graduate/
+  date: January 9th, 2019
+  location: Chicago, IL
+  description: 'University of Chicago hopes to reach women in computer science, as well as students who identify as underrepresented minorities, with information about the exciting growth at UChicago CS and to encourage them to apply to our PhD program. UChicago CS has offered to waive their PhD application fees. When finalizing the PhD application, please apply the waiver by entering the code: CSHHUFF18'
+
+- title: HackBeanpot 2019
+  click: Register
+  url: https://goo.gl/forms/IAqqIyvWj7OWlOC82?fbclid=IwAR0uRamB5Mg7bj0o4VqBGFDkao6TO2R-TqKLz-SdQyiUU9Av77tKqbiYjYY
+  date:  February 8th-10th, 2019
+  location: Boston, MA
+  description: An independently-run Boston hackathon for curious students, hackers, makers, and beginners. Hosted at Catalant Technologies in the Seaport District!
+
 - title:  HackHer413 
   click: Register
   url: https://www.hackher413.com
@@ -23,12 +44,12 @@
   location: Amherst, MA
   description: HackHer413 and is the first all-women and non-binary student hackathon in Western Massachusetts, taking place February 9th-10th 2019 at UMass Amherst!
 
-- title: Apply for a UChicago PhD Program
-  click: Apply
-  url: https://www.cs.uchicago.edu/admissions/graduate/
-  date: January 9th, 2019
-  location: Chicago, IL
-  description: 'University of Chicago hopes to reach women in computer science, as well as students who identify as underrepresented minorities, with information about the exciting growth at UChicago CS and to encourage them to apply to our PhD program. UChicago CS has offered to waive their PhD application fees. When finalizing the PhD application, please apply the waiver by entering the code: CSHHUFF18'
+- title: TechTogether Boston
+  click: Register
+  url: https://boston.techtogether.io
+  date:  March 22nd-24th, 2019
+  location: Boston, MA
+  description: Join us and 1000 other female and non-binary individuals at one of the largest all-female and non-binary hackathons in the world as we try to break the stereotypes surrounding minorities in tech. We encourage you to come on out and turn your wildest ideas into reality. Register today at boston.techtogether.io. No experience necessary!
 
 - title: 2019 Scientista Symposium
   click: Register
@@ -37,15 +58,12 @@
   location: Boston, MA
   description: The Scientista Foundation is a national 501c3 nonprofit organization committed to empowering and advancing young women in science, technology, engineering, math, and medicine (STEMM) careers. Each year we host a three-day conference for young women (and those who support them!) to network with others in their fields, learn critical professional and technical skills, meet recruiters and representatives from top companies and academic programs, present their work, and compete for over $100,000 in scholarships. Submit abstracts and apply for travel grants by <strong>January 1st.</strong>
 
-
 - title: Try out LeapResume
   click: Try it
   url: https://leap.ai/resume?utm_source=tony&utm_campaign=studengorgs&utm_term=northeastern
   date: N/A
   location: 
   description: LeapResume is looking for feedback on their resume analysis software. Help them out and see an example of comp sci application in the field! 
-
-
 
 - title: Chart Wescott Scholarship
   click: Apply

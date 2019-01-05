@@ -1,8 +1,62 @@
 # Add new events to the top
 # Events go from most recent -> least recent
 
+- title: Welcome Back Social
+  url: /
+  start: "2019-01-15T19:00:00"
+  date: January 15, 2019
+  time: 7:00pm - 8:00pm
+  location: 106 West Village G
+  description: We welcome NUWIT members to their spring semester and the new year!
 
+- title: Runkeeper Tech Talk
+  url: /
+  start: "2019-01-29T19:00:00"
+  date: January 29, 2019
+  time: 7:00pm - 8:00pm
+  location: 106 West Village G
+  description: Runkeeper gives their first tech talk of the year. 
 
+- title: Hubspot on-site visit
+  url: /
+  start: "2019-02-01T19:00:00"
+  date: February 1, 2019
+  time: 7:00pm - 8:00pm
+  location: 25 First St, Cambridge, MA 02141
+  description: Join us as we explore Hubspot's Cambridge officers!
+
+- title: Technical Interview Prep
+  url: /
+  start: "2019-02-05T19:00:00"
+  date: February 5, 2019
+  time: 7:00pm - 8:00pm
+  location: 106 West Village G
+  description: In this meeting, we'll teach you how to ace the technical interview!
+
+- title: Midterm Social
+  url: /
+  start: "2019-02-19T19:00:00"
+  date: February 19, 2019
+  time: 7:00pm - 8:00pm
+  location: 106 West Village G
+  description: Relax and get ready to tackle your midterms with NUWIT!
+
+- title: Elections 
+  url: /
+  start: "2019-04-19T19:00:00"
+  date: April 9, 2019
+  time: 7:00pm - 8:00pm
+  location: 106 West Village G
+  description: Elect your next NUWIT eboard!
+
+- title: End of Semester Potluck 
+  url: /
+  start: "2019-04-16T19:00:00"
+  date: April 16, 2019
+  time: 7:00pm - 8:00pm
+  location: 106 West Village G
+  description: Share food and fun with NUWIT as the semester comes to a close!
+       
 - title: Hubspot Tech Talk
   url: /
   start: "2018-11-27T19:00:00"
