@@ -5,3 +5,10 @@
   date: January 22nd, 2019
   location: Boston, MA
   description: Welcome to the first week of NUWIT Technical Coding Challenges! We're here to help you practice aceing those co-op technical interviews. If you submit your technical challenge, you'll be entered to win a free NUWIT t-shirt whether your solution is correct or not! Due <strong>January 22nd.</strong> 
+
+- title: '<strong style="color:teal;text-transform:uppercase;">Week 2</strong>'
+  click: Enter
+  url: http://bit.ly/nuwit-challenge2
+  date: January 29th, 2019
+  location: Boston, MA
+  description: Welcome to the second week of NUWIT Technical Coding Challenges! This week... find all pairs of integers in an array that add up to a given sum. <strong>Due January 29th.</strong> 
