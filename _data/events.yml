@@ -9,6 +9,25 @@
   location: 106 West Village G
   description: We welcome NUWIT members to their spring semester and the new year!
 
+
+- title: 'Exploring Research Opportunities: Student Panel'
+  url: https://www.facebook.com/events/370068587149060/
+  start: "2019-01-22T19:00:00"
+  date: January 22, 2019
+  time: 7:00pm - 8:00pm
+  location: Boston, MA
+  description: Ever wondered what it's like to work on research as an undergrad? From research in security & privacy to algorithms to artificial intelligence, the possibilities are endless! This week at NUWIT, we'll be hearing from a panel of fellow NEU students who have participated in research opportunities. Come hear about their experiences, get an idea about what opportunities are out there, and learn how to get involved! This week for snacks we'll be having hot chocolate and cookie-brownies so BYOM (bring your own mug!)
+
+
+- title: Talk with Amy Villenueve
+  url: /
+  start: "2019-01-23T19:00:00"
+  date: January 23, 2019
+  time: 7:00pm - 8:00pm
+  location: Boston, MA
+  description: Hosted in 104 West Village G from 7pm-8pm, attend a talk with former president and COO of Amazon Robotics. Amy is here to talk to you about her experience as a female leader and engineer in the industry.
+
+
 - title: Runkeeper Tech Talk
   url: /
   start: "2019-01-29T19:00:00"
@@ -18,12 +37,12 @@
   description: Runkeeper gives their first tech talk of the year. 
 
 - title: Hubspot on-site visit
-  url: /
-  start: "2019-02-01T19:00:00"
+  url: https://goo.gl/forms/YURozpuWhgPWsoFb2
+  start: "2019-02-01T13:15:00"
   date: February 1, 2019
-  time: 7:00pm - 8:00pm
+  time: 1:15pm
   location: 25 First St, Cambridge, MA 02141
-  description: Join us as we explore Hubspot's Cambridge officers!
+  description: HubSpot has invited NUWIT members to an office visit at 2pm on Friday, February 1st. Join us to network with HubSpot's engineers, experience a tech office environment, and as always, to learn! RSVP to attend!
 
 - title: Technical Interview Prep
   url: /

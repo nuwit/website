@@ -9,6 +9,27 @@
 #  location: Where
 #  description: Important info ie overview, alternative deadlines, travel grants available
 
+- title: Talk with Amy Villenueve
+  click: 
+  url: 
+  date:  January 23, 2019
+  location: Boston, MA
+  description: Hosted in 104 West Village G from 7pm-8pm, attend a talk with former president and COO of Amazon Robotics. Amy is here to talk to you about her experience as a female leader and engineer in the industry.
+
+- title: 'TechSoc Hackathon: Ethical Computerized Sentencing'
+  click: RSVP
+  url: https://docs.google.com/forms/d/e/1FAIpQLSelKWpkKTbQTXnqMeACGFLYWMlzwos4dCw-HYu_KKEJok3Ipg/viewform
+  date:  January 24th-27th, 2019
+  location: Boston, MA
+  description: Hosted in 104 West Village G from 7pm-8pm, attend a talk with former president and COO of Amazon Robotics. Amy is here to talk to you about her experience as a female leader and engineer in the industry.
+
+- title: Google Cloud & NCAA Hackathon @MIT
+  click: RSVP
+  url: https://docs.google.com/forms/d/e/1FAIpQLSfK-w1C7mWVpoIsSAScKtKJpcP4qLiJlNV6gJsu1TAmKPaO1g/viewform?mkt_tok=eyJpIjoiTW1NMlpXVm1NMll6T0RFdyIsInQiOiJ2TnpXdm5HaTl3MFVSZmM3dUZ1SDFsY25NdEtcL25XakZsamFudlg1WXEreDdjWjZ5ZFwva292MHVqUWtSSlR3OVVWV29JclI0MmZIR3MyZG5xTGl1czlRPT0ifQ%3D%3D
+  date:  January 26, 2019
+  location: Cambridge, MA
+  description:  Collaborate with world-class student developers, statisticians, and data scientists from all around Boston to analyze an unprecedented NCAA® dataset and redefine the way basketball is measured. <strong> RSVP by January 23rd!</strong>
+
 - title: HackBeanpot 2019
   click: Register
   url: https://goo.gl/forms/IAqqIyvWj7OWlOC82?fbclid=IwAR0uRamB5Mg7bj0o4VqBGFDkao6TO2R-TqKLz-SdQyiUU9Av77tKqbiYjYY
@@ -29,7 +50,6 @@
   date: February 9th, 2019
   location: Boston, MA
   description: The Boston Datathon is an opportunity for students to showcase their skills while working in teams to address a meaningful societal issue - all while competing to win $25,000 in cash prizes and internship and full-time opportunities at Citadel.
-
 
 - title: TechTogether Boston
   click: Register
@@ -59,6 +79,13 @@
   location:
   description: A 1000 dollar stipend will be awarded to a high school senior or undergraduate students to assist in their journey to make a positive impact in society through entrepreneurship.
 
+- title: Join oStem
+  click: Join
+  url: https://bit.ly/2FwveLx
+  date: N/A
+  location: Boston, MA
+  description: oSTEM is a national organization dedicated to educating and fostering leadership for LGBTQA communities in STEM fields. In the past,  oSTEM at Northeastern has hosted a wide variety of meetings, including guest speakers, LinkedIn and “Dress for Success” workshops, and community-building activities!
+  
 - title: Treatment Study for Women who experienced Sexual Assault or Violence
   click: Participate
   url: http://bostontraumastudy.org/
