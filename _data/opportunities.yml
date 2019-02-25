@@ -9,47 +9,33 @@
 #  location: Where
 #  description: Important info ie overview, alternative deadlines, travel grants available
 
-- title: Talk with Amy Villenueve
-  click: 
-  url: 
-  date:  January 23, 2019
-  location: Boston, MA
-  description: Hosted in 104 West Village G from 7pm-8pm, attend a talk with former president and COO of Amazon Robotics. Amy is here to talk to you about her experience as a female leader and engineer in the industry.
-
-- title: 'TechSoc Hackathon: Ethical Computerized Sentencing'
-  click: RSVP
-  url: https://docs.google.com/forms/d/e/1FAIpQLSelKWpkKTbQTXnqMeACGFLYWMlzwos4dCw-HYu_KKEJok3Ipg/viewform
-  date:  January 24th-27th, 2019
-  location: Boston, MA
-  description: Hosted in 104 West Village G from 7pm-8pm, attend a talk with former president and COO of Amazon Robotics. Amy is here to talk to you about her experience as a female leader and engineer in the industry.
-
-- title: Google Cloud & NCAA Hackathon @MIT
-  click: RSVP
-  url: https://docs.google.com/forms/d/e/1FAIpQLSfK-w1C7mWVpoIsSAScKtKJpcP4qLiJlNV6gJsu1TAmKPaO1g/viewform?mkt_tok=eyJpIjoiTW1NMlpXVm1NMll6T0RFdyIsInQiOiJ2TnpXdm5HaTl3MFVSZmM3dUZ1SDFsY25NdEtcL25XakZsamFudlg1WXEreDdjWjZ5ZFwva292MHVqUWtSSlR3OVVWV29JclI0MmZIR3MyZG5xTGl1czlRPT0ifQ%3D%3D
-  date:  January 26, 2019
-  location: Cambridge, MA
-  description:  Collaborate with world-class student developers, statisticians, and data scientists from all around Boston to analyze an unprecedented NCAA® dataset and redefine the way basketball is measured. <strong> RSVP by January 23rd!</strong>
-
-- title: HackBeanpot 2019
+- title: Social Media Study
   click: Register
-  url: https://goo.gl/forms/IAqqIyvWj7OWlOC82?fbclid=IwAR0uRamB5Mg7bj0o4VqBGFDkao6TO2R-TqKLz-SdQyiUU9Av77tKqbiYjYY
-  date:  February 8th-10th, 2019
+  url: https://neu.co1.qualtrics.com/jfe/form/SV_9AGAr2iJi8ya6UZ
+  date:  January 30, 2019
   location: Boston, MA
-  description: An independently-run Boston hackathon for curious students, hackers, makers, and beginners. Hosted at Catalant Technologies in the Seaport District!
+  description: Are you a full-time female undergraduate student aged 18-25 years at NEU who uses social media? If yes, you can participate in a 20-minute online survey on body image perceptions and social media usage to earn a chance to enter a raffle for a $25 Dunkin' gift card!
 
-- title:  HackHer413 
+- title: HBS Digital Transformation Summit
   click: Register
-  url: https://www.hackher413.com
-  date: February 9th-10th, 2019
-  location: Amherst, MA
-  description: HackHer413 and is the first all-women and non-binary student hackathon in Western Massachusetts, taking place February 9th-10th 2019 at UMass Amherst!
+  url: https://us7.campaign-archive.com/?u=17c891b859716018ce2706767&id=2c7e71fd61
+  date: February 28th, 2019
+  location: Boston, MA
+  description: The HBS Digital Initiative is holding their annual Digital Transformation Summit, focusing on AI, Ethics, and Business Decisions. The event is open to the public and they'd love to have students from all over Boston join them.
 
-- title:  Citadel Boston Datathon
+- title: Chart Wescott Scholarship
   click: Apply
-  url: http://www.thedataopen.com/
-  date: February 9th, 2019
-  location: Boston, MA
-  description: The Boston Datathon is an opportunity for students to showcase their skills while working in teams to address a meaningful societal issue - all while competing to win $25,000 in cash prizes and internship and full-time opportunities at Citadel.
+  url: http://www.chartwestcottscholarship.com/
+  date: February 28th, 2019
+  location:
+  description: A 1000 dollar stipend will be awarded to a high school senior or undergraduate students to assist in their journey to make a positive impact in society through entrepreneurship.
+
+- title: WiCHacks
+  click: Register
+  url: https://rit.us14.list-manage.com/track/click?u=267a2ce5aa46f904f388fcc0c&id=f0dc26886d&e=3ba799fa63
+  date: March 2nd-3rd, 2019
+  location: Rochester, NY
+  description: The WiCHacks leadership team would like to invite your organization to register for our all female hackathon. Top companies such as Google, Facebook and Microsoft. Prizes include Echo dots, Fujifilm cameras, xboxes, and more! Companies will be doing interviews during the event.
 
 - title: TechTogether Boston
   click: Register
@@ -65,6 +51,41 @@
   location: Boston, MA
   description: The Scientista Foundation is a national 501c3 nonprofit organization committed to empowering and advancing young women in science, technology, engineering, math, and medicine (STEMM) careers. Each year we host a three-day conference for young women (and those who support them!) to network with others in their fields, learn critical professional and technical skills, meet recruiters and representatives from top companies and academic programs, present their work, and compete for over $100,000 in scholarships. Submit abstracts and apply for travel grants by <strong>January 1st.</strong>
 
+- title: Girl Up Boston Coalition Summit
+  click: Attend
+  url: https://www.eventbrite.com/e/girl-up-boston-coalition-regional-summit-tickets-56945349072
+  date: March 31st, 2019
+  location: Boston, MA
+  description: Girl Up is an international charity of the United Nations Foundation, working to empower girls everywhere through advocacy, education, fundraising and leadership development. Sign up to attend their 5th Annual Coalition Summit.
+  
+- title: RISE Volunteering
+  click: Register
+  url: https://na01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.northeastern.edu%2Frise%2Fvolunteer%2F&data=02%7C01%7Cki.shea%40northeastern.edu%7Cb1d2f4bfa38342e05cab08d687b6c107%7Ca8eec281aaa34daeac9b9a398b9215e7%7C0%7C0%7C636845616328119968&sdata=vwV9HbRkfbNhIso6JYZlDsIPzTMoUL1cY%2BckVQPIX3s%3D&reserved=0
+  date: April 1st, 2019
+  location: Boston, MA
+  description: RISE, Northeastern’s campus-wide Research, Innovation and Scholarship Expo, is seeking responsible volunteers to support this premier event attended by industry leaders, pioneering academics, community representatives, and Northeastern students, faculty, staff, and senior leadership.
+
+- title: Husky Highschool Hacks
+  click: Volunteer
+  url: mailto:mason.sydn@husky.neu.edu
+  date:  N/A
+  location: Boston, MA
+  description: Tutor high school students at high school and help plan hackathons! This program takes place Monday-Thurdays from around 2:30-5pm. Contact Sydney Mason if interested! 
+
+- title: IBM Internships
+  click: Apply
+  url: ../files/IBM internships.pdf
+  date:  N/A
+  location: Boston, MA
+  description: Check and apply to these internship and full time opportunities provided by tech leader, IBM!
+
+- title: ScholarJet Competitions
+  click: Compete
+  url: https://t.sidekickopen10.com/s2t/c/5/f18dQhb0S7lM8dDMPbW2n0x6l2B9nMJN7t5XWPdSD1CW4WJ3sl2BgL6dV1SKZZ84gR1b103?t=https%3A%2F%2Fapp.scholarjet.com%2Fchallenges%2Fbrowse&si=8000000000148229&pi=83f41c03-6e64-4d51-f1d0-5e47e22bdbb0
+  date:  N/A
+  location: Boston, MA
+  description: ScholarJet is a startup that creates skills-based competitions for undergraduate students like yourself to show off your talents and possibly win scholarships, internships, and even full-time jobs!
+
 - title: Try out LeapResume
   click: Try it
   url: https://leap.ai/resume?utm_source=tony&utm_campaign=studengorgs&utm_term=northeastern
@@ -72,12 +93,12 @@
   location: 
   description: LeapResume is looking for feedback on their resume analysis software. Help them out and see an example of comp sci application in the field! 
 
-- title: Chart Wescott Scholarship
-  click: Apply
-  url: http://www.chartwestcottscholarship.com/
-  date: February 28th, 2019
-  location:
-  description: A 1000 dollar stipend will be awarded to a high school senior or undergraduate students to assist in their journey to make a positive impact in society through entrepreneurship.
+- title: Disrupt The FinTech Initiative
+  click: Join
+  url: https://bit.ly/2UMEX4E
+  date:  N/A
+  location: Boston, MA
+  description: Disrupt The FinTech Initiative wants to educate and spread knowledge about FinTech from all perspectives at Northeastern. Join their community and mailing list!
 
 - title: Join oStem
   click: Join

@@ -1,64 +1,12 @@
 # Add new events to the top
 # Events go from most recent -> least recent
-
-- title: Welcome Back Social
+- title: End of Semester Potluck 
   url: /
-  start: "2019-01-15T19:00:00"
-  date: January 15, 2019
+  start: "2019-04-16T19:00:00"
+  date: April 16, 2019
   time: 7:00pm - 8:00pm
   location: 106 West Village G
-  description: We welcome NUWIT members to their spring semester and the new year!
-
-
-- title: 'Exploring Research Opportunities: Student Panel'
-  url: https://www.facebook.com/events/370068587149060/
-  start: "2019-01-22T19:00:00"
-  date: January 22, 2019
-  time: 7:00pm - 8:00pm
-  location: Boston, MA
-  description: Ever wondered what it's like to work on research as an undergrad? From research in security & privacy to algorithms to artificial intelligence, the possibilities are endless! This week at NUWIT, we'll be hearing from a panel of fellow NEU students who have participated in research opportunities. Come hear about their experiences, get an idea about what opportunities are out there, and learn how to get involved! This week for snacks we'll be having hot chocolate and cookie-brownies so BYOM (bring your own mug!)
-
-
-- title: Talk with Amy Villenueve
-  url: /
-  start: "2019-01-23T19:00:00"
-  date: January 23, 2019
-  time: 7:00pm - 8:00pm
-  location: Boston, MA
-  description: Hosted in 104 West Village G from 7pm-8pm, attend a talk with former president and COO of Amazon Robotics. Amy is here to talk to you about her experience as a female leader and engineer in the industry.
-
-
-- title: Runkeeper Tech Talk
-  url: /
-  start: "2019-01-29T19:00:00"
-  date: January 29, 2019
-  time: 7:00pm - 8:00pm
-  location: 106 West Village G
-  description: Runkeeper gives their first tech talk of the year. 
-
-- title: Hubspot on-site visit
-  url: https://goo.gl/forms/YURozpuWhgPWsoFb2
-  start: "2019-02-01T13:15:00"
-  date: February 1, 2019
-  time: 1:15pm
-  location: 25 First St, Cambridge, MA 02141
-  description: HubSpot has invited NUWIT members to an office visit at 2pm on Friday, February 1st. Join us to network with HubSpot's engineers, experience a tech office environment, and as always, to learn! RSVP to attend!
-
-- title: Technical Interview Prep
-  url: /
-  start: "2019-02-05T19:00:00"
-  date: February 5, 2019
-  time: 7:00pm - 8:00pm
-  location: 106 West Village G
-  description: In this meeting, we'll teach you how to ace the technical interview!
-
-- title: Midterm Social
-  url: /
-  start: "2019-02-19T19:00:00"
-  date: February 19, 2019
-  time: 7:00pm - 8:00pm
-  location: 106 West Village G
-  description: Relax and get ready to tackle your midterms with NUWIT!
+  description: Share food and fun with NUWIT as the semester comes to a close!
 
 - title: Elections 
   url: /
@@ -68,14 +16,102 @@
   location: 106 West Village G
   description: Elect your next NUWIT eboard!
 
-- title: End of Semester Potluck 
+- title: 'TBD'
   url: /
-  start: "2019-04-16T19:00:00"
-  date: April 16, 2019
+  start: "2019-03-26T19:00:00"
+  date: March 26, 2019
   time: 7:00pm - 8:00pm
   location: 106 West Village G
-  description: Share food and fun with NUWIT as the semester comes to a close!
-       
+  description: Meeting subject TBD!
+
+- title: Intuit
+  url: /
+  start: "2019-03-19T19:00:00"
+  date: March 19, 2019
+  time: 7:00pm - 8:00pm
+  location: 106 West Village G
+  description: Interested in Intuit? Attend their tech talk at this NUWIT meeting!
+
+- title: Coding Workshop 
+  url: /
+  start: "2019-03-12T19:00:00"
+  date: March 12, 2019
+  time: 7:00pm - 8:00pm
+  location: 106 West Village G
+  description: Wanna learn some new coding skills? Join NUWIT as we teach you how use the latest tech!
+
+- title: 'Designing For Accessibility: Technology for Everyone'
+  url: https://neu.us14.list-manage.com/track/click?u=7c6df5449c37e5f0a39a6ec97&id=17e5cd9ece&e=d8b1bbd6f3
+  start: "2019-02-26T19:00:00"
+  date: February 26, 2019
+  time: 7:00pm - 8:00pm
+  location: 106 West Village G
+  description: SCOUT and NUWIT team up to spread knowledge about Accessible Design! 
+
+- title: IBM 
+  url: /
+  start: "2019-02-19T19:00:00"
+  date: February 19, 2019
+  time: 7:00pm - 8:00pm
+  location: 106 West Village G
+  description: IBM visits NUWIT for a LinkedIn workshop!
+
+- title: Color away your midterm stress
+  url: /
+  start: "2019-02-12T19:00:00"
+  date: February 12, 2019
+  time: 7:00pm - 8:00pm
+  location: 106 West Village G
+  description: Classes driving you up the wall? Color and relax with NUWIT!
+
+- title: Technical Interview Prep
+  url: /
+  start: "2019-02-05T19:00:00"
+  date: February 5, 2019
+  time: 7:00pm - 8:00pm
+  location: 106 West Village G
+  description: In this meeting, we'll teach you how to ace the technical interview!
+
+- title: Hubspot on-site visit
+  url: https://goo.gl/forms/YURozpuWhgPWsoFb2
+  start: "2019-02-01T13:15:00"
+  date: February 1, 2019
+  time: 1:15pm
+  location: 25 First St, Cambridge, MA 02141
+  description: HubSpot has invited NUWIT members to an office visit at 2pm on Friday, February 1st. Join us to network with HubSpot's engineers, experience a tech office environment, and as always, to learn! RSVP to attend!
+
+- title: Runkeeper Tech Talk
+  url: /
+  start: "2019-01-29T19:00:00"
+  date: January 29, 2019
+  time: 7:00pm - 8:00pm
+  location: 106 West Village G
+  description: Runkeeper gives their first tech talk of the year. 
+
+- title: Talk with Amy Villenueve
+  url: /
+  start: "2019-01-23T19:00:00"
+  date: January 23, 2019
+  time: 7:00pm - 8:00pm
+  location: Boston, MA
+  description: Hosted in 104 West Village G from 7pm-8pm, attend a talk with former president and COO of Amazon Robotics. Amy is here to talk to you about her experience as a female leader and engineer in the industry.
+
+- title: 'Exploring Research Opportunities: Student Panel'
+  url: https://www.facebook.com/events/370068587149060/
+  start: "2019-01-22T19:00:00"
+  date: January 22, 2019
+  time: 7:00pm - 8:00pm
+  location: Boston, MA
+  description: Ever wondered what it's like to work on research as an undergrad? From research in security & privacy to algorithms to artificial intelligence, the possibilities are endless! This week at NUWIT, we'll be hearing from a panel of fellow NEU students who have participated in research opportunities. Come hear about their experiences, get an idea about what opportunities are out there, and learn how to get involved! This week for snacks we'll be having hot chocolate and cookie-brownies so BYOM (bring your own mug!)
+
+- title: Welcome Back Social
+  url: /
+  start: "2019-01-15T19:00:00"
+  date: January 15, 2019
+  time: 7:00pm - 8:00pm
+  location: 106 West Village G
+  description: We welcome NUWIT members to their spring semester and the new year!
+
 - title: Hubspot Tech Talk
   url: /
   start: "2018-11-27T19:00:00"
@@ -93,8 +129,6 @@
   location: 106 West Village G
   description: Worried about registering for classes? NUWIT can help! Attend this meeting for all the class-picking advice you need!
 
-
-
 - title: Google Tech Talk
   url: /
   start: "2018-10-16T19:00:00"
@@ -102,7 +136,6 @@
   time: 7:00pm - 8:00pm
   location: 106 West Village G
   description: Google comes to Northeastern with cookies! Make sure to attend!
-
 
 - title: Datadog Tech Talk
   url: /
@@ -120,7 +153,6 @@
   location: 106 West Village G
   description: Airbnb shares some of their amazing tech knowledge at this meeting of NUWIT! Don't miss it! 
 
-
 - title: GHC Workshop
   url: /
   start: "2018-09-20T19:00:00"
@@ -128,7 +160,6 @@
   time: 6:00pm - 7:00pm
   location: 109 Robinson Hall
   description: For those going to the Grace Hopper Conference, attend this preparatory conference with Liberty Mutual!
-
 
 - title: VMWare Tech Talk
   url: https://www.facebook.com/events/247355685974967/
@@ -155,7 +186,6 @@
   time: 11:00am - 11:00pm
   location: Kung Fu Tea, 334 Massachusetts Avenue
   description: Join NUWIT for some end of semester relaxation, socialization, and boba! Be sure to present <a href="https://www.facebook.com/events/261952377687647">the facebook event</a> or <a href="https://scontent.fzty2-1.fna.fbcdn.net/v/t1.0-9/35415279_1978245685559527_6633474296003952640_n.jpg?_nc_cat=0&oh=9164321f8c6d6290b51cafadfea2591a&oe=5BB6D356">this flyer</a> at checkout to help raise funds for the organization's activities next year. 
-
 
 - title: Elections!
   url: https://www.facebook.com/events/359243674578610/
