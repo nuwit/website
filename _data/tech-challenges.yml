@@ -37,7 +37,14 @@
 - title: '<strong style="color:teal;text-transform:uppercase;">Week 6</strong>'
   click: Enter
   url: http://bit.ly/nuwit-challenge6
-  date: March 5th, 2019
+  date: March 19th, 2019
   location: Boston, MA
   description: Welcome to the sixth week of NUWIT Technical Coding Challenges! This week... can you code merge sert? <strong>Due March 5th.</strong> 
+
+- title: '<strong style="color:teal;text-transform:uppercase;">Week 7</strong>'
+  click: Enter
+  url: http://bit.ly/nuwit-challenge7
+  date: March 26th, 2019
+  location: Boston, MA
+  description: Welcome to the sixth week of NUWIT Technical Coding Challenges! This week... can you find the next greatest element? <strong>Due March 26th.</strong> 
 

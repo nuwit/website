@@ -9,34 +9,6 @@
 #  location: Where
 #  description: Important info ie overview, alternative deadlines, travel grants available
 
-- title: Social Media Study
-  click: Register
-  url: https://neu.co1.qualtrics.com/jfe/form/SV_9AGAr2iJi8ya6UZ
-  date:  January 30, 2019
-  location: Boston, MA
-  description: Are you a full-time female undergraduate student aged 18-25 years at NEU who uses social media? If yes, you can participate in a 20-minute online survey on body image perceptions and social media usage to earn a chance to enter a raffle for a $25 Dunkin' gift card!
-
-- title: HBS Digital Transformation Summit
-  click: Register
-  url: https://us7.campaign-archive.com/?u=17c891b859716018ce2706767&id=2c7e71fd61
-  date: February 28th, 2019
-  location: Boston, MA
-  description: The HBS Digital Initiative is holding their annual Digital Transformation Summit, focusing on AI, Ethics, and Business Decisions. The event is open to the public and they'd love to have students from all over Boston join them.
-
-- title: Chart Wescott Scholarship
-  click: Apply
-  url: http://www.chartwestcottscholarship.com/
-  date: February 28th, 2019
-  location:
-  description: A 1000 dollar stipend will be awarded to a high school senior or undergraduate students to assist in their journey to make a positive impact in society through entrepreneurship.
-
-- title: WiCHacks
-  click: Register
-  url: https://rit.us14.list-manage.com/track/click?u=267a2ce5aa46f904f388fcc0c&id=f0dc26886d&e=3ba799fa63
-  date: March 2nd-3rd, 2019
-  location: Rochester, NY
-  description: The WiCHacks leadership team would like to invite your organization to register for our all female hackathon. Top companies such as Google, Facebook and Microsoft. Prizes include Echo dots, Fujifilm cameras, xboxes, and more! Companies will be doing interviews during the event.
-
 - title: TechTogether Boston
   click: Register
   url: https://boston.techtogether.io
@@ -44,12 +16,26 @@
   location: Boston, MA
   description: Join us and 1000 other female and non-binary individuals at one of the largest all-female and non-binary hackathons in the world as we try to break the stereotypes surrounding minorities in tech. We encourage you to come on out and turn your wildest ideas into reality. Register today at boston.techtogether.io. No experience necessary!
 
+- title: TEDx Northeasterm
+  click: Buy Tickets
+  url: https://mytickets.northeastern.edu/Online/login.asp
+  date:  March 23rd, 2019
+  location: Boston, MA
+  description: TEDxNortheasternU’s 2019 flagship event will feature 10+ Northeastern and Boston-affiliated community members (eg. students, professors, alumni) as speakers, performers, and interactive exhibitors.
+
 - title: 2019 Scientista Symposium
   click: Register
   url: http://scisymp19.weebly.com/
   date: March 29th-31st, 2019
   location: Boston, MA
   description: The Scientista Foundation is a national 501c3 nonprofit organization committed to empowering and advancing young women in science, technology, engineering, math, and medicine (STEMM) careers. Each year we host a three-day conference for young women (and those who support them!) to network with others in their fields, learn critical professional and technical skills, meet recruiters and representatives from top companies and academic programs, present their work, and compete for over $100,000 in scholarships. Submit abstracts and apply for travel grants by <strong>January 1st.</strong>
+
+- title: Women's Web App Workshop at HubSpot
+  click: Attend
+  url: https://www.eventbrite.com/e/womens-web-app-workshop-at-hubspot-tickets-58376595970
+  date: March 30th, 2019
+  location: Boston, MA
+  description: Build a working web application with Hubspot. This workshop is targeted towards women (and non-binary folks) studying Computer Science.
 
 - title: Girl Up Boston Coalition Summit
   click: Attend
@@ -64,6 +50,20 @@
   date: April 1st, 2019
   location: Boston, MA
   description: RISE, Northeastern’s campus-wide Research, Innovation and Scholarship Expo, is seeking responsible volunteers to support this premier event attended by industry leaders, pioneering academics, community representatives, and Northeastern students, faculty, staff, and senior leadership.
+  
+- title: Rocket.Build Community Hackathon
+  click: Register
+  url: Wentworth Institute of Technology
+  date: April 13th-April 14th, 2019
+  location: Boston, MA
+  description: Hosted at Wentworth Institute of Technology, Rocket.Build Community is Rocket Software’s focused innovation hackathon for aspiring developers to build something that solves real problems in the community for real people. Click the link above to attend. 
+
+- title: NewCraft Apprenticeships
+  click: Volunteer
+  url: mailto:Alena@NewCraft.io
+  date:  N/A
+  location: Boston, MA
+  description: NewCraft offers paying apprenticeships in iOS and Web Development. Send your resume to the email in the link above to apply. 
 
 - title: Husky Highschool Hacks
   click: Volunteer
