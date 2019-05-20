@@ -1,92 +1,6 @@
 
-- name: Felicia Zhang
-  position: President
-  modal: felicia
-  pic: felicia
-  year: 3rd
-  major: Computer Engineering and Computer Science
-  superhero: Artemis (from Young Justice)
-  flavor: Lemon Drop
-  social:
-    - title: envelope
-      url: mailto:zhang.fel@husky.neu.edu
-    - title: linkedin
-      url: https://www.linkedin.com/in/feliciayzhang
-    - title: github
-      url: https://github.com/feliciazhang
-    - title: link
-      url: https://feliciazhang.github.io
-
-- name: Catu Berretta
-  position: Vice President
-  modal: catu
-  pic: catu
-  year: 3rd
-  major: Computer Science and Design
-  superhero: Wonder Woman
-  flavor: Skittles
-  social:
-    - title: envelope
-      url: mailto:berretta.c@husky.neu.edu
-    - title: linkedin
-      url: https://www.linkedin.com/in/catalina-berretta-51b789101/
-    - title: github
-      url: https://github.com/catumaga
-    - title: link
-      url: https://catumaga.github.io
-
-
-- name: Mahema Singh
-  position: Treasurer
-  modal: mahema
-  pic: mahema
-  year: 2nd
-  major: Computer Science and Business
-  superhero: Spider-Man
-  flavor: Mango
-  social:
-    - title: envelope
-      url: mailto:singh.mah@husky.neu.edu
-    - title: linkedin
-      url: https://www.linkedin.com/in/mahema-singh-2a1977149/
-    - title: github
-      url: https://github.com/MahemaS27
-
-- name: Elizabeth Cho
-  position: Public Relations
-  modal: elizabeth
-  pic: elizabeth
-  year: 3rd
-  major: Computer Science
-  superhero: Thor
-  flavor: Peach
-  social:
-    - title: envelope
-      url: mailto:cho.e@husky.neu.edu
-    - title: linkedin
-      url: https://www.linkedin.com/in/elizabeth-c/
-    - title: github
-      url: https://github.com/cho-e/
-
-- name: Izzi Tripp
-  position: Outreach
-  modal: izzi
-  pic: izzi
-  year: 3rd
-  major: Computer Science
-  superhero: Black Panther
-  flavor: Mint
-  social:
-    - title: envelope
-      url: mailto:tripp.i@husky.neu.edu
-    - title: linkedin
-      url: https://www.linkedin.com/in/isabel-t-a6461b133/      
-    - title: github
-      url: https://github.com/tahitihat
-
-
 - name: Michelle Pine
-  position: Web
+  position: President
   modal: michelle
   pic: michelle
   year: 3rd
@@ -103,15 +17,71 @@
     - title: link
       url: https://michellepine.com/
 
-- name: Jaime Gonora
-  position: Design
-  modal: jaime
-  pic: jaime
-  year: 2nd
-  major: Computer Science and Media Arts
+- name: Mahema Singh
+  position: Vice President
+  modal: mahema
+  pic: mahema
+  year: 3rd
+  major: Computer Science and Business
   superhero: Spider-Man
-  flavor: Green Apple
+  flavor: Mango
   social:
     - title: envelope
-      url: mailto:Gonora.j@husky.neu.edu
+      url: mailto:singh.mah@husky.neu.edu
+    - title: linkedin
+      url: https://www.linkedin.com/in/mahema-singh-2a1977149/
+    - title: github
+      url: https://github.com/MahemaS27
+
+- name: Sarah Wessel
+  position: Web Chair & Treasurer
+  modal: sarah
+  pic: sarah
+  year: 4th
+  major: Data Science
+  social:
+    - title: envelope
+      url: mailto:wessel.s@husky.neu.edu
+    - title: linkedin
+      url: www.linkedin.com/in/sarah-n-wessel
+    - title: github
+      url: https://github.com/snwessel
+
+- name: Skylar Soehl
+  position: Design Chair
+  modal: skylar
+  pic: skylar
+  year: 4th
+  major: Computer Science and Design
+  social:
+    - title: envelope
+      url: mailto:skysoehl@gmail.com
+    - title: linkedin
+      url: https://www.linkedin.com/in/skylarsoehl/      
+    - title: github
+      url: https://github.com/skylarsoehl
+    - title: link
+      url: https://skylarsoehl.com/
+
+- name: Jean Zhang
+  position: PR Chair
+  modal: jean
+  pic: jean
+  year: 3rd
+  major: Computer Science
+  social:
+    - title: envelope
+      url: mailto:zhang.je@husky.neu.edu
+    - title: linkedin
+      url: https://www.linkedin.com/in/jean-zhang/
+
+- name: Terry Chen
+  position: Outreach Chair
+  modal: terry
+  pic: terry
+  year: 2nd
+  major: Computer Science & Business
+  social:
+    - title: envelope
+      url: mailto:chen.ter@husky.neu.edu
  
