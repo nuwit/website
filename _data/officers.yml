@@ -5,8 +5,9 @@
   pic: michelle
   year: 3rd
   major: Computer Science and Design
-  superhero: Superman
-  flavor: Blue Raspberry
+  breakfast: Chocolate chip pancakes 
+  socks: Fuzzy, with fun patterns on them
+  dog: 4
   social:
     - title: envelope
       url: mailto:pine.michelle63@husky.neu.edu
@@ -23,8 +24,9 @@
   pic: mahema
   year: 3rd
   major: Computer Science and Business
-  superhero: Spider-Man
-  flavor: Mango
+  breakfast: Smoothie Bowl
+  socks: Crew Socks
+  dog: 1
   social:
     - title: envelope
       url: mailto:singh.mah@husky.neu.edu
@@ -38,7 +40,10 @@
   modal: sarah
   pic: sarah
   year: 4th
-  major: Data Science
+  major: Data Science with a minor in Computer Science
+  breakfast: French Toast with fruit and whipped cream
+  socks: Crew length with fun patterns
+  dog: 3
   social:
     - title: envelope
       url: mailto:wessel.s@husky.neu.edu
@@ -53,6 +58,9 @@
   pic: skylar
   year: 4th
   major: Computer Science and Design
+  breakfast: French toast made with Italian bread or pierogies or acai bowl from Jugos
+  socks: White crews
+  dog: 1
   social:
     - title: envelope
       url: mailto:skysoehl@gmail.com
@@ -69,6 +77,9 @@
   pic: jean
   year: 3rd
   major: Computer Science
+  breakfast:
+  socks:
+  dog:
   social:
     - title: envelope
       url: mailto:zhang.je@husky.neu.edu
@@ -81,6 +92,9 @@
   pic: terry
   year: 2nd
   major: Computer Science & Business
+  breakfast: Crepes
+  socks: No Show Socks
+  dog: 1
   social:
     - title: envelope
       url: mailto:chen.ter@husky.neu.edu
