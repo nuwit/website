@@ -16,61 +16,12 @@
   location: Boston, MA
   description: The first round of registration is now open at hackmit.org! Come join other passionate hackers, find your inspiration, and pursue your ideas at this 24-hour hackathon from September 14 to 15! Whether you’re an experienced engineer, amateur maker, artist, or technology enthusiast, we invite you to join our vibrant community.
 
-- title: Generate Applications are Open
+- title: Freshprints Scholarship
   click: Apply
-  url: https://web.northeastern.edu/generate/apply/
-  date:  July 15th, 2019
+  url: https://apply.freshprints.com/scholarship6/?source=newclub&school=NU&club=Northeastern%20University%20Women%20in%20Technology&test=none&group=controlgroup&clubemailsent=2019-08-02T03:28:54-04:00
+  date: August 31st, 2019
   location: Boston, MA
-  description: Apply to join us in building products and prototypes for Northeastern ventures in order to offer our members hands on experience with real-world products. We have applications open for a wide array of positions including opportunities in marketing and operations as well as our build studio, where teams of engineers develop our clients' products.
-
-- title: TechTogether Boston
-  click: Register
-  url: https://boston.techtogether.io
-  date:  March 22nd-24th, 2019
-  location: Boston, MA
-  description: Join us and 1000 other female and non-binary individuals at one of the largest all-female and non-binary hackathons in the world as we try to break the stereotypes surrounding minorities in tech. We encourage you to come on out and turn your wildest ideas into reality. Register today at boston.techtogether.io. No experience necessary!
-
-- title: TEDx Northeasterm
-  click: Buy Tickets
-  url: https://mytickets.northeastern.edu/Online/login.asp
-  date:  March 23rd, 2019
-  location: Boston, MA
-  description: TEDxNortheasternU’s 2019 flagship event will feature 10+ Northeastern and Boston-affiliated community members (eg. students, professors, alumni) as speakers, performers, and interactive exhibitors.
-
-- title: 2019 Scientista Symposium
-  click: Register
-  url: http://scisymp19.weebly.com/
-  date: March 29th-31st, 2019
-  location: Boston, MA
-  description: The Scientista Foundation is a national 501c3 nonprofit organization committed to empowering and advancing young women in science, technology, engineering, math, and medicine (STEMM) careers. Each year we host a three-day conference for young women (and those who support them!) to network with others in their fields, learn critical professional and technical skills, meet recruiters and representatives from top companies and academic programs, present their work, and compete for over $100,000 in scholarships. Submit abstracts and apply for travel grants by <strong>January 1st.</strong>
-
-- title: Women's Web App Workshop at HubSpot
-  click: Attend
-  url: https://www.eventbrite.com/e/womens-web-app-workshop-at-hubspot-tickets-58376595970
-  date: March 30th, 2019
-  location: Boston, MA
-  description: Build a working web application with Hubspot. This workshop is targeted towards women (and non-binary folks) studying Computer Science.
-
-- title: Girl Up Boston Coalition Summit
-  click: Attend
-  url: https://www.eventbrite.com/e/girl-up-boston-coalition-regional-summit-tickets-56945349072
-  date: March 31st, 2019
-  location: Boston, MA
-  description: Girl Up is an international charity of the United Nations Foundation, working to empower girls everywhere through advocacy, education, fundraising and leadership development. Sign up to attend their 5th Annual Coalition Summit.
-  
-- title: RISE Volunteering
-  click: Register
-  url: https://na01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.northeastern.edu%2Frise%2Fvolunteer%2F&data=02%7C01%7Cki.shea%40northeastern.edu%7Cb1d2f4bfa38342e05cab08d687b6c107%7Ca8eec281aaa34daeac9b9a398b9215e7%7C0%7C0%7C636845616328119968&sdata=vwV9HbRkfbNhIso6JYZlDsIPzTMoUL1cY%2BckVQPIX3s%3D&reserved=0
-  date: April 1st, 2019
-  location: Boston, MA
-  description: RISE, Northeastern’s campus-wide Research, Innovation and Scholarship Expo, is seeking responsible volunteers to support this premier event attended by industry leaders, pioneering academics, community representatives, and Northeastern students, faculty, staff, and senior leadership.
-  
-- title: Rocket.Build Community Hackathon
-  click: Register
-  url: Wentworth Institute of Technology
-  date: April 13th-April 14th, 2019
-  location: Boston, MA
-  description: Hosted at Wentworth Institute of Technology, Rocket.Build Community is Rocket Software’s focused innovation hackathon for aspiring developers to build something that solves real problems in the community for real people. Click the link above to attend. 
+  description: Freshprints is giving one amazing student $1,000 to spend on starting a business, buying books, paying tuition, or whatever other costs come with his or her education. 
 
 - title: NewCraft Apprenticeships
   click: Volunteer

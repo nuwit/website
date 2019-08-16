@@ -1,7 +1,16 @@
 # Add new events to the top
 # Events go from most recent -> least recent
+
+- title: Welcome Dinner 
+  url: /events
+  start: "2019-09-10T19:00:00"
+  date: September 10, 2019
+  time: 7:00pm - 8:00pm
+  location: 102 West Village H
+  description: Join NUWIT for their annual welcome dinner! Enjoy some delicious (and free) Thai food while mingling with fellow women in tech-related majors/fields!
+
 - title: End of Semester Potluck 
-  url: /
+  url: /events
   start: "2019-04-16T19:00:00"
   date: April 16, 2019
   time: 7:00pm - 8:00pm
@@ -9,7 +18,7 @@
   description: Share food and fun with NUWIT as the semester comes to a close!
 
 - title: Elections 
-  url: /
+  url: /events
   start: "2019-04-19T19:00:00"
   date: April 9, 2019
   time: 7:00pm - 8:00pm
