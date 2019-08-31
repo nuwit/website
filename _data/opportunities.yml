@@ -9,6 +9,20 @@
 #  location: Where
 #  description: Important info ie overview, alternative deadlines, travel grants available
 
+- title: Yelp Resume Collection
+  click: Send your resume
+  url: https://forms.gle/KH6oswjqnQxY2s2M9
+  date:  September 17th, 2019
+  location: Boston, MA
+  description: Yelp is collecting resumes prior to their talk on Sept. 17th. If you're interesting in co-oping or working with Yelp, send in your resume using the link above. 
+
+- title: Tufts Women in Technology Conference
+  click: Register
+  url: https://tuftswit2019.weebly.com/register.html?fbclid=IwAR0srczq-zk_Vqvs3SnBXvKXRgJJHJJtQ-lasmhtbI_CFfWsWEGbtQGFlFc
+  date:  September 14th, 2019
+  location: Boston, MA
+  description: The conference strives to foster a community that empowers women and non-binary people, expose attendees to new and exciting Computer Science concepts, and prepare them to launch careers in the tech field. There will be speakers, resume reviews, interview prep, and workshops. 
+
 - title: HackMIT
   click: Register
   url: https://hackmit.org/
