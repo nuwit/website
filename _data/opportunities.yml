@@ -9,12 +9,19 @@
 #  location: Where
 #  description: Important info ie overview, alternative deadlines, travel grants available
 
-- title: Yelp Resume Collection
-  click: Send your resume
-  url: https://forms.gle/KH6oswjqnQxY2s2M9
-  date:  September 17th, 2019
+- title: Discover Brigham 2019
+  click: Register
+  url:  http://www.discoverbrigham.org/
+  date:  November 7th, 2019
   location: Boston, MA
-  description: Yelp is collecting resumes prior to their talk on Sept. 17th. If you're interesting in co-oping or working with Yelp, send in your resume using the link above. 
+  description: Discover Brigham is an event at Brigham and Women’s Hospital that brings the Boston healthcare ecosystem to educate and inspire collaboration around innovative science, technology, and medicine. Talks will span across research and clinical disciplines, and there will be sessions covering clinical innovation, CAR-T cell therapy, health equity, opioids, and more. You may be especially interested in the Canary demo or the Engineering in Medicine session.
+
+- title: Technica Hackathon
+  click: Register
+  url: https://gotechnica.org/
+  date:  November 9th-10th, 2019
+  location: Boston, MA
+  description:  Technica is the world’s largest all-women and nonbinary hackathon, hosted annually at the University of Maryland. Over the duration of 24 hours, Women and non-binary people are immersed in tech culture and encouraged to exercise their imagination to create interesting and innovative hacks. 
 
 - title: Tufts Women in Technology Conference
   click: Register
