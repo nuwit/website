@@ -9,6 +9,13 @@
 #  location: Where
 #  description: Important info ie overview, alternative deadlines, travel grants available
 
+- title: Women Empowered To Financially Thrive
+  click: Learn More
+  url:  https://www.eventbrite.com/e/women-empowered-to-financially-thrive-fall-2019-tickets-75871061387 
+  date:  November 19th, 2019
+  location: Boston, MA
+  description: Join Thrive, Women in Finance, and Women in Business on November 19th for an event aimed to educate and empower students and young professionals on the topics of building their net worth, self worth, and network. There will be a panel of four accomplished female entrepreneurs and executives followed by Q&A and a networking session. 
+
 - title: Discover Brigham 2019
   click: Register
   url:  http://www.discoverbrigham.org/
@@ -22,6 +29,20 @@
   date:  November 9th-10th, 2019
   location: Boston, MA
   description:  Technica is the world’s largest all-women and nonbinary hackathon, hosted annually at the University of Maryland. Over the duration of 24 hours, Women and non-binary people are immersed in tech culture and encouraged to exercise their imagination to create interesting and innovative hacks. 
+
+- title: Critical Stack Code-A-Thon 
+  click: Learn More
+  url:  https://criticalstackcodeathon.splashthat.com/
+  date:  November 19th, 2019
+  location: Boston, MA
+  description: Critical Stack, a container orchestration and the first commercial software product launched by Capital One, is hosting a coding competition on Saturday, November 2nd at the Cambridge Innovation Center office at 50 Milk Street in Boston. You'll compete in teams of 3 or fewer to build the best Kubernetes custom resource. The top prize is $2500!
+
+- title: Natalie Egan - Scaling Empathy and Equality Through Tech
+  click: Learn More
+  url:  https://www.khoury.northeastern.edu/event/speaker-series-translator-natalie-egan/#_ga=2.135676850.2860852.1571144775-1262052458.1549291827
+  date:  October 23rd, 2019
+  location: Boston, MA
+  description: Natalie Egan, founder and CEO of Translator, is coming to campus! She brings a wealth of experience in software entrepreneurship and an importance message on empathy and equality in tech.
 
 - title: Tufts Women in Technology Conference
   click: Register

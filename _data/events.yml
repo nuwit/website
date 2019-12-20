@@ -1,6 +1,62 @@
 # Add new events to the top
 # Events go from most recent -> least recent
 
+- title: API Night
+  url: /events
+  start: "2019-10-29T18:00:00"
+  date: October 29, 2019
+  time: 6:00pm - 7:00pm
+  location: 102 West Village G
+  description:  If you’re interested in tech, you’ve probably heard the acronym “API” thrown around quite a bit. Ever wondered what API means or how to use one? nuWIT is ready to teach you! We’ll be explaining the purpose of APIs and how to interact with them within a Web Development context. Pizza and knowledge will be provided! Plus we’ll be creating White Elephant assignments this week, so make sure to sign up!
+
+- title: MULTI - Minorities in the Workplace Panel
+  url: /events
+  start: "2019-10-22T18:00:00"
+  date: October 22, 2019
+  time: 6:00pm - 7:00pm
+  location: 102 West Village G
+  description: It’s the crossover event of the century!‼️ nuWIT is teaming up with Multi-Diverse Unified Leaders in the Technology Industry (MULTI) to co-host a panel on Diversity in Tech! The panel will discuss everything from implicit bias, to corporate diversity efforts, to ways we can all pave the way for a more diverse tech industry! Pizza will be provided, so make sure you stop by!
+
+- title: Catalant - On Beginning Your Technical Career
+  url: /events
+  start: "2019-10-15T18:00:00"
+  date: October 15, 2019
+  time: 6:00pm - 7:00pm
+  location: 102 West Village G
+  description: What do you do after you graduate? When is the right time to start looking for a new job?  How do you find your passion?  What should you do if you want to try a non-technical role? Laura Miyakawa from Catalant will be presenting what a technical career path looks like, tips and tricks for approaching a new job, and moving on gracefully when it's time.
+
+- title: Q&A with Datadog
+  url: /events
+  start: "2019-10-08T18:00:00"
+  date: October 8, 2019
+  time: 6:00pm - 7:00pm
+  location: 102 West Village G
+  description: Datadog is coming by to answer your questions! Curious about their products? Datadog helps their customers learn more about their cloud applications and how to monitor them.
+
+- title: Power Advocate - Scrapping Scrum, the Dawn of Kanban
+  url: https://docs.google.com/presentation/d/1w8OAKt_Ar92MQERVxr9DsL7SGntIhCT2KYPT6Wh2NQY/edit?usp=sharing
+  start: "2019-10-01T18:00:00"
+  date: October 1, 2019
+  time: 6:00pm - 7:00pm
+  location: 102 West Village H
+  description: Come learn about Scrum and Agile development! Power Advocate will be coming to talk about why they have scrapped scrum and moved towards purely agile development.
+
+- title: Mad Libs Night
+  url: /events
+  start: "2019-09-24T18:00:00"
+  date: September 24, 2019
+  time: 6:00pm - 7:00pm
+  location: 102 West Village G
+  description: Learn to program the game of Mad Libs using HTML, CSS & Javascript.
+
+- title: Yelp - Deep dive into technical interviewing
+  url: /events
+  start: "2019-09-17T18:00:00"
+  date: September 17, 2019
+  time: 6:00pm - 7:00pm
+  location: 102 West Village G
+  description: Learn about technical interviewing with the Yelp software engineering team!
+
 - title: Welcome Dinner 
   url: /events
   start: "2019-09-10T19:00:00"
