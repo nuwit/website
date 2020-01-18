@@ -1,6 +1,14 @@
 # Add new events to the top
 # Events go from most recent -> least recent
 
+- title: Hiden Figures Movie Night
+  url: /events
+  start: "2020-01-21T18:00:00"
+  date: January 21, 2020
+  time: 6:00pm - 7:00pm
+  location: 102 West Village G
+  description: Join NUWIT for a screening of Hidden Figures! We’ll be serving popcorn and candy so make sure to stop by to sit back, relax, and enjoy the sho
+
 - title: API Night
   url: /events
   start: "2019-10-29T18:00:00"
