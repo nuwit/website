@@ -98,4 +98,36 @@
   social:
     - title: envelope
       url: mailto:chen.ter@husky.neu.edu
+
+- name: Lindsey Chin
+  position: Web Chair
+  modal: lindsey
+  pic: lindsey
+  year: 3rd
+  major: Computer Science & History
+  breakfast: Pancakes
+  socks: Wool Crew Socks
+  dog: 3
+  social:
+    - title: envelope
+      url: mailto:chin.li@husky.neu.edu
+    - title: linkedin
+      url: https://www.linkedin.com/in/lindsey-chin-848465170/
+
+- name: Emma Price
+  position: Social Media Chair
+  modal: emma
+  pic: emma
+  year: 2nd
+  major: Computer Science & Music Technology
+  breakfast: Eggs Over-Easy, Bacon and Toast
+  socks: 3/4 crew wool hiking socks (believe me they are life-changing)
+  dog: 4
+  social:
+    - title: envelope
+      url: mailto:price.em@husky.neu.edu
+    - title: linkedin
+      url: https://www.linkedin.com/in/price-emma
+    - title: github
+      url: https://github.com/pricee
  
