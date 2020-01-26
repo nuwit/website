@@ -1,6 +1,14 @@
 # Add new events to the top
 # Events go from most recent -> least recent
 
+- title: Capital One - Innovation that Matters, Building Software to Create an Impact
+  url: /events
+  start: "2020-01-28T18:00:00"
+  date: January 28, 2020
+  time: 6:00pm - 7:00pm
+  location: 102 West Village G
+  description: Join NUWIT and CapitalOne to learn about Innovation that Matters, Building Software to Create an Impact! Every wondered what it’s like to create software in the financial industry? Attend this meeting to find out! 
+
 - title: Hiden Figures Movie Night
   url: /events
   start: "2020-01-21T18:00:00"
@@ -10,7 +18,7 @@
   description: Join NUWIT for a screening of Hidden Figures! We’ll be serving popcorn and candy so make sure to stop by to sit back, relax, and enjoy the show!
 
 - title: API Night
-  url: /events
+  url: /
   start: "2019-10-29T18:00:00"
   date: October 29, 2019
   time: 6:00pm - 7:00pm
@@ -18,7 +26,7 @@
   description:  If you’re interested in tech, you’ve probably heard the acronym “API” thrown around quite a bit. Ever wondered what API means or how to use one? nuWIT is ready to teach you! We’ll be explaining the purpose of APIs and how to interact with them within a Web Development context. Pizza and knowledge will be provided! Plus we’ll be creating White Elephant assignments this week, so make sure to sign up!
 
 - title: MULTI - Minorities in the Workplace Panel
-  url: /events
+  url: /
   start: "2019-10-22T18:00:00"
   date: October 22, 2019
   time: 6:00pm - 7:00pm
@@ -26,7 +34,7 @@
   description: It’s the crossover event of the century!‼️ nuWIT is teaming up with Multi-Diverse Unified Leaders in the Technology Industry (MULTI) to co-host a panel on Diversity in Tech! The panel will discuss everything from implicit bias, to corporate diversity efforts, to ways we can all pave the way for a more diverse tech industry! Pizza will be provided, so make sure you stop by!
 
 - title: Catalant - On Beginning Your Technical Career
-  url: /events
+  url: /
   start: "2019-10-15T18:00:00"
   date: October 15, 2019
   time: 6:00pm - 7:00pm
@@ -34,7 +42,7 @@
   description: What do you do after you graduate? When is the right time to start looking for a new job?  How do you find your passion?  What should you do if you want to try a non-technical role? Laura Miyakawa from Catalant will be presenting what a technical career path looks like, tips and tricks for approaching a new job, and moving on gracefully when it's time.
 
 - title: Q&A with Datadog
-  url: /events
+  url: /
   start: "2019-10-08T18:00:00"
   date: October 8, 2019
   time: 6:00pm - 7:00pm
@@ -50,7 +58,7 @@
   description: Come learn about Scrum and Agile development! Power Advocate will be coming to talk about why they have scrapped scrum and moved towards purely agile development.
 
 - title: Mad Libs Night
-  url: /events
+  url: /
   start: "2019-09-24T18:00:00"
   date: September 24, 2019
   time: 6:00pm - 7:00pm
@@ -58,7 +66,7 @@
   description: Learn to program the game of Mad Libs using HTML, CSS & Javascript.
 
 - title: Yelp - Deep dive into technical interviewing
-  url: /events
+  url: /
   start: "2019-09-17T18:00:00"
   date: September 17, 2019
   time: 6:00pm - 7:00pm
@@ -66,7 +74,7 @@
   description: Learn about technical interviewing with the Yelp software engineering team!
 
 - title: Welcome Dinner 
-  url: /events
+  url: /
   start: "2019-09-10T19:00:00"
   date: September 10, 2019
   time: 7:00pm - 8:00pm
@@ -74,7 +82,7 @@
   description: Join NUWIT for their annual welcome dinner! Enjoy some delicious (and free) Thai food while mingling with fellow women in tech-related majors/fields!
 
 - title: End of Semester Potluck 
-  url: /events
+  url: /
   start: "2019-04-16T19:00:00"
   date: April 16, 2019
   time: 7:00pm - 8:00pm
@@ -82,7 +90,7 @@
   description: Share food and fun with NUWIT as the semester comes to a close!
 
 - title: Elections 
-  url: /events
+  url: /
   start: "2019-04-19T19:00:00"
   date: April 9, 2019
   time: 7:00pm - 8:00pm
