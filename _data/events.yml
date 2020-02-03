@@ -1,6 +1,14 @@
 # Add new events to the top
 # Events go from most recent -> least recent
 
+- title: How to Create a Music Visualizer
+  url: /events
+  start: "2020-02-02T18:00:00"
+  date: February 4, 2020
+  time: 6:00pm - 7:00pm
+  location: 102 West Village G
+  description: Ever wanted to learn how to create a music visualizer? We'll be teaching you how at our upcoming meeting! Learn how to convert your favorite Spotify tunes into awesome animations at this fun NUWIT workshop.
+
 - title: Capital One - Innovation that Matters, Building Software to Create an Impact
   url: /events
   start: "2020-01-28T18:00:00"
