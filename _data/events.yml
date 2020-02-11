@@ -1,6 +1,14 @@
 # Add new events to the top
 # Events go from most recent -> least recent
 
+- title: Travelers x NUWIT
+  url: /events
+  start: "2020-02-11T18:00:00"
+  date: February 11, 2020
+  time: 6:00pm - 7:00pm
+  location: 102 West Village G
+  description: Travelers - one of the nation’s largest insurance companies—will be visiting nuWIT to talk about How Innovation Becomes Utilization! In this presentation, they’ll describe how innovative ideas are developed into applications, including the roles that their engineers play in the ideation, architecture, design, and build of valuable assets. Food will be catered with a 45 person limit on attendance!
+
 - title: 1UpHealth x NUWIT
   url: /events
   start: "2020-02-02T18:00:00"
