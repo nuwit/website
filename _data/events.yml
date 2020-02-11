@@ -2,7 +2,6 @@
 # Events go from most recent -> least recent
 
 - title: Travelers x NUWIT
-  url: /events
   start: "2020-02-11T18:00:00"
   date: February 11, 2020
   time: 6:00pm - 7:00pm
@@ -10,7 +9,6 @@
   description: Travelers - one of the nation’s largest insurance companies—will be visiting nuWIT to talk about How Innovation Becomes Utilization! In this presentation, they’ll describe how innovative ideas are developed into applications, including the roles that their engineers play in the ideation, architecture, design, and build of valuable assets. Food will be catered with a 45 person limit on attendance!
 
 - title: 1UpHealth x NUWIT
-  url: /events
   start: "2020-02-02T18:00:00"
   date: February 4, 2020
   time: 6:00pm - 7:00pm
@@ -18,7 +16,6 @@
   description: Join nuWIT as we’re visited by 1UpHealth, a healthcare-focused tech startup! 1UpHealth will be presenting on their FHIR interoperability platform. What is FHIR interoperability? Where did it come from? And what’s the future for FHIR? All questions will be answered at this super cool meeting!
 
 - title: Capital One - Innovation that Matters, Building Software to Create an Impact
-  url: /events
   start: "2020-01-28T18:00:00"
   date: January 28, 2020
   time: 6:00pm - 7:00pm
@@ -26,7 +23,6 @@
   description: Join NUWIT and CapitalOne to learn about Innovation that Matters, Building Software to Create an Impact! Every wondered what it’s like to create software in the financial industry? Attend this meeting to find out! 
 
 - title: Hiden Figures Movie Night
-  url: /events
   start: "2020-01-21T18:00:00"
   date: January 21, 2020
   time: 6:00pm - 7:00pm
@@ -34,7 +30,6 @@
   description: Join NUWIT for a screening of Hidden Figures! We’ll be serving popcorn and candy so make sure to stop by to sit back, relax, and enjoy the show!
 
 - title: API Night
-  url: /
   start: "2019-10-29T18:00:00"
   date: October 29, 2019
   time: 6:00pm - 7:00pm
