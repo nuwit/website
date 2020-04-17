@@ -1,6 +1,34 @@
 # Add new events to the top
 # Events go from most recent -> least recent
 
+- title: Geolocation Workshop (Cancelled)
+  start: "2020-03-10T18:00:00"
+  date: March 10, 2020
+  time: 6:00pm - 7:00pm
+  location: 102 West Village G
+  description: Whenever you use the internet, the JavaScript in your browser has access to a whole lot of data about you (if you let it). Though that sounds kinda scary, it can actually be used for a lot of cool purposes! NUWIT will be teaching a workshop on how to use the Navigator API to access the location of the device and show how that can be used in interesting and helpful ways!
+
+- title: Personal Website Hack Day
+  start: "2020-03-15T11:00:00"
+  date: March 15, 2020
+  time: 11:00am - 2:30pm
+  location: 346 Curry Student Center
+  description: Have you ever wanted to create your own websitee? NUWIT is here to show you how! At our annual Personal Website Hack Day, we'll teach you high-demand web dev skills like HTML, CSS, Bootstrap & Git! Mark your calendars - this event will be hosted from 11am - 2:30pm in Curry Student Center! It's completely free and beginners! It's completely free and beginners are welcome!
+
+- title: Music Visualizer Workshop
+  start: "2020-02-25T18:00:00"
+  date: February 25, 2020
+  time: 6:00pm - 7:00pm
+  location: 102 West Village G
+  description: Join NUWIT for a workshop on how to create your own music visualizer! Learn how to convert your favorite Spotify tunes into awesome animations at this fun NUWIT workshop!
+
+- title: Google x NUWIT
+  start: "2020-02-18T18:00:00"
+  date: February 18, 2020
+  time: 6:00pm - 7:00pm
+  location: 102 West Village G
+  description: The Art of Clean Code with Google and What it's like to be a Software Engineeer at Google. Time for Q&A after for students.
+
 - title: Travelers x NUWIT
   start: "2020-02-11T18:00:00"
   date: February 11, 2020
@@ -13,7 +41,7 @@
   date: February 4, 2020
   time: 6:00pm - 7:00pm
   location: 102 West Village G
-  description: Join nuWIT as we’re visited by 1UpHealth, a healthcare-focused tech startup! 1UpHealth will be presenting on their FHIR interoperability platform. What is FHIR interoperability? Where did it come from? And what’s the future for FHIR? All questions will be answered at this super cool meeting!
+  description: Join NUWIT as we’re visited by 1UpHealth, a healthcare-focused tech startup! 1UpHealth will be presenting on their FHIR interoperability platform. What is FHIR interoperability? Where did it come from? And what’s the future for FHIR? All questions will be answered at this super cool meeting!
 
 - title: Capital One - Innovation that Matters, Building Software to Create an Impact
   start: "2020-01-28T18:00:00"
