@@ -1,22 +1,16 @@
 
-- name: Michelle Pine
+- name: Terry Chen
   position: President
-  modal: michelle
-  pic: michelle
+  modal: terry
+  pic: terry
   year: 3rd
-  major: Computer Science and Design
-  breakfast: Chocolate chip pancakes 
-  socks: Fuzzy, with fun patterns on them
-  dog: 4
+  major: Computer Science & Business
+  breakfast: Crepes
+  socks: No Show Socks
+  dog: 1
   social:
     - title: envelope
-      url: mailto:pine.michelle63@husky.neu.edu
-    - title: linkedin
-      url: https://www.linkedin.com/in/michelle-pine      
-    - title: github
-      url: https://github.com/michelle-pine
-    - title: link
-      url: https://michellepine.com/
+      url: mailto:chen.ter@husky.neu.edu
 
 - name: Mahema Singh
   position: Vice President
@@ -65,16 +59,16 @@
     - title: envelope
       url: mailto:skysoehl@gmail.com
     - title: linkedin
-      url: https://www.linkedin.com/in/skylarsoehl/      
+      url: https://www.linkedin.com/in/skylarsoehl/
     - title: github
       url: https://github.com/skylarsoehl
     - title: link
       url: https://skylarsoehl.com/
 
-- name: Jean Zhang
+- name: Emily Chen
   position: PR Chair
-  modal: jean
-  pic: jean
+  modal: emily
+  pic: emily
   year: 3rd
   major: Computer Science
   breakfast: Overnight oats with chia seeds!
@@ -86,48 +80,36 @@
     - title: linkedin
       url: https://www.linkedin.com/in/jean-zhang/
 
-- name: Terry Chen
-  position: Outreach Chair
-  modal: terry
-  pic: terry
-  year: 2nd
-  major: Computer Science & Business
-  breakfast: Crepes
-  socks: No Show Socks
+- name: Britney Chen
+  position: Web Chair
+  modal: britney
+  pic: britney
+  year: 3rd
+  major: Computer Science & Design
+  breakfast: Yogurt with granola and honey
+  socks: No socks
   dog: 1
   social:
     - title: envelope
-      url: mailto:chen.ter@husky.neu.edu
-
-- name: Lindsey Chin
-  position: Web Chair
-  modal: lindsey
-  pic: lindsey
-  year: 3rd
-  major: Computer Science & History
-  breakfast: Pancakes
-  socks: Wool Crew Socks
-  dog: 3
-  social:
-    - title: envelope
-      url: mailto:chin.li@husky.neu.edu
+      url: mailto:chen.bri@husky.neu.edu
     - title: linkedin
-      url: https://www.linkedin.com/in/lindsey-chin-848465170/
-
-- name: Emma Price
-  position: Social Media Chair
-  modal: emma
-  pic: emma
-  year: 2nd
-  major: Computer Science & Music Technology
-  breakfast: Eggs Over-Easy, Bacon and Toast
-  socks: 3/4 crew wool hiking socks (believe me they are life-changing)
-  dog: 4
-  social:
-    - title: envelope
-      url: mailto:price.em@husky.neu.edu
-    - title: linkedin
-      url: https://www.linkedin.com/in/price-emma
+      url: https://www.linkedin.com/in/britney-chen-08/
     - title: github
-      url: https://github.com/pricee
- 
+      url: https://github.com/britneyart80
+    - title: link
+      url: https://britneyart80.github.io
+
+- name: Harini Boddu
+  position: Social Media Chair
+  modal: harini
+  pic: harini
+  year: 3rd
+  major: Computer Science & Biology
+  favorite_meal: Dinner
+  icecream_flavor: Mint Chocolate Chip
+  gif: harini
+  social:
+    - title: envelope
+      url: mailto:boddu.h@northeastern.edu
+    - title: linkedin
+      url: https://www.linkedin.com/in/harini-b-704420194
