@@ -3,92 +3,92 @@
   position: President
   modal: terry
   pic: terry
-  year: 3rd
-  major: Computer Science & Business
-  breakfast: Crepes
-  socks: No Show Socks
-  dog: 1
+  year: Junior
+  major: Computer Science & Finance
+  favorite_meal: Breakfast
+  icecream_flavor: Mango or Pistachio or Matcha
+  gif: terry
   social:
     - title: envelope
       url: mailto:chen.ter@husky.neu.edu
+    - title: linkedin
+      url: http://linkedin.com/in/terrychen22
 
-- name: Mahema Singh
+- name: Emma Price
   position: Vice President
-  modal: mahema
-  pic: mahema
-  year: 3rd
-  major: Computer Science and Business
-  breakfast: Smoothie Bowl
-  socks: Crew Socks
-  dog: 1
+  modal: emma
+  pic: emma
+  year: Midler
+  major: Computer Science and Music Tech
+  favorite_meal: Breakfast
+  icecream_flavor: Mint Chocolate Chip
+  gif: emma
   social:
     - title: envelope
-      url: mailto:singh.mah@husky.neu.edu
+      url: mailto:price.em@northeastern.edu
     - title: linkedin
-      url: https://www.linkedin.com/in/mahema-singh-2a1977149/
+      url: https://www.linkedin.com/in/price-emma/
     - title: github
-      url: https://github.com/MahemaS27
+      url: https://github.com/pricee
 
-- name: Sarah Wessel
-  position: Web Chair & Treasurer
-  modal: sarah
-  pic: sarah
-  year: 4th
-  major: Data Science with a minor in Computer Science
-  breakfast: French Toast with fruit and whipped cream
-  socks: Crew length with fun patterns
-  dog: 3
+- name: Rachel Li
+  position: Treasurer
+  modal: rachel
+  pic: rachel
+  year: Sophmore
+  major: Data Science
+  favorite_meal: Breakfast
+  icecream_flavor: Limoncello
+  gif: rachel
   social:
     - title: envelope
-      url: mailto:wessel.s@husky.neu.edu
+      url: mailto:li.rache@husky.neu.edu
     - title: linkedin
-      url: www.linkedin.com/in/sarah-n-wessel
-    - title: github
-      url: https://github.com/snwessel
+      url: https://www.linkedin.com/in/rachel-li-40033b1a2/
 
-- name: Skylar Soehl
+- name: Angelina Han
   position: Design Chair
-  modal: skylar
-  pic: skylar
-  year: 4th
+  modal: angelina
+  pic: angelina
+  year: Midler
   major: Computer Science and Design
-  breakfast: French toast made with Italian bread or pierogies or acai bowl from Jugos
-  socks: White crews
-  dog: 1
+  favorite_meal: Breakfast
+  icecream_flavor: Ben & Jerry's 'The Tonight Dough'
+  gif: angelina
   social:
     - title: envelope
-      url: mailto:skysoehl@gmail.com
+      url: mailto:han.ang@northeastern.edu
     - title: linkedin
-      url: https://www.linkedin.com/in/skylarsoehl/
+      url: https://www.linkedin.com/in/angelinahan/
     - title: github
-      url: https://github.com/skylarsoehl
+      url: https://github.com/angelinahan
     - title: link
-      url: https://skylarsoehl.com/
+      url: http://www.angelinahan.com
 
 - name: Emily Chen
   position: PR Chair
   modal: emily
   pic: emily
-  year: 3rd
-  major: Computer Science
-  breakfast: Overnight oats with chia seeds!
-  socks: Socks with cute animals or funny sayings
-  dog: 4
+  year: Sophmore
+  major: Data Science and Biochemistry
+  favorite_meal: Breakfast
+  icecream_flavor: Mint Chocolate Chip
+  gif: emily
   social:
     - title: envelope
-      url: mailto:zhang.je@husky.neu.edu
+      url: mailto:chen.emi@northeastern.edu
     - title: linkedin
-      url: https://www.linkedin.com/in/jean-zhang/
+      url: https://www.linkedin.com/in/emily-chen-817ab6177/
 
 - name: Britney Chen
   position: Web Chair
   modal: britney
   pic: britney
-  year: 3rd
-  major: Computer Science & Design
-  breakfast: Yogurt with granola and honey
-  socks: No socks
-  dog: 1
+  year: Midler
+  major: Computer Science & Design, minor in Leadership and Human Capital
+  favorite_meal: Dinner
+  icecream_flavor: Cookies and Cream
+  gif: britney
   social:
     - title: envelope
       url: mailto:chen.bri@husky.neu.edu
@@ -99,11 +99,24 @@
     - title: link
       url: https://britneyart80.github.io
 
+- name: Anuradha Lal
+  position: Outreach Chair
+  modal: anuradha
+  pic: anuradha
+  year: Junior
+  major: Computer Science and Math
+  favorite_meal: Dinner
+  icecream_flavor: Pistachio
+  gif: anuradha
+  social:
+    - title: envelope
+      url: mailto:lal.a@northeastern.edu
+
 - name: Harini Boddu
   position: Social Media Chair
   modal: harini
   pic: harini
-  year: 3rd
+  year: Junior
   major: Computer Science & Biology
   favorite_meal: Dinner
   icecream_flavor: Mint Chocolate Chip
