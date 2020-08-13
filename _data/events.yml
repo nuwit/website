@@ -1,14 +1,21 @@
 # Add new events to the top
 # Events go from most recent -> least recent
 
-- title: Datadog Workshop
+- title: Datadog Tech Talk
   start: "2020-09-22T18:00:00"
   date: September 22, 2020
   time: TBD
   location: Online
   description:
 
-- title: Salesforce Workshop
+- title: Hubspot Tech Talk
+  start: "2020-09-29T18:00:00"
+  date: September 29, 2020
+  time: TBD
+  location: Online
+  description:
+
+- title: Salesforce Tech Talk
   start: "2020-10-06T18:00:00"
   date: October 6, 2020
   time: TBD
