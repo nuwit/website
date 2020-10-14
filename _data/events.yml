@@ -1,26 +1,47 @@
 # Add new events to the top
 # Events go from most recent -> least recent
 
-- title: Datadog Tech Talk
-  start: "2020-09-22T18:00:00"
-  date: September 22, 2020
-  time: TBD
+- title: Facebook Workshop
+  start: "2020-27-06T19:00:00"
+  date: October 27, 2020
+  time: 7-8pm
   location: Online
   description:
 
-- title: Hubspot Tech Talk
-  start: "2020-09-29T18:00:00"
-  date: September 29, 2020
-  time: TBD
+- title: Travelers
+  start: "2020-20-29T19:00:00"
+  date: October 20, 2020
+  time: 7-8pm
   location: Online
   description:
+
+- title: NUWIT x Oasis
+  start: "2020-13-22T19:00:00"
+  date: October 13, 2020
+  time: 7-8pm
+  location: Online
+  description: Web Development Workshop
 
 - title: Salesforce Tech Talk
-  start: "2020-10-06T18:00:00"
+  start: "2020-10-06T19:00:00"
   date: October 6, 2020
-  time: TBD
+  time: 7-8pm
   location: Online
-  description:
+  description: Jeopardy
+
+- title: Hubspot Tech Talk
+  start: "2020-09-29T19:00:00"
+  date: September 29, 2020
+  time: 7-8pm
+  location: Online
+  description: Behavioral Interview Workshop
+
+- title: Datadog Tech Talk
+  start: "2020-09-22T19:00:00"
+  date: September 22, 2020
+  time: 7-8pm
+  location: Online
+  description: Data Visualization with Datadog Developer Pack
 
   # Cut off for Fall 2020
 
