@@ -1,0 +1,36 @@
+---
+layout: default
+title: Panel
+subtitle: Get to know our panelists!
+permalink: /panel/
+---
+
+<div id="meetings">
+  <div class="container">
+    <div class="row centered">
+      <h1> Our Panelists </h1>
+    </div>
+  </div>
+</div>
+
+<div id="sched">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 col-lg-offset-1 p-3">
+        {% for panelist in site.data.panelists %}
+        <div class="panelist-container">
+          <div class="panelist-image">
+            <img class="img-circle" src="{{ site.baseurl }}/img/panel/{{ panelist.image }}" />
+          </div>
+          <h3>{{ panelist.name }}</h3>
+          <p>{{ panelist.description }}</p>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  var panelists = {{ site.data.panelists | jsonify }};
+</script>

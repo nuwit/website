@@ -640,6 +640,20 @@ button:focus {
   }
 }
 
+/* ============================ PANELISTS ============================= */
+.panelist-container {
+  margin: 100px 0;
+}
+
+.panelist-container .panelist-image {
+  width: 100%;
+  text-align: center;
+}
+
+.panelist-container .panelist-image img {
+  max-height: 300px;
+}
+
 /* ============================ SUBSCRIBE ============================= */
 #subscribe-page {
   background: #009897;
@@ -1179,4 +1193,3 @@ ul.dates li:first-child .date {
   line-height: 1.3;
   padding: 5px;
 }
-

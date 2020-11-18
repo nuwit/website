@@ -1,5 +1,26 @@
 # Add new events to the top
 # Events go from most recent -> least recent
+- title: Panel
+  url: /panel
+  start: "2020-1-12T19:00:00"
+  date: December 1, 2020
+  time: 7-8pm
+  location: Online
+  description: Click 'Panel' learn more about our panelists.
+
+- title: Marina Moskowitz
+  start: "2020-17-11T19:00:00"
+  date: November 17, 2020
+  time: 7-8pm
+  location: Online
+  description:
+
+- title: Slalom Build
+  start: "2020-10-11T19:00:00"
+  date: November 10, 2020
+  time: 7-8pm
+  location: Online
+  description:
 
 - title: Facebook Workshop
   start: "2020-27-06T19:00:00"

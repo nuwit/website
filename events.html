@@ -41,7 +41,7 @@ permalink: /events/
           {% for event in site.data.events limit:5 %}
           <li>
             <span class="date">{{ event.date | date: "%B" | truncate: 3, ""}}<strong>{{ event.date | date: "%-d" }}</strong></span>
-            <h3><a href="{{ event.url }}" target="_blank">{{ event.title }}</a></h3>
+            <h3><a href='{{ event.url }}' target="_blank">{{ event.title }}</a></h3>
             <p class="event-date">{{ event.date }} @ {{ event.time }}<span class="event-location">{{ event.location }}</span></p>
             <p>{{ event.description }}</p>
           </li>
@@ -51,6 +51,7 @@ permalink: /events/
     </div>
   </div>
 </div>
+
 
 <script>
   var events = {{ site.data.events | jsonify }};
