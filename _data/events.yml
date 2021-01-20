@@ -1,5 +1,27 @@
 # Add new events to the top
 # Events go from most recent -> least recent
+
+- title: Capital One
+  start: "2020-2-2T19:00:00"
+  date: February 2, 2021
+  time: 7-8pm
+  location: Online
+  description:
+
+- title: Path AI
+  start: "2020-1-26T19:00:00"
+  date: January 26, 2021
+  time: 7-8pm
+  location: Online
+  description: Code Reviews 101
+
+- title: Alignable
+  start: "2020-1-19T19:00:00"
+  date: January 19, 2021
+  time: 7-8pm
+  location: Online
+  description: Complexity Management Engineering
+
 - title: Panel
   url: /panel
   start: "2020-1-12T19:00:00"
