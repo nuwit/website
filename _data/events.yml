@@ -1,6 +1,41 @@
 # Add new events to the top
 # Events go from most recent -> least recent
 
+- title: Website Hack Day
+  start: "2020-2-2T19:00:00"
+  date: March 20, 2021
+  time: 7-8pm
+  location: Online
+  description:
+
+- title: VMWare
+  start: "2020-2-2T19:00:00"
+  date: March 2, 2021
+  time: 7-8pm
+  location: Online
+  description:
+
+- title: Co-op Panel
+  start: "2020-2-2T19:00:00"
+  date: February 23, 2021
+  time: 7-8pm
+  location: Online
+  description: Learn about real co-op experiences from current students.
+
+- title: Combatting Impostor Syndrome
+  start: "2020-2-2T19:00:00"
+  date: February 16, 2021
+  time: 7-8pm
+  location: Online
+  description: Come combat imposter sydrome while playing Among Us!
+
+- title: Ring Modulators with NUSound
+  start: "2020-2-2T19:00:00"
+  date: February 9, 2021
+  time: 7-8pm
+  location: Online
+  description:
+
 - title: Capital One
   start: "2020-2-2T19:00:00"
   date: February 2, 2021
