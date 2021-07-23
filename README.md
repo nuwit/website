@@ -14,14 +14,14 @@ After you've installed Jekyll and all its dependences, open up a terminal window
 1. `git clone git@github.com:nuwit/website.git nuwit-website`
 1. `cd nuwit-website`
 1. `bundle install`
-1. `jekyll serve` (this command watches for local changes automatically)
+1. `jekyll serve` (this command watches for local changes automatically- If this doesn't work, run `bundle exec jekyll serve`)
 1. Open up a browser and go to `localhost:4000`
 
 At any point if you find yourself confused about any of the code, [Jekyll docs](https://jekyllrb.com/docs/home/) and google are your best friends.
 
 
 ## Deployment
-#### Step 1: Run `jekyll build`
+#### Step 1: Run `jekyll build` (or `bundle exec jekyll build`)
 
 (This will generate a fresh build of the project into the `_site` folder.)
 
